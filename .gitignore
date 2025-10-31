@@ -1,0 +1,54 @@
+# Dependencies
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+dist
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Other projects (exclude other folders)
+myapp/
+myapp - Copy/
+myapp2/
+archive/
+AETLG/
+GD21EWC/
+packager_app/
+scraper_app/
+planSkillAssessor*.xlsm
+
+# Old/temp files
+*.txt
+*.svelte.txt
+sync-app.js
+python_1.json
+archived_*.txt
+oldbar.txt
+new 2.txt
+subjects.txt

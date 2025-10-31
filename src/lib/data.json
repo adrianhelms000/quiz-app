@@ -1,0 +1,2364 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the output of 'print(2 + 3)'?",
+      "options": ["5", "6", "7", "I don't know"],
+      "answer": "5"
+    },
+    {
+      "id": 2,
+      "subject": "python",
+      "level": 1,
+      "question": "Which of the following is a valid Python variable name?",
+      "options": ["2variable", "variable_name", "var-name", "class"],
+      "answer": "variable_name"
+    },
+    {
+      "id": 3,
+      "subject": "python",
+      "level": 1,
+      "question": "What does the 'type()' function return?",
+      "options": ["The data type of a variable", "The length of a string", "The size of a list", "The value of a variable"],
+      "answer": "The data type of a variable"
+    },
+    {
+      "id": 4,
+      "subject": "python",
+      "level": 1,
+      "question": "How do you create a list in Python?",
+      "options": ["list()", "[]", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 5,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of 10 // 3 in Python?",
+      "options": ["3.33", "3", "4", "3.0"],
+      "answer": "3"
+    },
+    {
+      "id": 6,
+      "subject": "python",
+      "level": 1,
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": ["^", "**", "pow()", "exp()"],
+      "answer": "**"
+    },
+    {
+      "id": 7,
+      "subject": "python",
+      "level": 1,
+      "question": "What does 'Hello' + 'World' produce?",
+      "options": ["HelloWorld", "Hello World", "Error", "Hello+World"],
+      "answer": "HelloWorld"
+    },
+    {
+      "id": 8,
+      "subject": "python",
+      "level": 1,
+      "question": "Which function is used to get user input in Python?",
+      "options": ["input()", "get_input()", "read()", "scan()"],
+      "answer": "input()"
+    },
+    {
+      "id": 9,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the index of the first element in a Python list?",
+      "options": ["1", "0", "-1", "first"],
+      "answer": "0"
+    },
+    {
+      "id": 10,
+      "subject": "python",
+      "level": 1,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "define", "func"],
+      "answer": "def"
+    },
+    {
+      "id": 11,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'range(5)' function generate?",
+      "options": ["[0,1,2,3,4]", "[1,2,3,4,5]", "[0,1,2,3,4,5]", "Error"],
+      "answer": "[0,1,2,3,4]"
+    },
+    {
+      "id": 12,
+      "subject": "python",
+      "level": 2,
+      "question": "How do you check if a key exists in a dictionary?",
+      "options": ["key in dict", "dict.has_key()", "dict.exists()", "dict.contains()"],
+      "answer": "key in dict"
+    },
+    {
+      "id": 13,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'enumerate()' function do?",
+      "options": ["Counts elements", "Returns index and value pairs", "Sorts a list", "Filters elements"],
+      "answer": "Returns index and value pairs"
+    },
+    {
+      "id": 14,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to add an element to the end of a list?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "answer": "append()"
+    },
+    {
+      "id": 15,
+      "subject": "python",
+      "level": 2,
+      "question": "What does 'len()' function return?",
+      "options": ["The length of a string", "The length of a list", "The length of any iterable", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 16,
+      "subject": "python",
+      "level": 2,
+      "question": "How do you create a tuple in Python?",
+      "options": ["tuple()", "()", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 17,
+      "subject": "python",
+      "level": 2,
+      "question": "What is the difference between '==' and 'is' in Python?",
+      "options": ["No difference", "== compares values, is compares identity", "is compares values, == compares identity", "Both compare values"],
+      "answer": "== compares values, is compares identity"
+    },
+    {
+      "id": 18,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method removes the last element from a list?",
+      "options": ["remove()", "pop()", "delete()", "clear()"],
+      "answer": "pop()"
+    },
+    {
+      "id": 19,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'split()' method do on a string?",
+      "options": ["Joins strings", "Splits string into a list", "Removes spaces", "Converts to lowercase"],
+      "answer": "Splits string into a list"
+    },
+    {
+      "id": 20,
+      "subject": "python",
+      "level": 2,
+      "question": "How do you create a set in Python?",
+      "options": ["set()", "{}", "Both A and B", "None of the above"],
+      "answer": "set()"
+    },
+    {
+      "id": 21,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What is PySpark primarily used for?",
+      "options": ["Web development", "Data processing", "Game development", "Mobile apps"],
+      "answer": "Data processing"
+    },
+    {
+      "id": 22,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which of the following is NOT a PySpark data structure?",
+      "options": ["DataFrame", "RDD", "Dataset", "Array"],
+      "answer": "Array"
+    },
+    {
+      "id": 23,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does RDD stand for?",
+      "options": ["Resilient Distributed Dataset", "Random Data Distribution", "Real-time Data Display", "Relational Data Definition"],
+      "answer": "Resilient Distributed Dataset"
+    },
+    {
+      "id": 24,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to create a DataFrame in PySpark?",
+      "options": ["createDataFrame()", "newDataFrame()", "makeDataFrame()", "buildDataFrame()"],
+      "answer": "createDataFrame()"
+    },
+    {
+      "id": 25,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What is the main advantage of PySpark over pandas?",
+      "options": ["Better performance", "Distributed processing", "Easier syntax", "Smaller memory usage"],
+      "answer": "Distributed processing"
+    },
+    {
+      "id": 26,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which function is used to read a CSV file in PySpark?",
+      "options": ["read.csv()", "spark.read.csv()", "load_csv()", "import_csv()"],
+      "answer": "spark.read.csv()"
+    },
+    {
+      "id": 27,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does 'show()' method do in PySpark?",
+      "options": ["Displays the DataFrame", "Saves the DataFrame", "Filters the DataFrame", "Sorts the DataFrame"],
+      "answer": "Displays the DataFrame"
+    },
+    {
+      "id": 28,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to select columns in PySpark DataFrame?",
+      "options": ["select()", "choose()", "pick()", "get()"],
+      "answer": "select()"
+    },
+    {
+      "id": 29,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does 'filter()' method do in PySpark?",
+      "options": ["Removes columns", "Filters rows based on condition", "Sorts data", "Groups data"],
+      "answer": "Filters rows based on condition"
+    },
+    {
+      "id": 30,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to group data in PySpark?",
+      "options": ["group()", "groupBy()", "cluster()", "bunch()"],
+      "answer": "groupBy()"
+    },
+    {
+      "id": 31,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the purpose of 'cache()' method in PySpark?",
+      "options": ["Save data to disk", "Store data in memory", "Compress data", "Encrypt data"],
+      "answer": "Store data in memory"
+    },
+    {
+      "id": 32,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to join DataFrames in PySpark?",
+      "options": ["join()", "merge()", "combine()", "connect()"],
+      "answer": "join()"
+    },
+    {
+      "id": 33,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does 'collect()' method do in PySpark?",
+      "options": ["Gathers all data to driver", "Saves data to file", "Filters data", "Sorts data"],
+      "answer": "Gathers all data to driver"
+    },
+    {
+      "id": 34,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to sort data in PySpark?",
+      "options": ["sort()", "order()", "arrange()", "sequence()"],
+      "answer": "sort()"
+    },
+    {
+      "id": 35,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the difference between 'map()' and 'flatMap()' in PySpark?",
+      "options": ["No difference", "map() returns 1:1, flatMap() can return 0:many", "flatMap() is faster", "map() is more memory efficient"],
+      "answer": "map() returns 1:1, flatMap() can return 0:many"
+    },
+    {
+      "id": 36,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to aggregate data in PySpark?",
+      "options": ["aggregate()", "agg()", "summarize()", "total()"],
+      "answer": "agg()"
+    },
+    {
+      "id": 37,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does 'repartition()' method do in PySpark?",
+      "options": ["Changes number of partitions", "Removes partitions", "Combines partitions", "Sorts partitions"],
+      "answer": "Changes number of partitions"
+    },
+    {
+      "id": 38,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to write data in PySpark?",
+      "options": ["write()", "save()", "export()", "output()"],
+      "answer": "write()"
+    },
+    {
+      "id": 39,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the purpose of 'persist()' method in PySpark?",
+      "options": ["Save data permanently", "Store data in memory/disk", "Compress data", "Encrypt data"],
+      "answer": "Store data in memory/disk"
+    },
+    {
+      "id": 40,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to drop columns in PySpark?",
+      "options": ["drop()", "remove()", "delete()", "eliminate()"],
+      "answer": "drop()"
+    },
+    {
+      "id": 41,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of 'Hello' * 3 in Python?",
+      "options": ["HelloHelloHello", "Hello3", "Error", "Hello Hello Hello"],
+      "answer": "HelloHelloHello"
+    },
+    {
+      "id": 42,
+      "subject": "python",
+      "level": 1,
+      "question": "Which function is used to convert a string to uppercase?",
+      "options": ["upper()", "uppercase()", "toUpper()", "capitalize()"],
+      "answer": "upper()"
+    },
+    {
+      "id": 43,
+      "subject": "python",
+      "level": 1,
+      "question": "What does the 'strip()' method do?",
+      "options": ["Removes whitespace", "Adds spaces", "Splits strings", "Joins strings"],
+      "answer": "Removes whitespace"
+    },
+    {
+      "id": 44,
+      "subject": "python",
+      "level": 1,
+      "question": "Which operator is used for floor division?",
+      "options": ["/", "//", "%", "**"],
+      "answer": "//"
+    },
+    {
+      "id": 45,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of '5' + '3' in Python?",
+      "options": ["8", "53", "Error", "15"],
+      "answer": "53"
+    },
+    {
+      "id": 46,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to find the index of an element in a list?",
+      "options": ["index()", "find()", "search()", "locate()"],
+      "answer": "index()"
+    },
+    {
+      "id": 47,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'zip()' function do?",
+      "options": ["Compresses files", "Combines iterables", "Extracts files", "Sorts data"],
+      "answer": "Combines iterables"
+    },
+    {
+      "id": 48,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to reverse a list?",
+      "options": ["reverse()", "flip()", "backwards()", "invert()"],
+      "answer": "reverse()"
+    },
+    {
+      "id": 49,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'sorted()' function return?",
+      "options": ["A sorted list", "A sorted tuple", "A sorted string", "A new sorted list"],
+      "answer": "A new sorted list"
+    },
+    {
+      "id": 50,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to count occurrences in a list?",
+      "options": ["count()", "occurrences()", "frequency()", "times()"],
+      "answer": "count()"
+    },
+    {
+      "id": 51,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does 'distinct()' method do in PySpark?",
+      "options": ["Removes duplicates", "Adds duplicates", "Sorts data", "Filters data"],
+      "answer": "Removes duplicates"
+    },
+    {
+      "id": 52,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to rename columns in PySpark?",
+      "options": ["rename()", "withColumnRenamed()", "changeName()", "updateName()"],
+      "answer": "withColumnRenamed()"
+    },
+    {
+      "id": 53,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does 'limit()' method do in PySpark?",
+      "options": ["Limits rows", "Limits columns", "Limits memory", "Limits processing"],
+      "answer": "Limits rows"
+    },
+    {
+      "id": 54,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to add new columns in PySpark?",
+      "options": ["addColumn()", "withColumn()", "newColumn()", "createColumn()"],
+      "answer": "withColumn()"
+    },
+    {
+      "id": 55,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does 'union()' method do in PySpark?",
+      "options": ["Combines DataFrames", "Splits DataFrames", "Filters DataFrames", "Sorts DataFrames"],
+      "answer": "Combines DataFrames"
+    },
+    {
+      "id": 56,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the purpose of 'broadcast()' in PySpark?",
+      "options": ["Broadcast variables", "Send data to all nodes", "Optimize joins", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 57,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to sample data in PySpark?",
+      "options": ["sample()", "random()", "subset()", "portion()"],
+      "answer": "sample()"
+    },
+    {
+      "id": 58,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does 'coalesce()' method do in PySpark?",
+      "options": ["Reduces partitions", "Increases partitions", "Combines data", "Splits data"],
+      "answer": "Reduces partitions"
+    },
+    {
+      "id": 59,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method is used to check data types in PySpark?",
+      "options": ["dtypes", "types()", "getTypes()", "showTypes()"],
+      "answer": "dtypes"
+    },
+    {
+      "id": 60,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does 'explain()' method do in PySpark?",
+      "options": ["Shows execution plan", "Explains data", "Describes columns", "Shows statistics"],
+      "answer": "Shows execution plan"
+    },
+    {
+      "id": 61,
+      "subject": "python",
+      "level": 3,
+      "question": "What is a decorator in Python?",
+      "options": ["A function that modifies another function", "A variable type", "A loop construct", "A data structure"],
+      "answer": "A function that modifies another function"
+    },
+    {
+      "id": 62,
+      "subject": "python",
+      "level": 3,
+      "question": "What does the 'yield' keyword do?",
+      "options": ["Creates a generator", "Returns a value", "Stops execution", "Continues execution"],
+      "answer": "Creates a generator"
+    },
+    {
+      "id": 63,
+      "subject": "python",
+      "level": 3,
+      "question": "What is the difference between 'is' and '==' in Python?",
+      "options": ["No difference", "is compares identity, == compares values", "== compares identity, is compares values", "Both compare values"],
+      "answer": "is compares identity, == compares values"
+    },
+    {
+      "id": 64,
+      "subject": "python",
+      "level": 3,
+      "question": "What does 'lambda' create in Python?",
+      "options": ["Anonymous function", "Named function", "Class method", "Variable"],
+      "answer": "Anonymous function"
+    },
+    {
+      "id": 65,
+      "subject": "python",
+      "level": 3,
+      "question": "What is list comprehension?",
+      "options": ["A way to create lists", "A loop construct", "A function", "A data type"],
+      "answer": "A way to create lists"
+    },
+    {
+      "id": 66,
+      "subject": "python",
+      "level": 3,
+      "question": "What does 'map()' function do?",
+      "options": ["Applies function to iterable", "Creates a map", "Filters data", "Sorts data"],
+      "answer": "Applies function to iterable"
+    },
+    {
+      "id": 67,
+      "subject": "python",
+      "level": 3,
+      "question": "What is the purpose of 'try' and 'except'?",
+      "options": ["Error handling", "Loop control", "Function definition", "Variable assignment"],
+      "answer": "Error handling"
+    },
+    {
+      "id": 68,
+      "subject": "python",
+      "level": 3,
+      "question": "What does 'with' statement do?",
+      "options": ["Context management", "Loop control", "Function call", "Variable assignment"],
+      "answer": "Context management"
+    },
+    {
+      "id": 69,
+      "subject": "python",
+      "level": 3,
+      "question": "What is a class in Python?",
+      "options": ["Blueprint for objects", "Function", "Variable", "Loop"],
+      "answer": "Blueprint for objects"
+    },
+    {
+      "id": 70,
+      "subject": "python",
+      "level": 3,
+      "question": "What does 'self' refer to in Python classes?",
+      "options": ["Instance of the class", "Class name", "Method name", "Variable name"],
+      "answer": "Instance of the class"
+    },
+    {
+      "id": 71,
+      "subject": "python",
+      "level": 3,
+      "question": "What is inheritance in Python?",
+      "options": ["Creating new classes from existing ones", "Creating variables", "Creating functions", "Creating loops"],
+      "answer": "Creating new classes from existing ones"
+    },
+    {
+      "id": 72,
+      "subject": "python",
+      "level": 3,
+      "question": "What does 'super()' do?",
+      "options": ["Access parent class methods", "Create new class", "Delete class", "Modify class"],
+      "answer": "Access parent class methods"
+    },
+    {
+      "id": 73,
+      "subject": "python",
+      "level": 3,
+      "question": "What is polymorphism in Python?",
+      "options": ["Same interface, different behavior", "Same behavior, different interface", "Same data, different type", "Same type, different data"],
+      "answer": "Same interface, different behavior"
+    },
+    {
+      "id": 74,
+      "subject": "python",
+      "level": 3,
+      "question": "What does 'import' do in Python?",
+      "options": ["Brings modules into scope", "Creates variables", "Defines functions", "Creates classes"],
+      "answer": "Brings modules into scope"
+    },
+    {
+      "id": 75,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a DataFrame in PySpark?",
+      "options": ["Distributed collection of data", "Single data point", "Database table", "File format"],
+      "answer": "Distributed collection of data"
+    },
+    {
+      "id": 76,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does 'cache()' do in PySpark?",
+      "options": ["Stores DataFrame in memory", "Saves to disk", "Compresses data", "Encrypts data"],
+      "answer": "Stores DataFrame in memory"
+    },
+    {
+      "id": 77,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a partition in PySpark?",
+      "options": ["Logical division of data", "Physical file", "Database table", "Memory block"],
+      "answer": "Logical division of data"
+    },
+    {
+      "id": 78,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does 'repartition()' do?",
+      "options": ["Changes number of partitions", "Removes partitions", "Adds partitions", "Sorts partitions"],
+      "answer": "Changes number of partitions"
+    },
+    {
+      "id": 79,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a broadcast variable in PySpark?",
+      "options": ["Variable sent to all nodes", "Local variable", "Global variable", "Static variable"],
+      "answer": "Variable sent to all nodes"
+    },
+    {
+      "id": 80,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does 'persist()' do in PySpark?",
+      "options": ["Stores DataFrame in memory/disk", "Saves permanently", "Compresses data", "Encrypts data"],
+      "answer": "Stores DataFrame in memory/disk"
+    },
+    {
+      "id": 81,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a UDF in PySpark?",
+      "options": ["User Defined Function", "Universal Data Format", "User Data File", "Unified Data Framework"],
+      "answer": "User Defined Function"
+    },
+    {
+      "id": 82,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does 'window()' function do in PySpark?",
+      "options": ["Defines window for analytics", "Creates windows", "Opens files", "Closes connections"],
+      "answer": "Defines window for analytics"
+    },
+    {
+      "id": 83,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a checkpoint in PySpark?",
+      "options": ["Saves intermediate results", "Checks data", "Points to data", "Marks data"],
+      "answer": "Saves intermediate results"
+    },
+    {
+      "id": 84,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does 'collect()' do in PySpark?",
+      "options": ["Brings all data to driver", "Saves data", "Filters data", "Sorts data"],
+      "answer": "Brings all data to driver"
+    },
+    {
+      "id": 85,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a Catalyst optimizer in PySpark?",
+      "options": ["Query optimization engine", "Data storage", "Network protocol", "File format"],
+      "answer": "Query optimization engine"
+    },
+    {
+      "id": 86,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a metaclass in Python?",
+      "options": ["Class that creates classes", "Base class", "Abstract class", "Interface class"],
+      "answer": "Class that creates classes"
+    },
+    {
+      "id": 87,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'async' and 'await' do in Python?",
+      "options": ["Asynchronous programming", "Synchronous programming", "Parallel processing", "Sequential processing"],
+      "answer": "Asynchronous programming"
+    },
+    {
+      "id": 88,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a context manager in Python?",
+      "options": ["Manages resources with 'with' statement", "Manages variables", "Manages functions", "Manages classes"],
+      "answer": "Manages resources with 'with' statement"
+    },
+    {
+      "id": 89,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'frozenset' do in Python?",
+      "options": ["Creates immutable set", "Creates mutable set", "Creates list", "Creates tuple"],
+      "answer": "Creates immutable set"
+    },
+    {
+      "id": 90,
+      "subject": "python",
+      "level": 4,
+      "question": "What is the Global Interpreter Lock (GIL)?",
+      "options": ["Prevents true parallelism", "Enables parallelism", "Manages memory", "Manages files"],
+      "answer": "Prevents true parallelism"
+    },
+    {
+      "id": 91,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'itertools' module provide?",
+      "options": ["Iterator tools", "List tools", "String tools", "File tools"],
+      "answer": "Iterator tools"
+    },
+    {
+      "id": 92,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a property in Python?",
+      "options": ["Method that acts like attribute", "Variable", "Function", "Class"],
+      "answer": "Method that acts like attribute"
+    },
+    {
+      "id": 93,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'collections' module provide?",
+      "options": ["Specialized container types", "Basic types", "File operations", "Network operations"],
+      "answer": "Specialized container types"
+    },
+    {
+      "id": 94,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a descriptor in Python?",
+      "options": ["Object that defines attribute access", "Function", "Variable", "Class"],
+      "answer": "Object that defines attribute access"
+    },
+    {
+      "id": 95,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'functools' module provide?",
+      "options": ["Higher-order functions", "Basic functions", "File functions", "Math functions"],
+      "answer": "Higher-order functions"
+    },
+    {
+      "id": 96,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a mixin in Python?",
+      "options": ["Class for multiple inheritance", "Base class", "Abstract class", "Interface"],
+      "answer": "Class for multiple inheritance"
+    },
+    {
+      "id": 97,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'operator' module provide?",
+      "options": ["Function equivalents of operators", "Basic operators", "Math operators", "String operators"],
+      "answer": "Function equivalents of operators"
+    },
+    {
+      "id": 98,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a weak reference in Python?",
+      "options": ["Reference that doesn't prevent garbage collection", "Strong reference", "Direct reference", "Indirect reference"],
+      "answer": "Reference that doesn't prevent garbage collection"
+    },
+    {
+      "id": 99,
+      "subject": "python",
+      "level": 4,
+      "question": "What does 'abc' module provide?",
+      "options": ["Abstract base classes", "Basic classes", "Concrete classes", "Interface classes"],
+      "answer": "Abstract base classes"
+    },
+    {
+      "id": 100,
+      "subject": "python",
+      "level": 4,
+      "question": "What is a namespace in Python?",
+      "options": ["Mapping from names to objects", "Variable", "Function", "Class"],
+      "answer": "Mapping from names to objects"
+    },
+    {
+      "id": 101,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a DataFrameWriter in PySpark?",
+      "options": ["Interface for writing DataFrames", "DataFrame reader", "DataFrame transformer", "DataFrame validator"],
+      "answer": "Interface for writing DataFrames"
+    },
+    {
+      "id": 102,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'foreach()' do in PySpark?",
+      "options": ["Applies function to each row", "Applies function to each column", "Applies function to DataFrame", "Applies function to schema"],
+      "answer": "Applies function to each row"
+    },
+    {
+      "id": 103,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a DataFrameReader in PySpark?",
+      "options": ["Interface for reading data", "DataFrame writer", "DataFrame transformer", "DataFrame validator"],
+      "answer": "Interface for reading data"
+    },
+    {
+      "id": 104,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'foreachPartition()' do in PySpark?",
+      "options": ["Applies function to each partition", "Applies function to each row", "Applies function to each column", "Applies function to DataFrame"],
+      "answer": "Applies function to each partition"
+    },
+    {
+      "id": 105,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a SparkSession in PySpark?",
+      "options": ["Entry point for Spark functionality", "DataFrame", "RDD", "Dataset"],
+      "answer": "Entry point for Spark functionality"
+    },
+    {
+      "id": 106,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'createOrReplaceTempView()' do in PySpark?",
+      "options": ["Creates temporary view", "Creates permanent view", "Creates table", "Creates database"],
+      "answer": "Creates temporary view"
+    },
+    {
+      "id": 107,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a SparkConf in PySpark?",
+      "options": ["Configuration for Spark", "DataFrame configuration", "RDD configuration", "Dataset configuration"],
+      "answer": "Configuration for Spark"
+    },
+    {
+      "id": 108,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'sql()' method do in PySpark?",
+      "options": ["Executes SQL queries", "Creates SQL tables", "Drops SQL tables", "Updates SQL tables"],
+      "answer": "Executes SQL queries"
+    },
+    {
+      "id": 109,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a SparkContext in PySpark?",
+      "options": ["Main entry point for Spark", "DataFrame context", "RDD context", "Dataset context"],
+      "answer": "Main entry point for Spark"
+    },
+    {
+      "id": 110,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'registerTempTable()' do in PySpark?",
+      "options": ["Registers DataFrame as temporary table", "Registers DataFrame as permanent table", "Registers DataFrame as view", "Registers DataFrame as database"],
+      "answer": "Registers DataFrame as temporary table"
+    },
+    {
+      "id": 111,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a SparkConf in PySpark?",
+      "options": ["Configuration object", "DataFrame object", "RDD object", "Dataset object"],
+      "answer": "Configuration object"
+    },
+    {
+      "id": 112,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'cache()' method do in PySpark?",
+      "options": ["Caches DataFrame in memory", "Caches DataFrame to disk", "Caches DataFrame to database", "Caches DataFrame to file"],
+      "answer": "Caches DataFrame in memory"
+    },
+    {
+      "id": 113,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a SparkSession in PySpark?",
+      "options": ["Unified entry point", "DataFrame entry point", "RDD entry point", "Dataset entry point"],
+      "answer": "Unified entry point"
+    },
+    {
+      "id": 114,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does 'createDataFrame()' do in PySpark?",
+      "options": ["Creates DataFrame from data", "Creates DataFrame from file", "Creates DataFrame from database", "Creates DataFrame from view"],
+      "answer": "Creates DataFrame from data"
+    },
+    {
+      "id": 115,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is a DataFrame in PySpark?",
+      "options": ["Distributed collection of data", "Local collection of data", "Single data point", "Database table"],
+      "answer": "Distributed collection of data"
+    },
+    {
+      "id": 116,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the output of 'print(2 + 3)'?",
+      "options": ["5", "6", "7", "I don't know"],
+      "answer": "5"
+    },
+    {
+      "id": 117,
+      "subject": "python",
+      "level": 5,
+      "question": "Which of the following is a valid Python variable name?",
+      "options": ["2variable", "variable_name", "var-name", "class"],
+      "answer": "variable_name"
+    },
+    {
+      "id": 118,
+      "subject": "python",
+      "level": 5,
+      "question": "What does the 'type()' function return?",
+      "options": ["The data type of a variable", "The length of a string", "The size of a list", "The value of a variable"],
+      "answer": "The data type of a variable"
+    },
+    {
+      "id": 119,
+      "subject": "python",
+      "level": 5,
+      "question": "How do you create a list in Python?",
+      "options": ["list()", "[]", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 120,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the result of 10 // 3 in Python?",
+      "options": ["3.33", "3", "4", "3.0"],
+      "answer": "3"
+    },
+    {
+      "id": 121,
+      "subject": "python",
+      "level": 5,
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": ["^", "**", "pow()", "exp()"],
+      "answer": "**"
+    },
+    {
+      "id": 122,
+      "subject": "python",
+      "level": 5,
+      "question": "What does 'Hello' + 'World' produce?",
+      "options": ["HelloWorld", "Hello World", "Error", "Hello+World"],
+      "answer": "HelloWorld"
+    },
+    {
+      "id": 123,
+      "subject": "python",
+      "level": 5,
+      "question": "Which function is used to get user input in Python?",
+      "options": ["input()", "get_input()", "read()", "scan()"],
+      "answer": "input()"
+    },
+    {
+      "id": 124,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the index of the first element in a Python list?",
+      "options": ["1", "0", "-1", "first"],
+      "answer": "0"
+    },
+    {
+      "id": 125,
+      "subject": "python",
+      "level": 5,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "define", "func"],
+      "answer": "def"
+    },
+    {
+      "id": 126,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the result of 'Hello' * 3 in Python?",
+      "options": ["HelloHelloHello", "Hello3", "Error", "Hello Hello Hello"],
+      "answer": "HelloHelloHello"
+    },
+    {
+      "id": 127,
+      "subject": "python",
+      "level": 5,
+      "question": "Which function is used to convert a string to uppercase?",
+      "options": ["upper()", "uppercase()", "toUpper()", "capitalize()"],
+      "answer": "upper()"
+    },
+    {
+      "id": 128,
+      "subject": "python",
+      "level": 5,
+      "question": "What does the 'strip()' method do?",
+      "options": ["Removes whitespace", "Adds spaces", "Splits strings", "Joins strings"],
+      "answer": "Removes whitespace"
+    },
+    {
+      "id": 129,
+      "subject": "python",
+      "level": 5,
+      "question": "Which operator is used for floor division?",
+      "options": ["/", "//", "%", "**"],
+      "answer": "//"
+    },
+    {
+      "id": 130,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the result of '5' + '3' in Python?",
+      "options": ["8", "53", "Error", "15"],
+      "answer": "53"
+    },
+    {
+      "id": 131,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What is PySpark primarily used for?",
+      "options": ["Web development", "Data processing", "Game development", "Mobile apps"],
+      "answer": "Data processing"
+    },
+    {
+      "id": 132,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which of the following is NOT a PySpark data structure?",
+      "options": ["DataFrame", "RDD", "Dataset", "Array"],
+      "answer": "Array"
+    },
+    {
+      "id": 133,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does RDD stand for?",
+      "options": ["Resilient Distributed Dataset", "Random Data Distribution", "Real-time Data Display", "Relational Data Definition"],
+      "answer": "Resilient Distributed Dataset"
+    },
+    {
+      "id": 134,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method is used to create a DataFrame in PySpark?",
+      "options": ["createDataFrame()", "newDataFrame()", "makeDataFrame()", "buildDataFrame()"],
+      "answer": "createDataFrame()"
+    },
+    {
+      "id": 135,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What is the main advantage of PySpark over pandas?",
+      "options": ["Better performance", "Distributed processing", "Easier syntax", "Smaller memory usage"],
+      "answer": "Distributed processing"
+    },
+    {
+      "id": 136,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which function is used to read a CSV file in PySpark?",
+      "options": ["read.csv()", "spark.read.csv()", "load_csv()", "import_csv()"],
+      "answer": "spark.read.csv()"
+    },
+    {
+      "id": 137,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does 'show()' method do in PySpark?",
+      "options": ["Displays the DataFrame", "Saves the DataFrame", "Filters the DataFrame", "Sorts the DataFrame"],
+      "answer": "Displays the DataFrame"
+    },
+    {
+      "id": 138,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method is used to select columns in PySpark DataFrame?",
+      "options": ["select()", "choose()", "pick()", "get()"],
+      "answer": "select()"
+    },
+    {
+      "id": 139,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does 'filter()' method do in PySpark?",
+      "options": ["Removes columns", "Filters rows based on condition", "Sorts data", "Groups data"],
+      "answer": "Filters rows based on condition"
+    },
+    {
+      "id": 140,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method is used to group data in PySpark?",
+      "options": ["group()", "groupBy()", "cluster()", "bunch()"],
+      "answer": "groupBy()"
+    },
+    {
+      "id": 141,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does 'distinct()' method do in PySpark?",
+      "options": ["Removes duplicates", "Adds duplicates", "Sorts data", "Filters data"],
+      "answer": "Removes duplicates"
+    },
+    {
+      "id": 142,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method is used to rename columns in PySpark?",
+      "options": ["rename()", "withColumnRenamed()", "changeName()", "updateName()"],
+      "answer": "withColumnRenamed()"
+    },
+    {
+      "id": 143,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does 'limit()' method do in PySpark?",
+      "options": ["Limits rows", "Limits columns", "Limits memory", "Limits processing"],
+      "answer": "Limits rows"
+    },
+    {
+      "id": 144,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method is used to add new columns in PySpark?",
+      "options": ["addColumn()", "withColumn()", "newColumn()", "createColumn()"],
+      "answer": "withColumn()"
+    },
+    {
+      "id": 145,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does 'union()' method do in PySpark?",
+      "options": ["Combines DataFrames", "Splits DataFrames", "Filters DataFrames", "Sorts DataFrames"],
+      "answer": "Combines DataFrames"
+    },
+    {
+      "id": 146,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the output of 'print(2 + 3)'?",
+      "options": ["5", "6", "7", "I don't know"],
+      "answer": "5"
+    },
+    {
+      "id": 147,
+      "subject": "python",
+      "level": 6,
+      "question": "Which of the following is a valid Python variable name?",
+      "options": ["2variable", "variable_name", "var-name", "class"],
+      "answer": "variable_name"
+    },
+    {
+      "id": 148,
+      "subject": "python",
+      "level": 6,
+      "question": "What does the 'type()' function return?",
+      "options": ["The data type of a variable", "The length of a string", "The size of a list", "The value of a variable"],
+      "answer": "The data type of a variable"
+    },
+    {
+      "id": 149,
+      "subject": "python",
+      "level": 6,
+      "question": "How do you create a list in Python?",
+      "options": ["list()", "[]", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 150,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the result of 10 // 3 in Python?",
+      "options": ["3.33", "3", "4", "3.0"],
+      "answer": "3"
+    },
+    {
+      "id": 151,
+      "subject": "python",
+      "level": 6,
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": ["^", "**", "pow()", "exp()"],
+      "answer": "**"
+    },
+    {
+      "id": 152,
+      "subject": "python",
+      "level": 6,
+      "question": "What does 'Hello' + 'World' produce?",
+      "options": ["HelloWorld", "Hello World", "Error", "Hello+World"],
+      "answer": "HelloWorld"
+    },
+    {
+      "id": 153,
+      "subject": "python",
+      "level": 6,
+      "question": "Which function is used to get user input in Python?",
+      "options": ["input()", "get_input()", "read()", "scan()"],
+      "answer": "input()"
+    },
+    {
+      "id": 154,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the index of the first element in a Python list?",
+      "options": ["1", "0", "-1", "first"],
+      "answer": "0"
+    },
+    {
+      "id": 155,
+      "subject": "python",
+      "level": 6,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "define", "func"],
+      "answer": "def"
+    },
+    {
+      "id": 156,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the result of 'Hello' * 3 in Python?",
+      "options": ["HelloHelloHello", "Hello3", "Error", "Hello Hello Hello"],
+      "answer": "HelloHelloHello"
+    },
+    {
+      "id": 157,
+      "subject": "python",
+      "level": 6,
+      "question": "Which function is used to convert a string to uppercase?",
+      "options": ["upper()", "uppercase()", "toUpper()", "capitalize()"],
+      "answer": "upper()"
+    },
+    {
+      "id": 158,
+      "subject": "python",
+      "level": 6,
+      "question": "What does the 'strip()' method do?",
+      "options": ["Removes whitespace", "Adds spaces", "Splits strings", "Joins strings"],
+      "answer": "Removes whitespace"
+    },
+    {
+      "id": 159,
+      "subject": "python",
+      "level": 6,
+      "question": "Which operator is used for floor division?",
+      "options": ["/", "//", "%", "**"],
+      "answer": "//"
+    },
+    {
+      "id": 160,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the result of '5' + '3' in Python?",
+      "options": ["8", "53", "Error", "15"],
+      "answer": "53"
+    },
+    {
+      "id": 161,
+      "subject": "python",
+      "level": 7,
+      "question": "What does the 'range(5)' function generate?",
+      "options": ["[0,1,2,3,4]", "[1,2,3,4,5]", "[0,1,2,3,4,5]", "Error"],
+      "answer": "[0,1,2,3,4]"
+    },
+    {
+      "id": 162,
+      "subject": "python",
+      "level": 7,
+      "question": "How do you check if a key exists in a dictionary?",
+      "options": ["key in dict", "dict.has_key()", "dict.exists()", "dict.contains()"],
+      "answer": "key in dict"
+    },
+    {
+      "id": 163,
+      "subject": "python",
+      "level": 7,
+      "question": "What does the 'enumerate()' function do?",
+      "options": ["Counts elements", "Returns index and value pairs", "Sorts a list", "Filters elements"],
+      "answer": "Returns index and value pairs"
+    },
+    {
+      "id": 164,
+      "subject": "python",
+      "level": 7,
+      "question": "Which method is used to add an element to the end of a list?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "answer": "append()"
+    },
+    {
+      "id": 165,
+      "subject": "python",
+      "level": 7,
+      "question": "What does 'len()' function return?",
+      "options": ["The length of a string", "The length of a list", "The length of any iterable", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 166,
+      "subject": "python",
+      "level": 7,
+      "question": "How do you create a tuple in Python?",
+      "options": ["tuple()", "()", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 167,
+      "subject": "python",
+      "level": 7,
+      "question": "What is the difference between '==' and 'is' in Python?",
+      "options": ["No difference", "== compares values, is compares identity", "is compares values, == compares identity", "Both compare values"],
+      "answer": "== compares values, is compares identity"
+    },
+    {
+      "id": 168,
+      "subject": "python",
+      "level": 7,
+      "question": "Which method removes the last element from a list?",
+      "options": ["remove()", "pop()", "delete()", "clear()"],
+      "answer": "pop()"
+    },
+    {
+      "id": 169,
+      "subject": "python",
+      "level": 7,
+      "question": "What does the 'split()' method do on a string?",
+      "options": ["Joins strings", "Splits string into a list", "Removes spaces", "Converts to lowercase"],
+      "answer": "Splits string into a list"
+    },
+    {
+      "id": 170,
+      "subject": "python",
+      "level": 7,
+      "question": "How do you create a set in Python?",
+      "options": ["set()", "{}", "Both A and B", "None of the above"],
+      "answer": "set()"
+    },
+    {
+      "id": 171,
+      "subject": "python",
+      "level": 7,
+      "question": "Which method is used to find the index of an element in a list?",
+      "options": ["index()", "find()", "search()", "locate()"],
+      "answer": "index()"
+    },
+    {
+      "id": 172,
+      "subject": "python",
+      "level": 7,
+      "question": "What does the 'zip()' function do?",
+      "options": ["Compresses files", "Combines iterables", "Extracts files", "Sorts data"],
+      "answer": "Combines iterables"
+    },
+    {
+      "id": 173,
+      "subject": "python",
+      "level": 7,
+      "question": "Which method is used to reverse a list?",
+      "options": ["reverse()", "flip()", "backwards()", "invert()"],
+      "answer": "reverse()"
+    },
+    {
+      "id": 174,
+      "subject": "python",
+      "level": 7,
+      "question": "What does the 'sorted()' function return?",
+      "options": ["A sorted list", "A sorted tuple", "A sorted string", "A new sorted list"],
+      "answer": "A new sorted list"
+    },
+    {
+      "id": 175,
+      "subject": "python",
+      "level": 7,
+      "question": "Which method is used to count occurrences in a list?",
+      "options": ["count()", "occurrences()", "frequency()", "times()"],
+      "answer": "count()"
+    },
+    {
+      "id": 176,
+      "subject": "python",
+      "level": 8,
+      "question": "What is a decorator in Python?",
+      "options": ["A function that modifies another function", "A variable type", "A loop construct", "A data structure"],
+      "answer": "A function that modifies another function"
+    },
+    {
+      "id": 177,
+      "subject": "python",
+      "level": 8,
+      "question": "What does the 'yield' keyword do?",
+      "options": ["Creates a generator", "Returns a value", "Stops execution", "Continues execution"],
+      "answer": "Creates a generator"
+    },
+    {
+      "id": 178,
+      "subject": "python",
+      "level": 8,
+      "question": "What is the difference between 'is' and '==' in Python?",
+      "options": ["No difference", "is compares identity, == compares values", "== compares identity, is compares values", "Both compare values"],
+      "answer": "is compares identity, == compares values"
+    },
+    {
+      "id": 179,
+      "subject": "python",
+      "level": 8,
+      "question": "What does 'lambda' create in Python?",
+      "options": ["Anonymous function", "Named function", "Class method", "Variable"],
+      "answer": "Anonymous function"
+    },
+    {
+      "id": 180,
+      "subject": "python",
+      "level": 8,
+      "question": "What is list comprehension?",
+      "options": ["A way to create lists", "A loop construct", "A function", "A data type"],
+      "answer": "A way to create lists"
+    },
+    {
+      "id": 181,
+      "subject": "python",
+      "level": 8,
+      "question": "What does 'map()' function do?",
+      "options": ["Applies function to iterable", "Creates a map", "Filters data", "Sorts data"],
+      "answer": "Applies function to iterable"
+    },
+    {
+      "id": 182,
+      "subject": "python",
+      "level": 8,
+      "question": "What is the purpose of 'try' and 'except'?",
+      "options": ["Error handling", "Loop control", "Function definition", "Variable assignment"],
+      "answer": "Error handling"
+    },
+    {
+      "id": 183,
+      "subject": "python",
+      "level": 8,
+      "question": "What does 'with' statement do?",
+      "options": ["Context management", "Loop control", "Function call", "Variable assignment"],
+      "answer": "Context management"
+    },
+    {
+      "id": 184,
+      "subject": "python",
+      "level": 8,
+      "question": "What is a class in Python?",
+      "options": ["Blueprint for objects", "Function", "Variable", "Loop"],
+      "answer": "Blueprint for objects"
+    },
+    {
+      "id": 185,
+      "subject": "python",
+      "level": 8,
+      "question": "What does 'self' refer to in Python classes?",
+      "options": ["Instance of the class", "Class name", "Method name", "Variable name"],
+      "answer": "Instance of the class"
+    },
+    {
+      "id": 186,
+      "subject": "python",
+      "level": 8,
+      "question": "What is inheritance in Python?",
+      "options": ["Creating new classes from existing ones", "Creating variables", "Creating functions", "Creating loops"],
+      "answer": "Creating new classes from existing ones"
+    },
+    {
+      "id": 187,
+      "subject": "python",
+      "level": 8,
+      "question": "What does 'super()' do?",
+      "options": ["Access parent class methods", "Create new class", "Delete class", "Modify class"],
+      "answer": "Access parent class methods"
+    },
+    {
+      "id": 188,
+      "subject": "python",
+      "level": 8,
+      "question": "What is polymorphism in Python?",
+      "options": ["Same interface, different behavior", "Same behavior, different interface", "Same data, different type", "Same type, different data"],
+      "answer": "Same interface, different behavior"
+    },
+    {
+      "id": 189,
+      "subject": "python",
+      "level": 8,
+      "question": "What does 'import' do in Python?",
+      "options": ["Brings modules into scope", "Creates variables", "Defines functions", "Creates classes"],
+      "answer": "Brings modules into scope"
+    },
+    {
+      "id": 190,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a metaclass in Python?",
+      "options": ["Class that creates classes", "Base class", "Abstract class", "Interface class"],
+      "answer": "Class that creates classes"
+    },
+    {
+      "id": 191,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'async' and 'await' do in Python?",
+      "options": ["Asynchronous programming", "Synchronous programming", "Parallel processing", "Sequential processing"],
+      "answer": "Asynchronous programming"
+    },
+    {
+      "id": 192,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a context manager in Python?",
+      "options": ["Manages resources with 'with' statement", "Manages variables", "Manages functions", "Manages classes"],
+      "answer": "Manages resources with 'with' statement"
+    },
+    {
+      "id": 193,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'frozenset' do in Python?",
+      "options": ["Creates immutable set", "Creates mutable set", "Creates list", "Creates tuple"],
+      "answer": "Creates immutable set"
+    },
+    {
+      "id": 194,
+      "subject": "python",
+      "level": 9,
+      "question": "What is the Global Interpreter Lock (GIL)?",
+      "options": ["Prevents true parallelism", "Enables parallelism", "Manages memory", "Manages files"],
+      "answer": "Prevents true parallelism"
+    },
+    {
+      "id": 195,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'itertools' module provide?",
+      "options": ["Iterator tools", "List tools", "String tools", "File tools"],
+      "answer": "Iterator tools"
+    },
+    {
+      "id": 196,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a property in Python?",
+      "options": ["Method that acts like attribute", "Variable", "Function", "Class"],
+      "answer": "Method that acts like attribute"
+    },
+    {
+      "id": 197,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'collections' module provide?",
+      "options": ["Specialized container types", "Basic types", "File operations", "Network operations"],
+      "answer": "Specialized container types"
+    },
+    {
+      "id": 198,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a descriptor in Python?",
+      "options": ["Object that defines attribute access", "Function", "Variable", "Class"],
+      "answer": "Object that defines attribute access"
+    },
+    {
+      "id": 199,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'functools' module provide?",
+      "options": ["Higher-order functions", "Basic functions", "File functions", "Math functions"],
+      "answer": "Higher-order functions"
+    },
+    {
+      "id": 200,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a mixin in Python?",
+      "options": ["Class for multiple inheritance", "Base class", "Abstract class", "Interface"],
+      "answer": "Class for multiple inheritance"
+    },
+    {
+      "id": 201,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'operator' module provide?",
+      "options": ["Function equivalents of operators", "Basic operators", "Math operators", "String operators"],
+      "answer": "Function equivalents of operators"
+    },
+    {
+      "id": 202,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a weak reference in Python?",
+      "options": ["Reference that doesn't prevent garbage collection", "Strong reference", "Direct reference", "Indirect reference"],
+      "answer": "Reference that doesn't prevent garbage collection"
+    },
+    {
+      "id": 203,
+      "subject": "python",
+      "level": 9,
+      "question": "What does 'abc' module provide?",
+      "options": ["Abstract base classes", "Basic classes", "Concrete classes", "Interface classes"],
+      "answer": "Abstract base classes"
+    },
+    {
+      "id": 204,
+      "subject": "python",
+      "level": 9,
+      "question": "What is a namespace in Python?",
+      "options": ["Mapping from names to objects", "Variable", "Function", "Class"],
+      "answer": "Mapping from names to objects"
+    },
+    {
+      "id": 205,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the output of 'print(2 + 3)'?",
+      "options": ["5", "6", "7", "I don't know"],
+      "answer": "5"
+    },
+    {
+      "id": 206,
+      "subject": "python",
+      "level": 10,
+      "question": "Which of the following is a valid Python variable name?",
+      "options": ["2variable", "variable_name", "var-name", "class"],
+      "answer": "variable_name"
+    },
+    {
+      "id": 207,
+      "subject": "python",
+      "level": 10,
+      "question": "What does the 'type()' function return?",
+      "options": ["The data type of a variable", "The length of a string", "The size of a list", "The value of a variable"],
+      "answer": "The data type of a variable"
+    },
+    {
+      "id": 208,
+      "subject": "python",
+      "level": 10,
+      "question": "How do you create a list in Python?",
+      "options": ["list()", "[]", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 209,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the result of 10 // 3 in Python?",
+      "options": ["3.33", "3", "4", "3.0"],
+      "answer": "3"
+    },
+    {
+      "id": 210,
+      "subject": "python",
+      "level": 10,
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": ["^", "**", "pow()", "exp()"],
+      "answer": "**"
+    },
+    {
+      "id": 211,
+      "subject": "python",
+      "level": 10,
+      "question": "What does 'Hello' + 'World' produce?",
+      "options": ["HelloWorld", "Hello World", "Error", "Hello+World"],
+      "answer": "HelloWorld"
+    },
+    {
+      "id": 212,
+      "subject": "python",
+      "level": 10,
+      "question": "Which function is used to get user input in Python?",
+      "options": ["input()", "get_input()", "read()", "scan()"],
+      "answer": "input()"
+    },
+    {
+      "id": 213,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the index of the first element in a Python list?",
+      "options": ["1", "0", "-1", "first"],
+      "answer": "0"
+    },
+    {
+      "id": 214,
+      "subject": "python",
+      "level": 10,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "define", "func"],
+      "answer": "def"
+    },
+    {
+      "id": 215,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the result of 'Hello' * 3 in Python?",
+      "options": ["HelloHelloHello", "Hello3", "Error", "Hello Hello Hello"],
+      "answer": "HelloHelloHello"
+    },
+    {
+      "id": 216,
+      "subject": "python",
+      "level": 10,
+      "question": "Which function is used to convert a string to uppercase?",
+      "options": ["upper()", "uppercase()", "toUpper()", "capitalize()"],
+      "answer": "upper()"
+    },
+    {
+      "id": 217,
+      "subject": "python",
+      "level": 10,
+      "question": "What does the 'strip()' method do?",
+      "options": ["Removes whitespace", "Adds spaces", "Splits strings", "Joins strings"],
+      "answer": "Removes whitespace"
+    },
+    {
+      "id": 218,
+      "subject": "python",
+      "level": 10,
+      "question": "Which operator is used for floor division?",
+      "options": ["/", "//", "%", "**"],
+      "answer": "//"
+    },
+    {
+      "id": 219,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the result of '5' + '3' in Python?",
+      "options": ["8", "53", "Error", "15"],
+      "answer": "53"
+    },
+    {
+      "id": 220,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What is PySpark primarily used for?",
+      "options": ["Web development", "Data processing", "Game development", "Mobile apps"],
+      "answer": "Data processing"
+    },
+    {
+      "id": 221,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which of the following is NOT a PySpark data structure?",
+      "options": ["DataFrame", "RDD", "Dataset", "Array"],
+      "answer": "Array"
+    },
+    {
+      "id": 222,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does RDD stand for?",
+      "options": ["Resilient Distributed Dataset", "Random Data Distribution", "Real-time Data Display", "Relational Data Definition"],
+      "answer": "Resilient Distributed Dataset"
+    },
+    {
+      "id": 223,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method is used to create a DataFrame in PySpark?",
+      "options": ["createDataFrame()", "newDataFrame()", "makeDataFrame()", "buildDataFrame()"],
+      "answer": "createDataFrame()"
+    },
+    {
+      "id": 224,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What is the main advantage of PySpark over pandas?",
+      "options": ["Better performance", "Distributed processing", "Easier syntax", "Smaller memory usage"],
+      "answer": "Distributed processing"
+    },
+    {
+      "id": 225,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which function is used to read a CSV file in PySpark?",
+      "options": ["read.csv()", "spark.read.csv()", "load_csv()", "import_csv()"],
+      "answer": "spark.read.csv()"
+    },
+    {
+      "id": 226,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does 'show()' method do in PySpark?",
+      "options": ["Displays the DataFrame", "Saves the DataFrame", "Filters the DataFrame", "Sorts the DataFrame"],
+      "answer": "Displays the DataFrame"
+    },
+    {
+      "id": 227,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method is used to select columns in PySpark DataFrame?",
+      "options": ["select()", "choose()", "pick()", "get()"],
+      "answer": "select()"
+    },
+    {
+      "id": 228,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does 'filter()' method do in PySpark?",
+      "options": ["Removes columns", "Filters rows based on condition", "Sorts data", "Groups data"],
+      "answer": "Filters rows based on condition"
+    },
+    {
+      "id": 229,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method is used to group data in PySpark?",
+      "options": ["group()", "groupBy()", "cluster()", "bunch()"],
+      "answer": "groupBy()"
+    },
+    {
+      "id": 230,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does 'distinct()' method do in PySpark?",
+      "options": ["Removes duplicates", "Adds duplicates", "Sorts data", "Filters data"],
+      "answer": "Removes duplicates"
+    },
+    {
+      "id": 231,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method is used to rename columns in PySpark?",
+      "options": ["rename()", "withColumnRenamed()", "changeName()", "updateName()"],
+      "answer": "withColumnRenamed()"
+    },
+    {
+      "id": 232,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does 'limit()' method do in PySpark?",
+      "options": ["Limits rows", "Limits columns", "Limits memory", "Limits processing"],
+      "answer": "Limits rows"
+    },
+    {
+      "id": 233,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method is used to add new columns in PySpark?",
+      "options": ["addColumn()", "withColumn()", "newColumn()", "createColumn()"],
+      "answer": "withColumn()"
+    },
+    {
+      "id": 234,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does 'union()' method do in PySpark?",
+      "options": ["Combines DataFrames", "Splits DataFrames", "Filters DataFrames", "Sorts DataFrames"],
+      "answer": "Combines DataFrames"
+    },
+    {
+      "id": 235,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the purpose of 'cache()' method in PySpark?",
+      "options": ["Save data to disk", "Store data in memory", "Compress data", "Encrypt data"],
+      "answer": "Store data in memory"
+    },
+    {
+      "id": 236,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to join DataFrames in PySpark?",
+      "options": ["join()", "merge()", "combine()", "connect()"],
+      "answer": "join()"
+    },
+    {
+      "id": 237,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does 'collect()' method do in PySpark?",
+      "options": ["Gathers all data to driver", "Saves data to file", "Filters data", "Sorts data"],
+      "answer": "Gathers all data to driver"
+    },
+    {
+      "id": 238,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to sort data in PySpark?",
+      "options": ["sort()", "order()", "arrange()", "sequence()"],
+      "answer": "sort()"
+    },
+    {
+      "id": 239,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the difference between 'map()' and 'flatMap()' in PySpark?",
+      "options": ["No difference", "map() returns 1:1, flatMap() can return 0:many", "flatMap() is faster", "map() is more memory efficient"],
+      "answer": "map() returns 1:1, flatMap() can return 0:many"
+    },
+    {
+      "id": 240,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to aggregate data in PySpark?",
+      "options": ["aggregate()", "agg()", "summarize()", "total()"],
+      "answer": "agg()"
+    },
+    {
+      "id": 241,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does 'repartition()' method do in PySpark?",
+      "options": ["Changes number of partitions", "Removes partitions", "Combines partitions", "Sorts partitions"],
+      "answer": "Changes number of partitions"
+    },
+    {
+      "id": 242,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to write data in PySpark?",
+      "options": ["write()", "save()", "export()", "output()"],
+      "answer": "write()"
+    },
+    {
+      "id": 243,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the purpose of 'persist()' method in PySpark?",
+      "options": ["Save data permanently", "Store data in memory/disk", "Compress data", "Encrypt data"],
+      "answer": "Store data in memory/disk"
+    },
+    {
+      "id": 244,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to drop columns in PySpark?",
+      "options": ["drop()", "remove()", "delete()", "eliminate()"],
+      "answer": "drop()"
+    },
+    {
+      "id": 245,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the purpose of 'broadcast()' in PySpark?",
+      "options": ["Broadcast variables", "Send data to all nodes", "Optimize joins", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 246,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to sample data in PySpark?",
+      "options": ["sample()", "random()", "subset()", "portion()"],
+      "answer": "sample()"
+    },
+    {
+      "id": 247,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does 'coalesce()' method do in PySpark?",
+      "options": ["Reduces partitions", "Increases partitions", "Combines data", "Splits data"],
+      "answer": "Reduces partitions"
+    },
+    {
+      "id": 248,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method is used to check data types in PySpark?",
+      "options": ["dtypes", "types()", "getTypes()", "showTypes()"],
+      "answer": "dtypes"
+    },
+    {
+      "id": 249,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does 'explain()' method do in PySpark?",
+      "options": ["Shows execution plan", "Explains data", "Describes columns", "Shows statistics"],
+      "answer": "Shows execution plan"
+    },
+    {
+      "id": 250,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a DataFrame in PySpark?",
+      "options": ["Distributed collection of data", "Single data point", "Database table", "File format"],
+      "answer": "Distributed collection of data"
+    },
+    {
+      "id": 251,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'cache()' do in PySpark?",
+      "options": ["Stores DataFrame in memory", "Saves to disk", "Compresses data", "Encrypts data"],
+      "answer": "Stores DataFrame in memory"
+    },
+    {
+      "id": 252,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a partition in PySpark?",
+      "options": ["Logical division of data", "Physical file", "Database table", "Memory block"],
+      "answer": "Logical division of data"
+    },
+    {
+      "id": 253,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'repartition()' do?",
+      "options": ["Changes number of partitions", "Removes partitions", "Adds partitions", "Sorts partitions"],
+      "answer": "Changes number of partitions"
+    },
+    {
+      "id": 254,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a broadcast variable in PySpark?",
+      "options": ["Variable sent to all nodes", "Local variable", "Global variable", "Static variable"],
+      "answer": "Variable sent to all nodes"
+    },
+    {
+      "id": 255,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'persist()' do in PySpark?",
+      "options": ["Stores DataFrame in memory/disk", "Saves permanently", "Compresses data", "Encrypts data"],
+      "answer": "Stores DataFrame in memory/disk"
+    },
+    {
+      "id": 256,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a UDF in PySpark?",
+      "options": ["User Defined Function", "Universal Data Format", "User Data File", "Unified Data Framework"],
+      "answer": "User Defined Function"
+    },
+    {
+      "id": 257,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'window()' function do in PySpark?",
+      "options": ["Defines window for analytics", "Creates windows", "Opens files", "Closes connections"],
+      "answer": "Defines window for analytics"
+    },
+    {
+      "id": 258,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a checkpoint in PySpark?",
+      "options": ["Saves intermediate results", "Checks data", "Points to data", "Marks data"],
+      "answer": "Saves intermediate results"
+    },
+    {
+      "id": 259,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'collect()' do in PySpark?",
+      "options": ["Brings all data to driver", "Saves data", "Filters data", "Sorts data"],
+      "answer": "Brings all data to driver"
+    },
+    {
+      "id": 260,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a Catalyst optimizer in PySpark?",
+      "options": ["Query optimization engine", "Data storage", "Network protocol", "File format"],
+      "answer": "Query optimization engine"
+    },
+    {
+      "id": 261,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a DataFrameWriter in PySpark?",
+      "options": ["Interface for writing DataFrames", "DataFrame reader", "DataFrame transformer", "DataFrame validator"],
+      "answer": "Interface for writing DataFrames"
+    },
+    {
+      "id": 262,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'foreach()' do in PySpark?",
+      "options": ["Applies function to each row", "Applies function to each column", "Applies function to DataFrame", "Applies function to schema"],
+      "answer": "Applies function to each row"
+    },
+    {
+      "id": 263,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a DataFrameReader in PySpark?",
+      "options": ["Interface for reading data", "DataFrame writer", "DataFrame transformer", "DataFrame validator"],
+      "answer": "Interface for reading data"
+    },
+    {
+      "id": 264,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does 'foreachPartition()' do in PySpark?",
+      "options": ["Applies function to each partition", "Applies function to each row", "Applies function to each column", "Applies function to DataFrame"],
+      "answer": "Applies function to each partition"
+    },
+    {
+      "id": 265,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is a SparkSession in PySpark?",
+      "options": ["Entry point for Spark functionality", "DataFrame", "RDD", "Dataset"],
+      "answer": "Entry point for Spark functionality"
+    },
+    {
+      "id": 266,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does 'createOrReplaceTempView()' do in PySpark?",
+      "options": ["Creates temporary view", "Creates permanent view", "Creates table", "Creates database"],
+      "answer": "Creates temporary view"
+    },
+    {
+      "id": 267,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is a SparkConf in PySpark?",
+      "options": ["Configuration for Spark", "DataFrame configuration", "RDD configuration", "Dataset configuration"],
+      "answer": "Configuration for Spark"
+    },
+    {
+      "id": 268,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does 'sql()' method do in PySpark?",
+      "options": ["Executes SQL queries", "Creates SQL tables", "Drops SQL tables", "Updates SQL tables"],
+      "answer": "Executes SQL queries"
+    },
+    {
+      "id": 269,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is a SparkContext in PySpark?",
+      "options": ["Main entry point for Spark", "DataFrame context", "RDD context", "Dataset context"],
+      "answer": "Main entry point for Spark"
+    },
+    {
+      "id": 270,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does 'registerTempTable()' do in PySpark?",
+      "options": ["Registers DataFrame as temporary table", "Registers DataFrame as permanent table", "Registers DataFrame as view", "Registers DataFrame as database"],
+      "answer": "Registers DataFrame as temporary table"
+    },
+    {
+      "id": 271,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is a SparkConf in PySpark?",
+      "options": ["Configuration object", "DataFrame object", "RDD object", "Dataset object"],
+      "answer": "Configuration object"
+    },
+    {
+      "id": 272,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does 'cache()' method do in PySpark?",
+      "options": ["Caches DataFrame in memory", "Caches DataFrame to disk", "Caches DataFrame to database", "Caches DataFrame to file"],
+      "answer": "Caches DataFrame in memory"
+    },
+    {
+      "id": 273,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is a SparkSession in PySpark?",
+      "options": ["Unified entry point", "DataFrame entry point", "RDD entry point", "Dataset entry point"],
+      "answer": "Unified entry point"
+    },
+    {
+      "id": 274,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does 'createDataFrame()' do in PySpark?",
+      "options": ["Creates DataFrame from data", "Creates DataFrame from file", "Creates DataFrame from database", "Creates DataFrame from view"],
+      "answer": "Creates DataFrame from data"
+    },
+    {
+      "id": 275,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is a DataFrame in PySpark?",
+      "options": ["Distributed collection of data", "Local collection of data", "Single data point", "Database table"],
+      "answer": "Distributed collection of data"
+    },
+    {
+      "id": 276,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is PySpark primarily used for?",
+      "options": ["Web development", "Data processing", "Game development", "Mobile apps"],
+      "answer": "Data processing"
+    },
+    {
+      "id": 277,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which of the following is NOT a PySpark data structure?",
+      "options": ["DataFrame", "RDD", "Dataset", "Array"],
+      "answer": "Array"
+    },
+    {
+      "id": 278,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does RDD stand for?",
+      "options": ["Resilient Distributed Dataset", "Random Data Distribution", "Real-time Data Display", "Relational Data Definition"],
+      "answer": "Resilient Distributed Dataset"
+    },
+    {
+      "id": 279,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method is used to create a DataFrame in PySpark?",
+      "options": ["createDataFrame()", "newDataFrame()", "makeDataFrame()", "buildDataFrame()"],
+      "answer": "createDataFrame()"
+    },
+    {
+      "id": 280,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is the main advantage of PySpark over pandas?",
+      "options": ["Better performance", "Distributed processing", "Easier syntax", "Smaller memory usage"],
+      "answer": "Distributed processing"
+    },
+    {
+      "id": 281,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which function is used to read a CSV file in PySpark?",
+      "options": ["read.csv()", "spark.read.csv()", "load_csv()", "import_csv()"],
+      "answer": "spark.read.csv()"
+    },
+    {
+      "id": 282,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does 'show()' method do in PySpark?",
+      "options": ["Displays the DataFrame", "Saves the DataFrame", "Filters the DataFrame", "Sorts the DataFrame"],
+      "answer": "Displays the DataFrame"
+    },
+    {
+      "id": 283,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method is used to select columns in PySpark DataFrame?",
+      "options": ["select()", "choose()", "pick()", "get()"],
+      "answer": "select()"
+    },
+    {
+      "id": 284,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does 'filter()' method do in PySpark?",
+      "options": ["Removes columns", "Filters rows based on condition", "Sorts data", "Groups data"],
+      "answer": "Filters rows based on condition"
+    },
+    {
+      "id": 285,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method is used to group data in PySpark?",
+      "options": ["group()", "groupBy()", "cluster()", "bunch()"],
+      "answer": "groupBy()"
+    },
+    {
+      "id": 286,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does 'distinct()' method do in PySpark?",
+      "options": ["Removes duplicates", "Adds duplicates", "Sorts data", "Filters data"],
+      "answer": "Removes duplicates"
+    },
+    {
+      "id": 287,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method is used to rename columns in PySpark?",
+      "options": ["rename()", "withColumnRenamed()", "changeName()", "updateName()"],
+      "answer": "withColumnRenamed()"
+    },
+    {
+      "id": 288,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does 'limit()' method do in PySpark?",
+      "options": ["Limits rows", "Limits columns", "Limits memory", "Limits processing"],
+      "answer": "Limits rows"
+    },
+    {
+      "id": 289,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method is used to add new columns in PySpark?",
+      "options": ["addColumn()", "withColumn()", "newColumn()", "createColumn()"],
+      "answer": "withColumn()"
+    },
+    {
+      "id": 290,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does 'union()' method do in PySpark?",
+      "options": ["Combines DataFrames", "Splits DataFrames", "Filters DataFrames", "Sorts DataFrames"],
+      "answer": "Combines DataFrames"
+    },
+    {
+      "id": 291,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What is the purpose of 'cache()' method in PySpark?",
+      "options": ["Save data to disk", "Store data in memory", "Compress data", "Encrypt data"],
+      "answer": "Store data in memory"
+    },
+    {
+      "id": 292,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method is used to join DataFrames in PySpark?",
+      "options": ["join()", "merge()", "combine()", "connect()"],
+      "answer": "join()"
+    },
+    {
+      "id": 293,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does 'collect()' method do in PySpark?",
+      "options": ["Gathers all data to driver", "Saves data to file", "Filters data", "Sorts data"],
+      "answer": "Gathers all data to driver"
+    },
+    {
+      "id": 294,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method is used to sort data in PySpark?",
+      "options": ["sort()", "order()", "arrange()", "sequence()"],
+      "answer": "sort()"
+    },
+    {
+      "id": 295,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What is the difference between 'map()' and 'flatMap()' in PySpark?",
+      "options": ["No difference", "map() returns 1:1, flatMap() can return 0:many", "flatMap() is faster", "map() is more memory efficient"],
+      "answer": "map() returns 1:1, flatMap() can return 0:many"
+    }
+  ]
+}
