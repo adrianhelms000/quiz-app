@@ -1,0 +1,246 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the output of 'print(2 + 3)'?",
+      "options": ["5", "6", "7", "I don't know"],
+      "answer": "5"
+    },
+    {
+      "id": 2,
+      "subject": "python",
+      "level": 1,
+      "question": "Which of the following is a valid Python variable name?",
+      "options": ["2variable", "variable_name", "var-name", "class"],
+      "answer": "variable_name"
+    },
+    {
+      "id": 3,
+      "subject": "python",
+      "level": 1,
+      "question": "What does the 'type()' function return?",
+      "options": ["The data type of a variable", "The length of a string", "The size of a list", "The value of a variable"],
+      "answer": "The data type of a variable"
+    },
+    {
+      "id": 4,
+      "subject": "python",
+      "level": 1,
+      "question": "How do you create a list in Python?",
+      "options": ["list()", "[]", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 5,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of 10 // 3 in Python?",
+      "options": ["3.33", "3", "4", "3.0"],
+      "answer": "3"
+    },
+    {
+      "id": 6,
+      "subject": "python",
+      "level": 1,
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": ["^", "**", "pow()", "exp()"],
+      "answer": "**"
+    },
+    {
+      "id": 7,
+      "subject": "python",
+      "level": 1,
+      "question": "What does 'Hello' + 'World' produce?",
+      "options": ["HelloWorld", "Hello World", "Error", "Hello+World"],
+      "answer": "HelloWorld"
+    },
+    {
+      "id": 8,
+      "subject": "python",
+      "level": 1,
+      "question": "Which function is used to get user input in Python?",
+      "options": ["input()", "get_input()", "read()", "scan()"],
+      "answer": "input()"
+    },
+    {
+      "id": 9,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the index of the first element in a Python list?",
+      "options": ["1", "0", "-1", "first"],
+      "answer": "0"
+    },
+    {
+      "id": 10,
+      "subject": "python",
+      "level": 1,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "define", "func"],
+      "answer": "def"
+    },
+    {
+      "id": 11,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of 'Hello' * 3 in Python?",
+      "options": ["HelloHelloHello", "Hello3", "Error", "Hello Hello Hello"],
+      "answer": "HelloHelloHello"
+    },
+    {
+      "id": 12,
+      "subject": "python",
+      "level": 1,
+      "question": "Which function is used to convert a string to uppercase?",
+      "options": ["upper()", "uppercase()", "toUpper()", "capitalize()"],
+      "answer": "upper()"
+    },
+    {
+      "id": 13,
+      "subject": "python",
+      "level": 1,
+      "question": "What does the 'strip()' method do?",
+      "options": ["Removes whitespace", "Adds spaces", "Splits strings", "Joins strings"],
+      "answer": "Removes whitespace"
+    },
+    {
+      "id": 14,
+      "subject": "python",
+      "level": 1,
+      "question": "Which operator is used for floor division?",
+      "options": ["/", "//", "%", "**"],
+      "answer": "//"
+    },
+    {
+      "id": 15,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of '5' + '3' in Python?",
+      "options": ["8", "53", "Error", "15"],
+      "answer": "53"
+    },
+    {
+      "id": 16,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'range(5)' function generate?",
+      "options": ["[0,1,2,3,4]", "[1,2,3,4,5]", "[0,1,2,3,4,5]", "Error"],
+      "answer": "[0,1,2,3,4]"
+    },
+    {
+      "id": 17,
+      "subject": "python",
+      "level": 2,
+      "question": "How do you check if a key exists in a dictionary?",
+      "options": ["key in dict", "dict.has_key()", "dict.exists()", "dict.contains()"],
+      "answer": "key in dict"
+    },
+    {
+      "id": 18,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'enumerate()' function do?",
+      "options": ["Counts elements", "Returns index and value pairs", "Sorts a list", "Filters elements"],
+      "answer": "Returns index and value pairs"
+    },
+    {
+      "id": 19,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to add an element to the end of a list?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "answer": "append()"
+    },
+    {
+      "id": 20,
+      "subject": "python",
+      "level": 2,
+      "question": "What does 'len()' function return?",
+      "options": ["The length of a string", "The length of a list", "The length of any iterable", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 21,
+      "subject": "python",
+      "level": 2,
+      "question": "How do you create a tuple in Python?",
+      "options": ["tuple()", "()", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 22,
+      "subject": "python",
+      "level": 2,
+      "question": "What is the difference between '==' and 'is' in Python?",
+      "options": ["No difference", "== compares values, is compares identity", "is compares values, == compares identity", "Both compare values"],
+      "answer": "== compares values, is compares identity"
+    },
+    {
+      "id": 23,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method removes the last element from a list?",
+      "options": ["remove()", "pop()", "delete()", "clear()"],
+      "answer": "pop()"
+    },
+    {
+      "id": 24,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'split()' method do on a string?",
+      "options": ["Joins strings", "Splits string into a list", "Removes spaces", "Converts to lowercase"],
+      "answer": "Splits string into a list"
+    },
+    {
+      "id": 25,
+      "subject": "python",
+      "level": 2,
+      "question": "How do you create a set in Python?",
+      "options": ["set()", "{}", "Both A and B", "None of the above"],
+      "answer": "set()"
+    },
+    {
+      "id": 26,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to find the index of an element in a list?",
+      "options": ["index()", "find()", "search()", "locate()"],
+      "answer": "index()"
+    },
+    {
+      "id": 27,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'zip()' function do?",
+      "options": ["Compresses files", "Combines iterables", "Extracts files", "Sorts data"],
+      "answer": "Combines iterables"
+    },
+    {
+      "id": 28,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to reverse a list?",
+      "options": ["reverse()", "flip()", "backwards()", "invert()"],
+      "answer": "reverse()"
+    },
+    {
+      "id": 29,
+      "subject": "python",
+      "level": 2,
+      "question": "What does the 'sorted()' function return?",
+      "options": ["A sorted list", "A sorted tuple", "A sorted string", "A new sorted list"],
+      "answer": "A new sorted list"
+    },
+    {
+      "id": 30,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method is used to count occurrences in a list?",
+      "options": ["count()", "occurrences()", "frequency()", "times()"],
+      "answer": "count()"
+    }
+  ]
+}
+
+

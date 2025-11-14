@@ -1,0 +1,1954 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the output of `print(1 + 4)`?",
+      "options": [
+        "14",
+        "5",
+        "1 4",
+        "Error"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": 2,
+      "subject": "python",
+      "level": 1,
+      "question": "Which keyword creates a function in Python?",
+      "options": [
+        "function",
+        "def",
+        "lambda",
+        "fn"
+      ],
+      "answer": "def"
+    },
+    {
+      "id": 3,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the output of `print('Python'[0])`?",
+      "options": [
+        "P",
+        "Py",
+        "n",
+        "Error"
+      ],
+      "answer": "P"
+    },
+    {
+      "id": 4,
+      "subject": "python",
+      "level": 1,
+      "question": "Which literal creates an empty dictionary?",
+      "options": [
+        "{}",
+        "[]",
+        "()",
+        "set()"
+      ],
+      "answer": "{}"
+    },
+    {
+      "id": 5,
+      "subject": "python",
+      "level": 1,
+      "question": "Which operator checks whether two values are equal?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "!="
+      ],
+      "answer": "=="
+    },
+    {
+      "id": 6,
+      "subject": "python",
+      "level": 1,
+      "question": "What does `type(3.0)` return?",
+      "options": [
+        "<class 'int'>",
+        "<class 'float'>",
+        "float",
+        "3"
+      ],
+      "answer": "<class 'float'>"
+    },
+    {
+      "id": 7,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the output of `print(len([1, 2, 3]))`?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Error"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 8,
+      "subject": "python",
+      "level": 1,
+      "question": "Which call converts the string `'7'` into the integer 7?",
+      "options": [
+        "int('7')",
+        "str('7')",
+        "float('7')",
+        "eval(7)"
+      ],
+      "answer": "int('7')"
+    },
+    {
+      "id": 9,
+      "subject": "python",
+      "level": 1,
+      "question": "What does `print(True and False)` output?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "1"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 10,
+      "subject": "python",
+      "level": 1,
+      "question": "How do you start a single-line comment in Python?",
+      "options": [
+        "#",
+        "//",
+        "<!--",
+        "--"
+      ],
+      "answer": "#"
+    },
+    {
+      "id": 11,
+      "subject": "python",
+      "level": 1,
+      "question": "What is the result of `print('hello'.upper())`?",
+      "options": [
+        "HELLO",
+        "Hello",
+        "hello",
+        "Error"
+      ],
+      "answer": "HELLO"
+    },
+    {
+      "id": 12,
+      "subject": "python",
+      "level": 1,
+      "question": "What does `print(4 != 5)` output?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "0"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 13,
+      "subject": "python",
+      "level": 1,
+      "question": "Which built-in data type stores `True` or `False` values?",
+      "options": [
+        "bool",
+        "int",
+        "str",
+        "set"
+      ],
+      "answer": "bool"
+    },
+    {
+      "id": 14,
+      "subject": "python",
+      "level": 1,
+      "question": "What does `input()` return by default?",
+      "options": [
+        "A string",
+        "An integer",
+        "A list",
+        "Nothing"
+      ],
+      "answer": "A string"
+    },
+    {
+      "id": 15,
+      "subject": "python",
+      "level": 1,
+      "question": "Which operator concatenates two strings like `'Py'` and `'thon'`?",
+      "options": [
+        "+",
+        "*",
+        "&",
+        "%"
+      ],
+      "answer": "+"
+    },
+    {
+      "id": 16,
+      "subject": "python",
+      "level": 2,
+      "question": "What is the output of `list(range(2, 6))`?",
+      "options": [
+        "[2, 3, 4, 5]",
+        "[2, 3, 4, 5, 6]",
+        "[3, 4, 5]",
+        "[6, 5, 4, 3]"
+      ],
+      "answer": "[2, 3, 4, 5]"
+    },
+    {
+      "id": 17,
+      "subject": "python",
+      "level": 2,
+      "question": "What does `'python'.replace('p', 'P')` return?",
+      "options": [
+        "Python",
+        "ppython",
+        "PYTHON",
+        "Error"
+      ],
+      "answer": "Python"
+    },
+    {
+      "id": 18,
+      "subject": "python",
+      "level": 2,
+      "question": "Which method appends the value 4 to the list `numbers`?",
+      "options": [
+        "numbers.append(4)",
+        "numbers.add(4)",
+        "append(numbers, 4)",
+        "numbers.push(4)"
+      ],
+      "answer": "numbers.append(4)"
+    },
+    {
+      "id": 19,
+      "subject": "python",
+      "level": 2,
+      "question": "What is the result of `'a' in ['a', 'b']`?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "'a'"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 20,
+      "subject": "python",
+      "level": 2,
+      "question": "What does `'Hello {} {}'.format('to', 'you')` produce?",
+      "options": [
+        "Hello to you",
+        "Hello %s %s",
+        "Hello{}{}",
+        "Error"
+      ],
+      "answer": "Hello to you"
+    },
+    {
+      "id": 21,
+      "subject": "python",
+      "level": 2,
+      "question": "How many times does `for i in range(3):` iterate?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Until break"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 22,
+      "subject": "python",
+      "level": 2,
+      "question": "What index does `'alpha'.find('p')` return?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "-1"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 23,
+      "subject": "python",
+      "level": 2,
+      "question": "What does `'banana'.count('a')` return?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 24,
+      "subject": "python",
+      "level": 2,
+      "question": "What is the output of `'alpha-beta'.split('-')`?",
+      "options": [
+        "['alpha', 'beta']",
+        "['alpha-beta']",
+        "['a', 'b', 'c']",
+        "[['alpha'], ['beta']]"
+      ],
+      "answer": "['alpha', 'beta']"
+    },
+    {
+      "id": 25,
+      "subject": "python",
+      "level": 2,
+      "question": "What does `'  spaced  '.strip()` return?",
+      "options": [
+        "spaced",
+        " spaced ",
+        "['spaced']",
+        "None"
+      ],
+      "answer": "spaced"
+    },
+    {
+      "id": 26,
+      "subject": "python",
+      "level": 2,
+      "question": "Which keyword skips to the next iteration of a loop?",
+      "options": [
+        "continue",
+        "skip",
+        "pass",
+        "break"
+      ],
+      "answer": "continue"
+    },
+    {
+      "id": 27,
+      "subject": "python",
+      "level": 2,
+      "question": "What does `sum([1, 2, 3, 4])` return?",
+      "options": [
+        "10",
+        "9",
+        "4",
+        "[1, 2, 3, 4]"
+      ],
+      "answer": "10"
+    },
+    {
+      "id": 28,
+      "subject": "python",
+      "level": 2,
+      "question": "Which call opens `data.txt` for reading text?",
+      "options": [
+        "open('data.txt', 'r')",
+        "open('data.txt', 'w')",
+        "open('data.txt', 'rb')",
+        "read('data.txt')"
+      ],
+      "answer": "open('data.txt', 'r')"
+    },
+    {
+      "id": 29,
+      "subject": "python",
+      "level": 2,
+      "question": "What does `'python'[2:5]` evaluate to?",
+      "options": [
+        "'tho'",
+        "'pyt'",
+        "'hon'",
+        "'pyth'"
+      ],
+      "answer": "'tho'"
+    },
+    {
+      "id": 30,
+      "subject": "python",
+      "level": 2,
+      "question": "Which built-in returns the smallest value in `values`?",
+      "options": [
+        "min(values)",
+        "smallest(values)",
+        "values.min()",
+        "reduce(values)"
+      ],
+      "answer": "min(values)"
+    },
+    {
+      "id": 31,
+      "subject": "python",
+      "level": 3,
+      "question": "What does `enumerate(['a', 'b'], start=1)` yield on its first iteration?",
+      "options": [
+        "(0, 'a')",
+        "(1, 'a')",
+        "['a', 1]",
+        "('a', 1)"
+      ],
+      "answer": "(1, 'a')"
+    },
+    {
+      "id": 32,
+      "subject": "python",
+      "level": 3,
+      "question": "Which keyword inside a function turns it into a generator?",
+      "options": [
+        "yield",
+        "return",
+        "next",
+        "async"
+      ],
+      "answer": "yield"
+    },
+    {
+      "id": 33,
+      "subject": "python",
+      "level": 3,
+      "question": "What is the result of `[n * 2 for n in range(3)]`?",
+      "options": [
+        "[0, 2, 4]",
+        "[2, 4, 6]",
+        "[0, 1, 2]",
+        "[6]"
+      ],
+      "answer": "[0, 2, 4]"
+    },
+    {
+      "id": 34,
+      "subject": "python",
+      "level": 3,
+      "question": "What does `{'a': 1}.get('b', 0)` return?",
+      "options": [
+        "1",
+        "0",
+        "None",
+        "'b'"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 35,
+      "subject": "python",
+      "level": 3,
+      "question": "Which statement raises a `ValueError` with the message 'bad data'?",
+      "options": [
+        "raise ValueError('bad data')",
+        "ValueError('bad data')",
+        "throw ValueError('bad data')",
+        "error ValueError('bad data')"
+      ],
+      "answer": "raise ValueError('bad data')"
+    },
+    {
+      "id": 36,
+      "subject": "python",
+      "level": 3,
+      "question": "What does `'Python'.lower()` return?",
+      "options": [
+        "'python'",
+        "'PYTHON'",
+        "'Python'",
+        "None"
+      ],
+      "answer": "'python'"
+    },
+    {
+      "id": 37,
+      "subject": "python",
+      "level": 3,
+      "question": "What does `list(zip([1, 2], [3, 4]))` produce?",
+      "options": [
+        "[(1, 3), (2, 4)]",
+        "[[1, 3], [2, 4]]",
+        "[1, 2, 3, 4]",
+        "{(1, 3), (2, 4)}"
+      ],
+      "answer": "[(1, 3), (2, 4)]"
+    },
+    {
+      "id": 38,
+      "subject": "python",
+      "level": 3,
+      "question": "Which comprehension maps numbers 1..3 to their cubes?",
+      "options": [
+        "{n: n ** 3 for n in range(1, 4)}",
+        "[n ** 3 for n in range(3)]",
+        "(n ** 3 for n in range(3))",
+        "{n ** 3: n for n in range(3)}"
+      ],
+      "answer": "{n: n ** 3 for n in range(1, 4)}"
+    },
+    {
+      "id": 39,
+      "subject": "python",
+      "level": 3,
+      "question": "What is the output of `sorted(['b', 'a', 'c'], reverse=True)`?",
+      "options": [
+        "['c', 'b', 'a']",
+        "['a', 'b', 'c']",
+        "['b', 'c', 'a']",
+        "('c', 'b', 'a')"
+      ],
+      "answer": "['c', 'b', 'a']"
+    },
+    {
+      "id": 40,
+      "subject": "python",
+      "level": 3,
+      "question": "Accessing `data['missing']` on `data = {}` raises which exception?",
+      "options": [
+        "KeyError",
+        "IndexError",
+        "TypeError",
+        "NameError"
+      ],
+      "answer": "KeyError"
+    },
+    {
+      "id": 41,
+      "subject": "python",
+      "level": 3,
+      "question": "What does `all([True, 1, 'x'])` evaluate to?",
+      "options": [
+        "True",
+        "False",
+        "1",
+        "'x'"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 42,
+      "subject": "python",
+      "level": 3,
+      "question": "Which module provides the `datetime.date` class?",
+      "options": [
+        "datetime",
+        "time",
+        "calendar",
+        "dateutil"
+      ],
+      "answer": "datetime"
+    },
+    {
+      "id": 43,
+      "subject": "python",
+      "level": 3,
+      "question": "What does `'1,2,3'.split(',', 1)` return?",
+      "options": [
+        "['1', '2,3']",
+        "['1', '2', '3']",
+        "['1,2', '3']",
+        "['1 2 3']"
+      ],
+      "answer": "['1', '2,3']"
+    },
+    {
+      "id": 44,
+      "subject": "python",
+      "level": 3,
+      "question": "Which guard ensures code runs only when a module is executed directly?",
+      "options": [
+        "if __name__ == '__main__':",
+        "if __main__ == '__name__':",
+        "if main():",
+        "if __file__ == '__main__':"
+      ],
+      "answer": "if __name__ == '__main__':"
+    },
+    {
+      "id": 45,
+      "subject": "python",
+      "level": 3,
+      "question": "What is the result of `sum(i for i in range(4))`?",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "10"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": 46,
+      "subject": "python",
+      "level": 4,
+      "question": "What does `collections.Counter('mississippi')['s']` return?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": 47,
+      "subject": "python",
+      "level": 4,
+      "question": "Which operator computes the intersection of sets `a` and `b`?",
+      "options": [
+        "a & b",
+        "a | b",
+        "a - b",
+        "a ^ b"
+      ],
+      "answer": "a & b"
+    },
+    {
+      "id": 48,
+      "subject": "python",
+      "level": 4,
+      "question": "What is the output of `list(reversed([1, 2, 3, 4]))`?",
+      "options": [
+        "[4, 3, 2, 1]",
+        "[1, 2, 3, 4]",
+        "[4, 2, 3, 1]",
+        "[1, 3, 2, 4]"
+      ],
+      "answer": "[4, 3, 2, 1]"
+    },
+    {
+      "id": 49,
+      "subject": "python",
+      "level": 4,
+      "question": "What does `dict(sorted({'b': 2, 'a': 1}.items()))` evaluate to?",
+      "options": [
+        "{'a': 1, 'b': 2}",
+        "{'b': 2, 'a': 1}",
+        "['a', 'b']",
+        "(('a', 1), ('b', 2))"
+      ],
+      "answer": "{'a': 1, 'b': 2}"
+    },
+    {
+      "id": 50,
+      "subject": "python",
+      "level": 4,
+      "question": "Which method removes key `'x'` from dictionary `data`, returning 0 if it is missing?",
+      "options": [
+        "data.pop('x', 0)",
+        "data.remove('x', 0)",
+        "del data['x', 0]",
+        "data.discard('x', 0)"
+      ],
+      "answer": "data.pop('x', 0)"
+    },
+    {
+      "id": 51,
+      "subject": "python",
+      "level": 4,
+      "question": "Which statement best describes the difference between a list and a tuple?",
+      "options": [
+        "Lists are mutable, tuples are immutable",
+        "Lists store numbers, tuples store strings",
+        "Tuples are slower than lists",
+        "Lists cannot be iterated"
+      ],
+      "answer": "Lists are mutable, tuples are immutable"
+    },
+    {
+      "id": 52,
+      "subject": "python",
+      "level": 4,
+      "question": "What does `set(['a', 'a', 'b'])` return?",
+      "options": [
+        "{'a', 'b'}",
+        "['a', 'b']",
+        "{'a', 'a', 'b'}",
+        "('a', 'b')"
+      ],
+      "answer": "{'a', 'b'}"
+    },
+    {
+      "id": 53,
+      "subject": "python",
+      "level": 4,
+      "question": "Which expression makes a shallow copy of list `items`?",
+      "options": [
+        "items.copy()",
+        "copy(items, shallow=True)",
+        "items.clone()",
+        "items[:] == deep copy"
+      ],
+      "answer": "items.copy()"
+    },
+    {
+      "id": 54,
+      "subject": "python",
+      "level": 4,
+      "question": "Which module provides the `deque` type?",
+      "options": [
+        "collections",
+        "array",
+        "queue",
+        "heapq"
+      ],
+      "answer": "collections"
+    },
+    {
+      "id": 55,
+      "subject": "python",
+      "level": 4,
+      "question": "Which method on `deque` adds an element to the left end?",
+      "options": [
+        "appendleft",
+        "append",
+        "pushleft",
+        "insertleft"
+      ],
+      "answer": "appendleft"
+    },
+    {
+      "id": 56,
+      "subject": "python",
+      "level": 4,
+      "question": "What does `sorted({'a': 1, 'b': 2}.keys())` return?",
+      "options": [
+        "['a', 'b']",
+        "['b', 'a']",
+        "['a', 'b', 1, 2]",
+        "['a:1', 'b:2']"
+      ],
+      "answer": "['a', 'b']"
+    },
+    {
+      "id": 57,
+      "subject": "python",
+      "level": 4,
+      "question": "Which expression merges dictionaries `first` and `second` into a new dictionary in Python 3.9+?",
+      "options": [
+        "first | second",
+        "merge(first, second)",
+        "first + second",
+        "dict(first, second)"
+      ],
+      "answer": "first | second"
+    },
+    {
+      "id": 58,
+      "subject": "python",
+      "level": 4,
+      "question": "What is the result of `pathlib.Path('folder') / 'file.txt'` when converted to a string?",
+      "options": [
+        "'folder/file.txt'",
+        "'folder\\\file.txt'",
+        "'folder:file.txt'",
+        "'folder&file.txt'"
+      ],
+      "answer": "'folder/file.txt'"
+    },
+    {
+      "id": 59,
+      "subject": "python",
+      "level": 4,
+      "question": "Which built-in function returns the number of elements in a set `items`?",
+      "options": [
+        "len(items)",
+        "count(items)",
+        "size(items)",
+        "items.length()"
+      ],
+      "answer": "len(items)"
+    },
+    {
+      "id": 60,
+      "subject": "python",
+      "level": 4,
+      "question": "What does `sorted({3, 1, 2})` return?",
+      "options": [
+        "[1, 2, 3]",
+        "{1, 2, 3}",
+        "(1, 2, 3)",
+        "[3, 2, 1]"
+      ],
+      "answer": "[1, 2, 3]"
+    },
+    {
+      "id": 61,
+      "subject": "python",
+      "level": 5,
+      "question": "What does the parameter `*args` collect in a function definition?",
+      "options": [
+        "Extra positional arguments",
+        "Extra keyword arguments",
+        "Only integers",
+        "Environment variables"
+      ],
+      "answer": "Extra positional arguments"
+    },
+    {
+      "id": 62,
+      "subject": "python",
+      "level": 5,
+      "question": "What does the parameter `**kwargs` collect?",
+      "options": [
+        "Extra keyword arguments",
+        "Extra positional arguments",
+        "Only strings",
+        "Return values"
+      ],
+      "answer": "Extra keyword arguments"
+    },
+    {
+      "id": 63,
+      "subject": "python",
+      "level": 5,
+      "question": "Which module provides the `lru_cache` decorator?",
+      "options": [
+        "functools",
+        "itertools",
+        "collections",
+        "typing"
+      ],
+      "answer": "functools"
+    },
+    {
+      "id": 64,
+      "subject": "python",
+      "level": 5,
+      "question": "What is returned by `sorted([('b', 2), ('a', 1)], key=lambda x: x[0])`?",
+      "options": [
+        "[('a', 1), ('b', 2)]",
+        "[('b', 2), ('a', 1)]",
+        "(('a', 1), ('b', 2))",
+        "{'a': 1, 'b': 2}"
+      ],
+      "answer": "[('a', 1), ('b', 2)]"
+    },
+    {
+      "id": 65,
+      "subject": "python",
+      "level": 5,
+      "question": "Which decorator preserves the metadata of the wrapped function?",
+      "options": [
+        "functools.wraps",
+        "functools.cache",
+        "functools.partial",
+        "functools.reduce"
+      ],
+      "answer": "functools.wraps"
+    },
+    {
+      "id": 66,
+      "subject": "python",
+      "level": 5,
+      "question": "What does `list(map(str, [1, 2, 3]))` produce?",
+      "options": [
+        "['1', '2', '3']",
+        "['str', 'str', 'str']",
+        "[1, 2, 3]",
+        "('1', '2', '3')"
+      ],
+      "answer": "['1', '2', '3']"
+    },
+    {
+      "id": 67,
+      "subject": "python",
+      "level": 5,
+      "question": "Which statement can be used as a placeholder inside a function body?",
+      "options": [
+        "pass",
+        "skip",
+        "noop",
+        "continue"
+      ],
+      "answer": "pass"
+    },
+    {
+      "id": 68,
+      "subject": "python",
+      "level": 5,
+      "question": "What does `locals()` return when called inside a function?",
+      "options": [
+        "A dictionary of the current local variables",
+        "A list of global variables",
+        "The module namespace",
+        "Only function arguments"
+      ],
+      "answer": "A dictionary of the current local variables"
+    },
+    {
+      "id": 69,
+      "subject": "python",
+      "level": 5,
+      "question": "Which import statement aliases the `math` module as `m`?",
+      "options": [
+        "import math as m",
+        "from math import m",
+        "import m as math",
+        "from math import * as m"
+      ],
+      "answer": "import math as m"
+    },
+    {
+      "id": 70,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the output of `[fn(2) for fn in (lambda x: x + 1, lambda x: x * 2)]`?",
+      "options": [
+        "[3, 4]",
+        "[2, 2]",
+        "[1, 4]",
+        "[3, 6]"
+      ],
+      "answer": "[3, 4]"
+    },
+    {
+      "id": 71,
+      "subject": "python",
+      "level": 5,
+      "question": "Which symbol in a function signature marks the start of keyword-only parameters?",
+      "options": [
+        "*",
+        "**",
+        "&",
+        "->"
+      ],
+      "answer": "*"
+    },
+    {
+      "id": 72,
+      "subject": "python",
+      "level": 5,
+      "question": "What value does a function return when it finishes without a `return` statement?",
+      "options": [
+        "None",
+        "0",
+        "False",
+        "''"
+      ],
+      "answer": "None"
+    },
+    {
+      "id": 73,
+      "subject": "python",
+      "level": 5,
+      "question": "What does the `nonlocal` keyword do inside a nested function?",
+      "options": [
+        "Refers to a variable in the nearest enclosing scope",
+        "Creates a global variable",
+        "Declares a constant",
+        "Imports a module"
+      ],
+      "answer": "Refers to a variable in the nearest enclosing scope"
+    },
+    {
+      "id": 74,
+      "subject": "python",
+      "level": 5,
+      "question": "What is the output of `(lambda a, b=3: a + b)(2)`?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "None"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": 75,
+      "subject": "python",
+      "level": 5,
+      "question": "Which statement best describes a closure?",
+      "options": [
+        "A function that retains bindings of free variables from its lexical scope",
+        "A function without parameters",
+        "A module-level constant",
+        "A loop that closes files"
+      ],
+      "answer": "A function that retains bindings of free variables from its lexical scope"
+    },
+    {
+      "id": 76,
+      "subject": "python",
+      "level": 6,
+      "question": "What does the `@staticmethod` decorator do inside a class?",
+      "options": [
+        "Defines a method that receives no implicit first argument",
+        "Defines a method that receives the class",
+        "Enables operator overloading",
+        "Creates a property"
+      ],
+      "answer": "Defines a method that receives no implicit first argument"
+    },
+    {
+      "id": 77,
+      "subject": "python",
+      "level": 6,
+      "question": "Which special method initializes new instances of a class?",
+      "options": [
+        "__init__",
+        "__new__",
+        "__repr__",
+        "__call__"
+      ],
+      "answer": "__init__"
+    },
+    {
+      "id": 78,
+      "subject": "python",
+      "level": 6,
+      "question": "What does the name `self` conventionally refer to in instance methods?",
+      "options": [
+        "The instance on which the method was called",
+        "The class that defines the method",
+        "A global variable",
+        "A module alias"
+      ],
+      "answer": "The instance on which the method was called"
+    },
+    {
+      "id": 79,
+      "subject": "python",
+      "level": 6,
+      "question": "Which built-in retrieves an attribute with a fallback value?",
+      "options": [
+        "getattr(obj, 'name', None)",
+        "attr(obj, 'name', None)",
+        "obj.get('name', None)",
+        "lookup(obj, 'name')"
+      ],
+      "answer": "getattr(obj, 'name', None)"
+    },
+    {
+      "id": 80,
+      "subject": "python",
+      "level": 6,
+      "question": "What does `hasattr(obj, 'attr')` return?",
+      "options": [
+        "True if the object has the attribute",
+        "The attribute value",
+        "A list of attributes",
+        "Raises AttributeError"
+      ],
+      "answer": "True if the object has the attribute"
+    },
+    {
+      "id": 81,
+      "subject": "python",
+      "level": 6,
+      "question": "Which class definition correctly inherits from `Base`?",
+      "options": [
+        "class Child(Base):",
+        "class Child <- Base:",
+        "class Child: Base",
+        "class Child in Base:"
+      ],
+      "answer": "class Child(Base):"
+    },
+    {
+      "id": 82,
+      "subject": "python",
+      "level": 6,
+      "question": "What does `isinstance(5, (int, float))` evaluate to?",
+      "options": [
+        "True",
+        "False",
+        "5",
+        "TypeError"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 83,
+      "subject": "python",
+      "level": 6,
+      "question": "Which special method should return a developer-friendly representation of an object?",
+      "options": [
+        "__repr__",
+        "__str__",
+        "__len__",
+        "__iter__"
+      ],
+      "answer": "__repr__"
+    },
+    {
+      "id": 84,
+      "subject": "python",
+      "level": 6,
+      "question": "What does the `@property` decorator create?",
+      "options": [
+        "A managed attribute with getter logic",
+        "A static method",
+        "A private variable",
+        "A module-level constant"
+      ],
+      "answer": "A managed attribute with getter logic"
+    },
+    {
+      "id": 85,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the effect of defining `__slots__` in a class?",
+      "options": [
+        "Restricts allowable instance attributes",
+        "Makes the class abstract",
+        "Automatically serializes instances",
+        "Improves inheritance resolution"
+      ],
+      "answer": "Restricts allowable instance attributes"
+    },
+    {
+      "id": 86,
+      "subject": "python",
+      "level": 6,
+      "question": "Which module provides the `dataclass` decorator?",
+      "options": [
+        "dataclasses",
+        "collections",
+        "types",
+        "inspect"
+      ],
+      "answer": "dataclasses"
+    },
+    {
+      "id": 87,
+      "subject": "python",
+      "level": 6,
+      "question": "What does `super().__init__()` typically do inside a subclass?",
+      "options": [
+        "Calls the base class initializer",
+        "Deletes the base class",
+        "Creates a static method",
+        "Invokes garbage collection"
+      ],
+      "answer": "Calls the base class initializer"
+    },
+    {
+      "id": 88,
+      "subject": "python",
+      "level": 6,
+      "question": "What is the output of `type(type)`?",
+      "options": [
+        "<class 'type'>",
+        "<class 'object'>",
+        "type",
+        "'type'"
+      ],
+      "answer": "<class 'type'>"
+    },
+    {
+      "id": 89,
+      "subject": "python",
+      "level": 6,
+      "question": "In a class method, what does the first parameter `cls` represent?",
+      "options": [
+        "The class itself",
+        "The instance",
+        "A closure",
+        "A constant"
+      ],
+      "answer": "The class itself"
+    },
+    {
+      "id": 90,
+      "subject": "python",
+      "level": 6,
+      "question": "What does `vars(obj)` return for a regular instance with a `__dict__`?",
+      "options": [
+        "A dictionary of the instance attributes",
+        "A tuple of attribute names",
+        "The module namespace",
+        "The built-in globals"
+      ],
+      "answer": "A dictionary of the instance attributes"
+    },
+    {
+      "id": 91,
+      "subject": "python",
+      "level": 7,
+      "question": "What does `list(itertools.chain([1, 2], [3]))` return?",
+      "options": [
+        "[1, 2, 3]",
+        "[(1, 2), 3]",
+        "[1, [2, 3]]",
+        "{1, 2, 3}"
+      ],
+      "answer": "[1, 2, 3]"
+    },
+    {
+      "id": 92,
+      "subject": "python",
+      "level": 7,
+      "question": "Which method of the iterator protocol should return the iterator object itself?",
+      "options": [
+        "__iter__",
+        "__next__",
+        "__repr__",
+        "__len__"
+      ],
+      "answer": "__iter__"
+    },
+    {
+      "id": 93,
+      "subject": "python",
+      "level": 7,
+      "question": "What does `next(iter('abc'))` return?",
+      "options": [
+        "'a'",
+        "'ab'",
+        "('a',)",
+        "0"
+      ],
+      "answer": "'a'"
+    },
+    {
+      "id": 94,
+      "subject": "python",
+      "level": 7,
+      "question": "Which comprehension builds a set of even squares below 10?",
+      "options": [
+        "{n ** 2 for n in range(5) if n % 2 == 0}",
+        "[n ** 2 for n in range(5) if n % 2 == 0]",
+        "(n ** 2 for n in range(5) if n % 2 == 0)",
+        "{n for n in range(5)}"
+      ],
+      "answer": "{n ** 2 for n in range(5) if n % 2 == 0}"
+    },
+    {
+      "id": 95,
+      "subject": "python",
+      "level": 7,
+      "question": "What is the effect of the slice `values[::-1]`?",
+      "options": [
+        "Returns a reversed copy",
+        "Removes the last element",
+        "Returns only even elements",
+        "Sorts ascending"
+      ],
+      "answer": "Returns a reversed copy"
+    },
+    {
+      "id": 96,
+      "subject": "python",
+      "level": 7,
+      "question": "What does `any([])` return?",
+      "options": [
+        "False",
+        "True",
+        "None",
+        "Raises ValueError"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 97,
+      "subject": "python",
+      "level": 7,
+      "question": "Which function from `itertools` creates combinations of length 2?",
+      "options": [
+        "itertools.combinations",
+        "itertools.permutations",
+        "itertools.product",
+        "itertools.accumulate"
+      ],
+      "answer": "itertools.combinations"
+    },
+    {
+      "id": 98,
+      "subject": "python",
+      "level": 7,
+      "question": "What does `sum(1 for _ in open('file.txt'))` compute?",
+      "options": [
+        "The number of lines in the file",
+        "The sum of file contents",
+        "The file size in bytes",
+        "Whether the file exists"
+      ],
+      "answer": "The number of lines in the file"
+    },
+    {
+      "id": 99,
+      "subject": "python",
+      "level": 7,
+      "question": "Which statement about generator expressions is true?",
+      "options": [
+        "They produce items lazily on demand",
+        "They must be converted to lists before use",
+        "They consume more memory than lists",
+        "They cannot contain conditions"
+      ],
+      "answer": "They produce items lazily on demand"
+    },
+    {
+      "id": 100,
+      "subject": "python",
+      "level": 7,
+      "question": "What does `list(map(lambda x: x ** 2, filter(lambda x: x % 2 == 0, range(5))))` return?",
+      "options": [
+        "[0, 4, 16]",
+        "[1, 4, 9]",
+        "[0, 2, 4]",
+        "[4, 16, 25]"
+      ],
+      "answer": "[0, 4, 16]"
+    },
+    {
+      "id": 101,
+      "subject": "python",
+      "level": 7,
+      "question": "Which function pairs elements from iterables, filling missing values with `None`?",
+      "options": [
+        "itertools.zip_longest",
+        "zip",
+        "zip_all",
+        "itertools.chain"
+      ],
+      "answer": "itertools.zip_longest"
+    },
+    {
+      "id": 102,
+      "subject": "python",
+      "level": 7,
+      "question": "What does the first iteration of `enumerate('ab', start=3)` yield?",
+      "options": [
+        "(3, 'a')",
+        "(0, 'a')",
+        "(1, 'a')",
+        "('a', 3)"
+      ],
+      "answer": "(3, 'a')"
+    },
+    {
+      "id": 103,
+      "subject": "python",
+      "level": 7,
+      "question": "Which expression flattens `[[1, 2], [3]]` into a single list?",
+      "options": [
+        "[item for sub in [[1, 2], [3]] for item in sub]",
+        "sum([[1, 2], [3]])",
+        "flatten([[1, 2], [3]])",
+        "list(chain([[1, 2], [3]]))"
+      ],
+      "answer": "[item for sub in [[1, 2], [3]] for item in sub]"
+    },
+    {
+      "id": 104,
+      "subject": "python",
+      "level": 7,
+      "question": "What is the result of `sorted({1, 4, 2}, key=lambda x: -x)`?",
+      "options": [
+        "[4, 2, 1]",
+        "[1, 2, 4]",
+        "{4, 2, 1}",
+        "(4, 2, 1)"
+      ],
+      "answer": "[4, 2, 1]"
+    },
+    {
+      "id": 105,
+      "subject": "python",
+      "level": 7,
+      "question": "What does `list(itertools.product('ab', repeat=2))` return?",
+      "options": [
+        "[('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')]",
+        "['aa', 'ab', 'ba', 'bb']",
+        "[('a', 'b'), ('b', 'a')]",
+        "[('ab',), ('ba',)]"
+      ],
+      "answer": "[('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')]"
+    },
+    {
+      "id": 106,
+      "subject": "python",
+      "level": 8,
+      "question": "What does the `@contextlib.contextmanager` decorator help you build?",
+      "options": [
+        "A context manager from a generator function",
+        "An asynchronous coroutine",
+        "A dataclass",
+        "A compiled extension"
+      ],
+      "answer": "A context manager from a generator function"
+    },
+    {
+      "id": 107,
+      "subject": "python",
+      "level": 8,
+      "question": "What effect does `@functools.lru_cache(maxsize=128)` have on a function?",
+      "options": [
+        "Caches recent call results",
+        "Runs the function in a new thread",
+        "Validates argument types",
+        "Encrypts return values"
+      ],
+      "answer": "Caches recent call results"
+    },
+    {
+      "id": 108,
+      "subject": "python",
+      "level": 8,
+      "question": "Which module provides the `@singledispatch` decorator?",
+      "options": [
+        "functools",
+        "itertools",
+        "collections",
+        "abc"
+      ],
+      "answer": "functools"
+    },
+    {
+      "id": 109,
+      "subject": "python",
+      "level": 8,
+      "question": "What does `asyncio.run(coro())` do?",
+      "options": [
+        "Creates and runs a new event loop to complete the coroutine",
+        "Starts a new thread",
+        "Compiles the coroutine to C",
+        "Schedules the coroutine without running it"
+      ],
+      "answer": "Creates and runs a new event loop to complete the coroutine"
+    },
+    {
+      "id": 110,
+      "subject": "python",
+      "level": 8,
+      "question": "Which keyword must be used inside an async function to wait for another coroutine?",
+      "options": [
+        "await",
+        "yield",
+        "defer",
+        "async"
+      ],
+      "answer": "await"
+    },
+    {
+      "id": 111,
+      "subject": "python",
+      "level": 8,
+      "question": "What does `inspect.signature(func)` return?",
+      "options": [
+        "A Signature object describing the function parameters",
+        "The source code",
+        "The function's docstring",
+        "The return value of the function"
+      ],
+      "answer": "A Signature object describing the function parameters"
+    },
+    {
+      "id": 112,
+      "subject": "python",
+      "level": 8,
+      "question": "Which statement automatically closes a file after use?",
+      "options": [
+        "with open('data.txt') as f:",
+        "f = open('data.txt');",
+        "close(open('data.txt'))",
+        "open('data.txt', 'r').close()"
+      ],
+      "answer": "with open('data.txt') as f:"
+    },
+    {
+      "id": 113,
+      "subject": "python",
+      "level": 8,
+      "question": "What advantage does `decimal.Decimal('0.1')` provide over `0.1` as a float?",
+      "options": [
+        "Exact decimal representation",
+        "Faster arithmetic",
+        "Lower memory usage",
+        "Automatic caching"
+      ],
+      "answer": "Exact decimal representation"
+    },
+    {
+      "id": 114,
+      "subject": "python",
+      "level": 8,
+      "question": "Which module supplies the `Fraction` type for rational numbers?",
+      "options": [
+        "fractions",
+        "decimal",
+        "numbers",
+        "math"
+      ],
+      "answer": "fractions"
+    },
+    {
+      "id": 115,
+      "subject": "python",
+      "level": 8,
+      "question": "What does `contextlib.suppress(FileNotFoundError)` do?",
+      "options": [
+        "Ignores the specified exception within the block",
+        "Retries the block automatically",
+        "Logs the exception and stops",
+        "Converts the exception to a warning"
+      ],
+      "answer": "Ignores the specified exception within the block"
+    },
+    {
+      "id": 116,
+      "subject": "python",
+      "level": 8,
+      "question": "What does `functools.partial` return?",
+      "options": [
+        "A new function with some arguments fixed",
+        "A cached result",
+        "An iterator",
+        "An abstract base class"
+      ],
+      "answer": "A new function with some arguments fixed"
+    },
+    {
+      "id": 117,
+      "subject": "python",
+      "level": 8,
+      "question": "Which module provides `TypedDict` for describing dictionary shapes?",
+      "options": [
+        "typing",
+        "types",
+        "collections",
+        "dataclasses"
+      ],
+      "answer": "typing"
+    },
+    {
+      "id": 118,
+      "subject": "python",
+      "level": 8,
+      "question": "What is `async with` used for?",
+      "options": [
+        "Managing asynchronous context managers",
+        "Entering a thread lock",
+        "Defining a coroutine",
+        "Declaring a module"
+      ],
+      "answer": "Managing asynchronous context managers"
+    },
+    {
+      "id": 119,
+      "subject": "python",
+      "level": 8,
+      "question": "What does `timeit.timeit(stmt, number=1000)` measure?",
+      "options": [
+        "Execution time of running the statement repeatedly",
+        "CPU usage",
+        "Memory allocations",
+        "Number of bytecode instructions"
+      ],
+      "answer": "Execution time of running the statement repeatedly"
+    },
+    {
+      "id": 120,
+      "subject": "python",
+      "level": 8,
+      "question": "What does `@dataclass(frozen=True)` enforce?",
+      "options": [
+        "Immutability of dataclass instances",
+        "Automatic hashing is disabled",
+        "All fields must be optional",
+        "Nested dataclasses are rejected"
+      ],
+      "answer": "Immutability of dataclass instances"
+    },
+    {
+      "id": 121,
+      "subject": "python",
+      "level": 9,
+      "question": "What happens when a class is defined with `metaclass=CustomMeta`?",
+      "options": [
+        "`CustomMeta` controls how the class is created",
+        "Instances inherit from `CustomMeta`",
+        "The class becomes abstract",
+        "The class cannot be subclassed"
+      ],
+      "answer": "`CustomMeta` controls how the class is created"
+    },
+    {
+      "id": 122,
+      "subject": "python",
+      "level": 9,
+      "question": "Which special method is called when an attribute is accessed but not found on an object?",
+      "options": [
+        "__getattr__",
+        "__getattribute__",
+        "__setattr__",
+        "__dir__"
+      ],
+      "answer": "__getattr__"
+    },
+    {
+      "id": 123,
+      "subject": "python",
+      "level": 9,
+      "question": "What does overriding `__setattr__` allow you to intercept?",
+      "options": [
+        "Assignments to attributes",
+        "Attribute reads",
+        "Method calls",
+        "Object creation"
+      ],
+      "answer": "Assignments to attributes"
+    },
+    {
+      "id": 124,
+      "subject": "python",
+      "level": 9,
+      "question": "Which method must a context manager implement to enter the runtime context?",
+      "options": [
+        "__enter__",
+        "__call__",
+        "__context__",
+        "__with__"
+      ],
+      "answer": "__enter__"
+    },
+    {
+      "id": 125,
+      "subject": "python",
+      "level": 9,
+      "question": "What does inheriting from `abc.ABC` provide?",
+      "options": [
+        "Support for abstract base classes",
+        "Automatic serialization",
+        "Thread safety",
+        "Garbage collection hooks"
+      ],
+      "answer": "Support for abstract base classes"
+    },
+    {
+      "id": 126,
+      "subject": "python",
+      "level": 9,
+      "question": "Which decorator marks a method as abstract?",
+      "options": [
+        "@abstractmethod",
+        "@staticmethod",
+        "@classmethod",
+        "@abc"
+      ],
+      "answer": "@abstractmethod"
+    },
+    {
+      "id": 127,
+      "subject": "python",
+      "level": 9,
+      "question": "What does `isinstance(obj, collections.abc.Iterable)` check?",
+      "options": [
+        "Whether the object can be iterated",
+        "Whether the object is a list",
+        "Whether the object is hashable",
+        "Whether the object is numeric"
+      ],
+      "answer": "Whether the object can be iterated"
+    },
+    {
+      "id": 128,
+      "subject": "python",
+      "level": 9,
+      "question": "Which special method customizes object creation before initialization?",
+      "options": [
+        "__new__",
+        "__init__",
+        "__call__",
+        "__prepare__"
+      ],
+      "answer": "__new__"
+    },
+    {
+      "id": 129,
+      "subject": "python",
+      "level": 9,
+      "question": "What capability does implementing `__call__` give an object?",
+      "options": [
+        "Allows the object to be called like a function",
+        "Allows the object to be copied",
+        "Allows the object to be iterated",
+        "Allows the object to be serialized"
+      ],
+      "answer": "Allows the object to be called like a function"
+    },
+    {
+      "id": 130,
+      "subject": "python",
+      "level": 9,
+      "question": "Which module defines `Protocol` for structural subtyping?",
+      "options": [
+        "typing",
+        "abc",
+        "inspect",
+        "types"
+      ],
+      "answer": "typing"
+    },
+    {
+      "id": 131,
+      "subject": "python",
+      "level": 9,
+      "question": "What does `inspect.getmro(MyClass)` return?",
+      "options": [
+        "A tuple of classes in the method resolution order",
+        "A dictionary of methods",
+        "The module where the class is defined",
+        "A list of abstract methods"
+      ],
+      "answer": "A tuple of classes in the method resolution order"
+    },
+    {
+      "id": 132,
+      "subject": "python",
+      "level": 9,
+      "question": "Which descriptor method is invoked when accessing an attribute via an instance?",
+      "options": [
+        "__get__",
+        "__set__",
+        "__delete__",
+        "__iter__"
+      ],
+      "answer": "__get__"
+    },
+    {
+      "id": 133,
+      "subject": "python",
+      "level": 9,
+      "question": "What does `weakref.ref(obj)` create?",
+      "options": [
+        "A weak reference that does not prevent garbage collection",
+        "A deep copy",
+        "A thread-safe wrapper",
+        "A serialized version of the object"
+      ],
+      "answer": "A weak reference that does not prevent garbage collection"
+    },
+    {
+      "id": 134,
+      "subject": "python",
+      "level": 9,
+      "question": "Which descriptor method handles attribute deletion?",
+      "options": [
+        "__delete__",
+        "__set__",
+        "__del__",
+        "__unset__"
+      ],
+      "answer": "__delete__"
+    },
+    {
+      "id": 135,
+      "subject": "python",
+      "level": 9,
+      "question": "What is the effect of defining `__all__` in a module?",
+      "options": [
+        "Controls which names are exported with `from module import *`",
+        "Disables wildcard imports",
+        "Deletes unused names",
+        "Enables type checking"
+      ],
+      "answer": "Controls which names are exported with `from module import *`"
+    },
+    {
+      "id": 136,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the key limitation imposed by CPython's Global Interpreter Lock (GIL)?",
+      "options": [
+        "Only one thread executes Python bytecode at a time",
+        "Threads cannot access the file system",
+        "Processes share the same memory",
+        "Asyncio cannot run"
+      ],
+      "answer": "Only one thread executes Python bytecode at a time"
+    },
+    {
+      "id": 137,
+      "subject": "python",
+      "level": 10,
+      "question": "Which module provides `ThreadPoolExecutor`?",
+      "options": [
+        "concurrent.futures",
+        "threading",
+        "multiprocessing",
+        "asyncio"
+      ],
+      "answer": "concurrent.futures"
+    },
+    {
+      "id": 138,
+      "subject": "python",
+      "level": 10,
+      "question": "What does `asyncio.gather` return when awaited?",
+      "options": [
+        "A collection of results from the awaited coroutines",
+        "A new event loop",
+        "A thread object",
+        "An iterator"
+      ],
+      "answer": "A collection of results from the awaited coroutines"
+    },
+    {
+      "id": 139,
+      "subject": "python",
+      "level": 10,
+      "question": "What is the purpose of `multiprocessing.Process`?",
+      "options": [
+        "Runs a function in a separate process",
+        "Creates a new thread",
+        "Caches results",
+        "Optimizes bytecode"
+      ],
+      "answer": "Runs a function in a separate process"
+    },
+    {
+      "id": 140,
+      "subject": "python",
+      "level": 10,
+      "question": "Which statement about `queue.Queue` is correct?",
+      "options": [
+        "It is safe for multiple threads to use",
+        "It can only store strings",
+        "It is read-only",
+        "It blocks the GIL"
+      ],
+      "answer": "It is safe for multiple threads to use"
+    },
+    {
+      "id": 141,
+      "subject": "python",
+      "level": 10,
+      "question": "What does `time.perf_counter()` provide?",
+      "options": [
+        "A high-resolution wall-clock timer",
+        "CPU usage statistics",
+        "Memory allocations",
+        "Thread identifiers"
+      ],
+      "answer": "A high-resolution wall-clock timer"
+    },
+    {
+      "id": 142,
+      "subject": "python",
+      "level": 10,
+      "question": "Which module can track memory allocations to help profiling?",
+      "options": [
+        "tracemalloc",
+        "gc",
+        "resource",
+        "profile"
+      ],
+      "answer": "tracemalloc"
+    },
+    {
+      "id": 143,
+      "subject": "python",
+      "level": 10,
+      "question": "What does `asyncio.create_task` do?",
+      "options": [
+        "Schedules a coroutine to run concurrently",
+        "Creates a new process",
+        "Blocks until coroutine finishes",
+        "Turns a coroutine into a thread"
+      ],
+      "answer": "Schedules a coroutine to run concurrently"
+    },
+    {
+      "id": 144,
+      "subject": "python",
+      "level": 10,
+      "question": "Which library is widely used for vectorized numerical operations in Python?",
+      "options": [
+        "NumPy",
+        "Pandas",
+        "Numba",
+        "Cython"
+      ],
+      "answer": "NumPy"
+    },
+    {
+      "id": 145,
+      "subject": "python",
+      "level": 10,
+      "question": "What happens if `threading.Lock().acquire()` is called when the lock is already held?",
+      "options": [
+        "The call blocks until the lock is released",
+        "It raises an exception",
+        "It returns False immediately",
+        "It creates a new lock"
+      ],
+      "answer": "The call blocks until the lock is released"
+    },
+    {
+      "id": 146,
+      "subject": "python",
+      "level": 10,
+      "question": "Which module provides `ProcessPoolExecutor`?",
+      "options": [
+        "concurrent.futures",
+        "multiprocessing.pool",
+        "subprocess",
+        "asyncio"
+      ],
+      "answer": "concurrent.futures"
+    },
+    {
+      "id": 147,
+      "subject": "python",
+      "level": 10,
+      "question": "What does `asyncio.Semaphore(3)` help control?",
+      "options": [
+        "The number of concurrent coroutines accessing a resource",
+        "The number of CPU cores",
+        "The maximum recursion depth",
+        "The size of the event loop"
+      ],
+      "answer": "The number of concurrent coroutines accessing a resource"
+    },
+    {
+      "id": 148,
+      "subject": "python",
+      "level": 10,
+      "question": "What does calling `gc.collect()` trigger?",
+      "options": [
+        "An explicit garbage collection cycle",
+        "Clearing of all caches",
+        "Thread synchronization",
+        "Compilation of bytecode"
+      ],
+      "answer": "An explicit garbage collection cycle"
+    },
+    {
+      "id": 149,
+      "subject": "python",
+      "level": 10,
+      "question": "Which tool collects deterministic profiling data for Python programs?",
+      "options": [
+        "cProfile",
+        "tracemalloc",
+        "line_profiler",
+        "timeit"
+      ],
+      "answer": "cProfile"
+    },
+    {
+      "id": 150,
+      "subject": "python",
+      "level": 10,
+      "question": "What benefit does using `multiprocessing.shared_memory` offer?",
+      "options": [
+        "Allows processes to share data without pickling",
+        "Creates threads instead of processes",
+        "Removes the need for synchronization",
+        "Automatically distributes tasks"
+      ],
+      "answer": "Allows processes to share data without pickling"
+    }
+  ]
+}
