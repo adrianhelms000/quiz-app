@@ -6,9 +6,9 @@
       "level": 1,
       "question": "What is the output of `print(1 + 4)`?",
       "options": [
-        "14",
         "5",
         "1 4",
+        "14",
         "Error"
       ],
       "answer": "5"
@@ -19,10 +19,10 @@
       "level": 1,
       "question": "Which keyword creates a function in Python?",
       "options": [
-        "function",
         "def",
-        "lambda",
-        "fn"
+        "function",
+        "fn",
+        "lambda"
       ],
       "answer": "def"
     },
@@ -33,9 +33,9 @@
       "question": "What is the output of `print('Python'[0])`?",
       "options": [
         "P",
+        "Error",
         "Py",
-        "n",
-        "Error"
+        "n"
       ],
       "answer": "P"
     },
@@ -47,8 +47,8 @@
       "options": [
         "{}",
         "[]",
-        "()",
-        "set()"
+        "set()",
+        "()"
       ],
       "answer": "{}"
     },
@@ -58,10 +58,10 @@
       "level": 1,
       "question": "Which operator checks whether two values are equal?",
       "options": [
-        "=",
-        "==",
         "===",
-        "!="
+        "!=",
+        "=",
+        "=="
       ],
       "answer": "=="
     },
@@ -71,9 +71,9 @@
       "level": 1,
       "question": "What does `type(3.0)` return?",
       "options": [
+        "float",
         "<class 'int'>",
         "<class 'float'>",
-        "float",
         "3"
       ],
       "answer": "<class 'float'>"
@@ -84,10 +84,10 @@
       "level": 1,
       "question": "What is the output of `print(len([1, 2, 3]))`?",
       "options": [
-        "2",
-        "3",
         "4",
-        "Error"
+        "3",
+        "Error",
+        "2"
       ],
       "answer": "3"
     },
@@ -97,9 +97,9 @@
       "level": 1,
       "question": "Which call converts the string `'7'` into the integer 7?",
       "options": [
-        "int('7')",
         "str('7')",
         "float('7')",
+        "int('7')",
         "eval(7)"
       ],
       "answer": "int('7')"
@@ -110,10 +110,10 @@
       "level": 1,
       "question": "What does `print(True and False)` output?",
       "options": [
-        "True",
         "False",
+        "1",
         "None",
-        "1"
+        "True"
       ],
       "answer": "False"
     },
@@ -124,8 +124,8 @@
       "question": "How do you start a single-line comment in Python?",
       "options": [
         "#",
-        "//",
         "<!--",
+        "//",
         "--"
       ],
       "answer": "#"
@@ -138,8 +138,8 @@
       "options": [
         "HELLO",
         "Hello",
-        "hello",
-        "Error"
+        "Error",
+        "hello"
       ],
       "answer": "HELLO"
     },
@@ -150,8 +150,8 @@
       "question": "What does `print(4 != 5)` output?",
       "options": [
         "True",
-        "False",
         "None",
+        "False",
         "0"
       ],
       "answer": "True"
@@ -162,10 +162,10 @@
       "level": 1,
       "question": "Which built-in data type stores `True` or `False` values?",
       "options": [
-        "bool",
-        "int",
         "str",
-        "set"
+        "bool",
+        "set",
+        "int"
       ],
       "answer": "bool"
     },
@@ -190,8 +190,8 @@
       "options": [
         "+",
         "*",
-        "&",
-        "%"
+        "%",
+        "&"
       ],
       "answer": "+"
     },
@@ -201,10 +201,10 @@
       "level": 2,
       "question": "What is the output of `list(range(2, 6))`?",
       "options": [
-        "[2, 3, 4, 5]",
-        "[2, 3, 4, 5, 6]",
         "[3, 4, 5]",
-        "[6, 5, 4, 3]"
+        "[6, 5, 4, 3]",
+        "[2, 3, 4, 5]",
+        "[2, 3, 4, 5, 6]"
       ],
       "answer": "[2, 3, 4, 5]"
     },
@@ -215,9 +215,9 @@
       "question": "What does `'python'.replace('p', 'P')` return?",
       "options": [
         "Python",
-        "ppython",
+        "Error",
         "PYTHON",
-        "Error"
+        "ppython"
       ],
       "answer": "Python"
     },
@@ -227,10 +227,10 @@
       "level": 2,
       "question": "Which method appends the value 4 to the list `numbers`?",
       "options": [
-        "numbers.append(4)",
+        "numbers.push(4)",
         "numbers.add(4)",
         "append(numbers, 4)",
-        "numbers.push(4)"
+        "numbers.append(4)"
       ],
       "answer": "numbers.append(4)"
     },
@@ -242,8 +242,8 @@
       "options": [
         "True",
         "False",
-        "None",
-        "'a'"
+        "'a'",
+        "None"
       ],
       "answer": "True"
     },
@@ -253,10 +253,10 @@
       "level": 2,
       "question": "What does `'Hello {} {}'.format('to', 'you')` produce?",
       "options": [
-        "Hello to you",
-        "Hello %s %s",
         "Hello{}{}",
-        "Error"
+        "Hello to you",
+        "Error",
+        "Hello %s %s"
       ],
       "answer": "Hello to you"
     },
@@ -266,10 +266,10 @@
       "level": 2,
       "question": "How many times does `for i in range(3):` iterate?",
       "options": [
-        "2",
         "3",
         "4",
-        "Until break"
+        "Until break",
+        "2"
       ],
       "answer": "3"
     },
@@ -281,8 +281,8 @@
       "options": [
         "1",
         "2",
-        "3",
-        "-1"
+        "-1",
+        "3"
       ],
       "answer": "2"
     },
@@ -292,10 +292,10 @@
       "level": 2,
       "question": "What does `'banana'.count('a')` return?",
       "options": [
-        "2",
-        "3",
+        "0",
         "4",
-        "0"
+        "2",
+        "3"
       ],
       "answer": "3"
     },
@@ -305,10 +305,10 @@
       "level": 2,
       "question": "What is the output of `'alpha-beta'.split('-')`?",
       "options": [
-        "['alpha', 'beta']",
         "['alpha-beta']",
-        "['a', 'b', 'c']",
-        "[['alpha'], ['beta']]"
+        "['alpha', 'beta']",
+        "[['alpha'], ['beta']]",
+        "['a', 'b', 'c']"
       ],
       "answer": "['alpha', 'beta']"
     },
@@ -318,10 +318,10 @@
       "level": 2,
       "question": "What does `'  spaced  '.strip()` return?",
       "options": [
-        "spaced",
         " spaced ",
-        "['spaced']",
-        "None"
+        "spaced",
+        "None",
+        "['spaced']"
       ],
       "answer": "spaced"
     },
@@ -332,9 +332,9 @@
       "question": "Which keyword skips to the next iteration of a loop?",
       "options": [
         "continue",
-        "skip",
+        "break",
         "pass",
-        "break"
+        "skip"
       ],
       "answer": "continue"
     },
@@ -344,10 +344,10 @@
       "level": 2,
       "question": "What does `sum([1, 2, 3, 4])` return?",
       "options": [
-        "10",
         "9",
         "4",
-        "[1, 2, 3, 4]"
+        "[1, 2, 3, 4]",
+        "10"
       ],
       "answer": "10"
     },
@@ -358,9 +358,9 @@
       "question": "Which call opens `data.txt` for reading text?",
       "options": [
         "open('data.txt', 'r')",
+        "read('data.txt')",
         "open('data.txt', 'w')",
-        "open('data.txt', 'rb')",
-        "read('data.txt')"
+        "open('data.txt', 'rb')"
       ],
       "answer": "open('data.txt', 'r')"
     },
@@ -370,9 +370,9 @@
       "level": 2,
       "question": "What does `'python'[2:5]` evaluate to?",
       "options": [
-        "'tho'",
         "'pyt'",
         "'hon'",
+        "'tho'",
         "'pyth'"
       ],
       "answer": "'tho'"
@@ -383,10 +383,10 @@
       "level": 2,
       "question": "Which built-in returns the smallest value in `values`?",
       "options": [
-        "min(values)",
-        "smallest(values)",
         "values.min()",
-        "reduce(values)"
+        "reduce(values)",
+        "smallest(values)",
+        "min(values)"
       ],
       "answer": "min(values)"
     },
@@ -396,9 +396,9 @@
       "level": 3,
       "question": "What does `enumerate(['a', 'b'], start=1)` yield on its first iteration?",
       "options": [
-        "(0, 'a')",
         "(1, 'a')",
         "['a', 1]",
+        "(0, 'a')",
         "('a', 1)"
       ],
       "answer": "(1, 'a')"
@@ -409,10 +409,10 @@
       "level": 3,
       "question": "Which keyword inside a function turns it into a generator?",
       "options": [
-        "yield",
         "return",
+        "async",
         "next",
-        "async"
+        "yield"
       ],
       "answer": "yield"
     },
@@ -422,10 +422,10 @@
       "level": 3,
       "question": "What is the result of `[n * 2 for n in range(3)]`?",
       "options": [
+        "[6]",
         "[0, 2, 4]",
-        "[2, 4, 6]",
         "[0, 1, 2]",
-        "[6]"
+        "[2, 4, 6]"
       ],
       "answer": "[0, 2, 4]"
     },
@@ -436,9 +436,9 @@
       "question": "What does `{'a': 1}.get('b', 0)` return?",
       "options": [
         "1",
-        "0",
         "None",
-        "'b'"
+        "'b'",
+        "0"
       ],
       "answer": "0"
     },
@@ -448,10 +448,10 @@
       "level": 3,
       "question": "Which statement raises a `ValueError` with the message 'bad data'?",
       "options": [
-        "raise ValueError('bad data')",
+        "error ValueError('bad data')",
         "ValueError('bad data')",
         "throw ValueError('bad data')",
-        "error ValueError('bad data')"
+        "raise ValueError('bad data')"
       ],
       "answer": "raise ValueError('bad data')"
     },
@@ -461,9 +461,9 @@
       "level": 3,
       "question": "What does `'Python'.lower()` return?",
       "options": [
-        "'python'",
-        "'PYTHON'",
         "'Python'",
+        "'PYTHON'",
+        "'python'",
         "None"
       ],
       "answer": "'python'"
@@ -474,9 +474,9 @@
       "level": 3,
       "question": "What does `list(zip([1, 2], [3, 4]))` produce?",
       "options": [
-        "[(1, 3), (2, 4)]",
         "[[1, 3], [2, 4]]",
         "[1, 2, 3, 4]",
+        "[(1, 3), (2, 4)]",
         "{(1, 3), (2, 4)}"
       ],
       "answer": "[(1, 3), (2, 4)]"
@@ -487,10 +487,10 @@
       "level": 3,
       "question": "Which comprehension maps numbers 1..3 to their cubes?",
       "options": [
+        "{n ** 3: n for n in range(3)}",
         "{n: n ** 3 for n in range(1, 4)}",
-        "[n ** 3 for n in range(3)]",
         "(n ** 3 for n in range(3))",
-        "{n ** 3: n for n in range(3)}"
+        "[n ** 3 for n in range(3)]"
       ],
       "answer": "{n: n ** 3 for n in range(1, 4)}"
     },
@@ -501,9 +501,9 @@
       "question": "What is the output of `sorted(['b', 'a', 'c'], reverse=True)`?",
       "options": [
         "['c', 'b', 'a']",
-        "['a', 'b', 'c']",
         "['b', 'c', 'a']",
-        "('c', 'b', 'a')"
+        "('c', 'b', 'a')",
+        "['a', 'b', 'c']"
       ],
       "answer": "['c', 'b', 'a']"
     },
@@ -513,10 +513,10 @@
       "level": 3,
       "question": "Accessing `data['missing']` on `data = {}` raises which exception?",
       "options": [
-        "KeyError",
-        "IndexError",
         "TypeError",
-        "NameError"
+        "NameError",
+        "KeyError",
+        "IndexError"
       ],
       "answer": "KeyError"
     },
@@ -526,10 +526,10 @@
       "level": 3,
       "question": "What does `all([True, 1, 'x'])` evaluate to?",
       "options": [
-        "True",
+        "'x'",
         "False",
-        "1",
-        "'x'"
+        "True",
+        "1"
       ],
       "answer": "True"
     },
@@ -539,10 +539,10 @@
       "level": 3,
       "question": "Which module provides the `datetime.date` class?",
       "options": [
+        "dateutil",
         "datetime",
         "time",
-        "calendar",
-        "dateutil"
+        "calendar"
       ],
       "answer": "datetime"
     },
@@ -553,8 +553,8 @@
       "question": "What does `'1,2,3'.split(',', 1)` return?",
       "options": [
         "['1', '2,3']",
-        "['1', '2', '3']",
         "['1,2', '3']",
+        "['1', '2', '3']",
         "['1 2 3']"
       ],
       "answer": "['1', '2,3']"
@@ -565,10 +565,10 @@
       "level": 3,
       "question": "Which guard ensures code runs only when a module is executed directly?",
       "options": [
-        "if __name__ == '__main__':",
-        "if __main__ == '__name__':",
+        "if __file__ == '__main__':",
         "if main():",
-        "if __file__ == '__main__':"
+        "if __name__ == '__main__':",
+        "if __main__ == '__name__':"
       ],
       "answer": "if __name__ == '__main__':"
     },
@@ -578,9 +578,9 @@
       "level": 3,
       "question": "What is the result of `sum(i for i in range(4))`?",
       "options": [
-        "6",
-        "4",
         "3",
+        "4",
+        "6",
         "10"
       ],
       "answer": "6"
@@ -591,10 +591,10 @@
       "level": 4,
       "question": "What does `collections.Counter('mississippi')['s']` return?",
       "options": [
-        "4",
         "3",
         "2",
-        "1"
+        "1",
+        "4"
       ],
       "answer": "4"
     },
@@ -605,9 +605,9 @@
       "question": "Which operator computes the intersection of sets `a` and `b`?",
       "options": [
         "a & b",
-        "a | b",
         "a - b",
-        "a ^ b"
+        "a ^ b",
+        "a | b"
       ],
       "answer": "a & b"
     },
@@ -617,10 +617,10 @@
       "level": 4,
       "question": "What is the output of `list(reversed([1, 2, 3, 4]))`?",
       "options": [
-        "[4, 3, 2, 1]",
-        "[1, 2, 3, 4]",
         "[4, 2, 3, 1]",
-        "[1, 3, 2, 4]"
+        "[4, 3, 2, 1]",
+        "[1, 3, 2, 4]",
+        "[1, 2, 3, 4]"
       ],
       "answer": "[4, 3, 2, 1]"
     },
@@ -630,10 +630,10 @@
       "level": 4,
       "question": "What does `dict(sorted({'b': 2, 'a': 1}.items()))` evaluate to?",
       "options": [
-        "{'a': 1, 'b': 2}",
         "{'b': 2, 'a': 1}",
+        "(('a', 1), ('b', 2))",
         "['a', 'b']",
-        "(('a', 1), ('b', 2))"
+        "{'a': 1, 'b': 2}"
       ],
       "answer": "{'a': 1, 'b': 2}"
     },
@@ -644,9 +644,9 @@
       "question": "Which method removes key `'x'` from dictionary `data`, returning 0 if it is missing?",
       "options": [
         "data.pop('x', 0)",
+        "data.discard('x', 0)",
         "data.remove('x', 0)",
-        "del data['x', 0]",
-        "data.discard('x', 0)"
+        "del data['x', 0]"
       ],
       "answer": "data.pop('x', 0)"
     },
@@ -656,10 +656,10 @@
       "level": 4,
       "question": "Which statement best describes the difference between a list and a tuple?",
       "options": [
-        "Lists are mutable, tuples are immutable",
-        "Lists store numbers, tuples store strings",
+        "Lists cannot be iterated",
         "Tuples are slower than lists",
-        "Lists cannot be iterated"
+        "Lists store numbers, tuples store strings",
+        "Lists are mutable, tuples are immutable"
       ],
       "answer": "Lists are mutable, tuples are immutable"
     },
@@ -669,10 +669,10 @@
       "level": 4,
       "question": "What does `set(['a', 'a', 'b'])` return?",
       "options": [
-        "{'a', 'b'}",
-        "['a', 'b']",
         "{'a', 'a', 'b'}",
-        "('a', 'b')"
+        "['a', 'b']",
+        "('a', 'b')",
+        "{'a', 'b'}"
       ],
       "answer": "{'a', 'b'}"
     },
@@ -682,10 +682,10 @@
       "level": 4,
       "question": "Which expression makes a shallow copy of list `items`?",
       "options": [
-        "items.copy()",
+        "items[:] == deep copy",
         "copy(items, shallow=True)",
-        "items.clone()",
-        "items[:] == deep copy"
+        "items.copy()",
+        "items.clone()"
       ],
       "answer": "items.copy()"
     },
@@ -695,9 +695,9 @@
       "level": 4,
       "question": "Which module provides the `deque` type?",
       "options": [
-        "collections",
         "array",
         "queue",
+        "collections",
         "heapq"
       ],
       "answer": "collections"
@@ -709,9 +709,9 @@
       "question": "Which method on `deque` adds an element to the left end?",
       "options": [
         "appendleft",
-        "append",
+        "insertleft",
         "pushleft",
-        "insertleft"
+        "append"
       ],
       "answer": "appendleft"
     },
@@ -722,9 +722,9 @@
       "question": "What does `sorted({'a': 1, 'b': 2}.keys())` return?",
       "options": [
         "['a', 'b']",
-        "['b', 'a']",
+        "['a:1', 'b:2']",
         "['a', 'b', 1, 2]",
-        "['a:1', 'b:2']"
+        "['b', 'a']"
       ],
       "answer": "['a', 'b']"
     },
@@ -735,8 +735,8 @@
       "question": "Which expression merges dictionaries `first` and `second` into a new dictionary in Python 3.9+?",
       "options": [
         "first | second",
-        "merge(first, second)",
         "first + second",
+        "merge(first, second)",
         "dict(first, second)"
       ],
       "answer": "first | second"
@@ -747,10 +747,10 @@
       "level": 4,
       "question": "What is the result of `pathlib.Path('folder') / 'file.txt'` when converted to a string?",
       "options": [
-        "'folder/file.txt'",
-        "'folder\\\file.txt'",
         "'folder:file.txt'",
-        "'folder&file.txt'"
+        "'folder\\\file.txt'",
+        "'folder&file.txt'",
+        "'folder/file.txt'"
       ],
       "answer": "'folder/file.txt'"
     },
@@ -760,10 +760,10 @@
       "level": 4,
       "question": "Which built-in function returns the number of elements in a set `items`?",
       "options": [
-        "len(items)",
-        "count(items)",
+        "items.length()",
         "size(items)",
-        "items.length()"
+        "len(items)",
+        "count(items)"
       ],
       "answer": "len(items)"
     },
@@ -773,10 +773,10 @@
       "level": 4,
       "question": "What does `sorted({3, 1, 2})` return?",
       "options": [
-        "[1, 2, 3]",
+        "[3, 2, 1]",
         "{1, 2, 3}",
         "(1, 2, 3)",
-        "[3, 2, 1]"
+        "[1, 2, 3]"
       ],
       "answer": "[1, 2, 3]"
     },
@@ -786,9 +786,9 @@
       "level": 5,
       "question": "What does the parameter `*args` collect in a function definition?",
       "options": [
-        "Extra positional arguments",
         "Extra keyword arguments",
         "Only integers",
+        "Extra positional arguments",
         "Environment variables"
       ],
       "answer": "Extra positional arguments"
@@ -801,8 +801,8 @@
       "options": [
         "Extra keyword arguments",
         "Extra positional arguments",
-        "Only strings",
-        "Return values"
+        "Return values",
+        "Only strings"
       ],
       "answer": "Extra keyword arguments"
     },
@@ -812,10 +812,10 @@
       "level": 5,
       "question": "Which module provides the `lru_cache` decorator?",
       "options": [
-        "functools",
+        "typing",
         "itertools",
         "collections",
-        "typing"
+        "functools"
       ],
       "answer": "functools"
     },
@@ -826,8 +826,8 @@
       "question": "What is returned by `sorted([('b', 2), ('a', 1)], key=lambda x: x[0])`?",
       "options": [
         "[('a', 1), ('b', 2)]",
-        "[('b', 2), ('a', 1)]",
         "(('a', 1), ('b', 2))",
+        "[('b', 2), ('a', 1)]",
         "{'a': 1, 'b': 2}"
       ],
       "answer": "[('a', 1), ('b', 2)]"
@@ -838,9 +838,9 @@
       "level": 5,
       "question": "Which decorator preserves the metadata of the wrapped function?",
       "options": [
+        "functools.partial",
         "functools.wraps",
         "functools.cache",
-        "functools.partial",
         "functools.reduce"
       ],
       "answer": "functools.wraps"
@@ -851,10 +851,10 @@
       "level": 5,
       "question": "What does `list(map(str, [1, 2, 3]))` produce?",
       "options": [
-        "['1', '2', '3']",
         "['str', 'str', 'str']",
-        "[1, 2, 3]",
-        "('1', '2', '3')"
+        "('1', '2', '3')",
+        "['1', '2', '3']",
+        "[1, 2, 3]"
       ],
       "answer": "['1', '2', '3']"
     },
@@ -864,10 +864,10 @@
       "level": 5,
       "question": "Which statement can be used as a placeholder inside a function body?",
       "options": [
-        "pass",
-        "skip",
         "noop",
-        "continue"
+        "skip",
+        "continue",
+        "pass"
       ],
       "answer": "pass"
     },
@@ -877,10 +877,10 @@
       "level": 5,
       "question": "What does `locals()` return when called inside a function?",
       "options": [
-        "A dictionary of the current local variables",
-        "A list of global variables",
         "The module namespace",
-        "Only function arguments"
+        "A dictionary of the current local variables",
+        "Only function arguments",
+        "A list of global variables"
       ],
       "answer": "A dictionary of the current local variables"
     },
@@ -890,10 +890,10 @@
       "level": 5,
       "question": "Which import statement aliases the `math` module as `m`?",
       "options": [
+        "from math import * as m",
         "import math as m",
         "from math import m",
-        "import m as math",
-        "from math import * as m"
+        "import m as math"
       ],
       "answer": "import math as m"
     },
@@ -903,10 +903,10 @@
       "level": 5,
       "question": "What is the output of `[fn(2) for fn in (lambda x: x + 1, lambda x: x * 2)]`?",
       "options": [
-        "[3, 4]",
-        "[2, 2]",
         "[1, 4]",
-        "[3, 6]"
+        "[3, 4]",
+        "[3, 6]",
+        "[2, 2]"
       ],
       "answer": "[3, 4]"
     },
@@ -917,8 +917,8 @@
       "question": "Which symbol in a function signature marks the start of keyword-only parameters?",
       "options": [
         "*",
-        "**",
         "&",
+        "**",
         "->"
       ],
       "answer": "*"
@@ -929,10 +929,10 @@
       "level": 5,
       "question": "What value does a function return when it finishes without a `return` statement?",
       "options": [
-        "None",
         "0",
-        "False",
-        "''"
+        "None",
+        "''",
+        "False"
       ],
       "answer": "None"
     },
@@ -943,9 +943,9 @@
       "question": "What does the `nonlocal` keyword do inside a nested function?",
       "options": [
         "Refers to a variable in the nearest enclosing scope",
-        "Creates a global variable",
         "Declares a constant",
-        "Imports a module"
+        "Imports a module",
+        "Creates a global variable"
       ],
       "answer": "Refers to a variable in the nearest enclosing scope"
     },
@@ -955,10 +955,10 @@
       "level": 5,
       "question": "What is the output of `(lambda a, b=3: a + b)(2)`?",
       "options": [
-        "5",
-        "3",
+        "None",
         "2",
-        "None"
+        "5",
+        "3"
       ],
       "answer": "5"
     },
@@ -968,10 +968,10 @@
       "level": 5,
       "question": "Which statement best describes a closure?",
       "options": [
-        "A function that retains bindings of free variables from its lexical scope",
         "A function without parameters",
+        "A loop that closes files",
         "A module-level constant",
-        "A loop that closes files"
+        "A function that retains bindings of free variables from its lexical scope"
       ],
       "answer": "A function that retains bindings of free variables from its lexical scope"
     },
@@ -983,8 +983,8 @@
       "options": [
         "Defines a method that receives no implicit first argument",
         "Defines a method that receives the class",
-        "Enables operator overloading",
-        "Creates a property"
+        "Creates a property",
+        "Enables operator overloading"
       ],
       "answer": "Defines a method that receives no implicit first argument"
     },
@@ -994,10 +994,10 @@
       "level": 6,
       "question": "Which special method initializes new instances of a class?",
       "options": [
-        "__init__",
         "__new__",
-        "__repr__",
-        "__call__"
+        "__init__",
+        "__call__",
+        "__repr__"
       ],
       "answer": "__init__"
     },
@@ -1007,10 +1007,10 @@
       "level": 6,
       "question": "What does the name `self` conventionally refer to in instance methods?",
       "options": [
-        "The instance on which the method was called",
-        "The class that defines the method",
+        "A module alias",
         "A global variable",
-        "A module alias"
+        "The class that defines the method",
+        "The instance on which the method was called"
       ],
       "answer": "The instance on which the method was called"
     },
@@ -1021,8 +1021,8 @@
       "question": "Which built-in retrieves an attribute with a fallback value?",
       "options": [
         "getattr(obj, 'name', None)",
-        "attr(obj, 'name', None)",
         "obj.get('name', None)",
+        "attr(obj, 'name', None)",
         "lookup(obj, 'name')"
       ],
       "answer": "getattr(obj, 'name', None)"
@@ -1033,10 +1033,10 @@
       "level": 6,
       "question": "What does `hasattr(obj, 'attr')` return?",
       "options": [
+        "Raises AttributeError",
         "True if the object has the attribute",
         "The attribute value",
-        "A list of attributes",
-        "Raises AttributeError"
+        "A list of attributes"
       ],
       "answer": "True if the object has the attribute"
     },
@@ -1046,10 +1046,10 @@
       "level": 6,
       "question": "Which class definition correctly inherits from `Base`?",
       "options": [
-        "class Child(Base):",
-        "class Child <- Base:",
+        "class Child in Base:",
         "class Child: Base",
-        "class Child in Base:"
+        "class Child <- Base:",
+        "class Child(Base):"
       ],
       "answer": "class Child(Base):"
     },
@@ -1059,10 +1059,10 @@
       "level": 6,
       "question": "What does `isinstance(5, (int, float))` evaluate to?",
       "options": [
-        "True",
+        "TypeError",
         "False",
-        "5",
-        "TypeError"
+        "True",
+        "5"
       ],
       "answer": "True"
     },
@@ -1072,10 +1072,10 @@
       "level": 6,
       "question": "Which special method should return a developer-friendly representation of an object?",
       "options": [
-        "__repr__",
-        "__str__",
         "__len__",
-        "__iter__"
+        "__str__",
+        "__iter__",
+        "__repr__"
       ],
       "answer": "__repr__"
     },
@@ -1098,10 +1098,10 @@
       "level": 6,
       "question": "What is the effect of defining `__slots__` in a class?",
       "options": [
-        "Restricts allowable instance attributes",
         "Makes the class abstract",
+        "Improves inheritance resolution",
         "Automatically serializes instances",
-        "Improves inheritance resolution"
+        "Restricts allowable instance attributes"
       ],
       "answer": "Restricts allowable instance attributes"
     },
@@ -1111,10 +1111,10 @@
       "level": 6,
       "question": "Which module provides the `dataclass` decorator?",
       "options": [
-        "dataclasses",
-        "collections",
+        "inspect",
         "types",
-        "inspect"
+        "collections",
+        "dataclasses"
       ],
       "answer": "dataclasses"
     },
@@ -1137,10 +1137,10 @@
       "level": 6,
       "question": "What is the output of `type(type)`?",
       "options": [
-        "<class 'type'>",
+        "'type'",
         "<class 'object'>",
-        "type",
-        "'type'"
+        "<class 'type'>",
+        "type"
       ],
       "answer": "<class 'type'>"
     },
@@ -1151,9 +1151,9 @@
       "question": "In a class method, what does the first parameter `cls` represent?",
       "options": [
         "The class itself",
-        "The instance",
         "A closure",
-        "A constant"
+        "A constant",
+        "The instance"
       ],
       "answer": "The class itself"
     },
@@ -1163,10 +1163,10 @@
       "level": 6,
       "question": "What does `vars(obj)` return for a regular instance with a `__dict__`?",
       "options": [
-        "A dictionary of the instance attributes",
         "A tuple of attribute names",
         "The module namespace",
-        "The built-in globals"
+        "The built-in globals",
+        "A dictionary of the instance attributes"
       ],
       "answer": "A dictionary of the instance attributes"
     },
@@ -1176,10 +1176,10 @@
       "level": 7,
       "question": "What does `list(itertools.chain([1, 2], [3]))` return?",
       "options": [
-        "[1, 2, 3]",
         "[(1, 2), 3]",
+        "{1, 2, 3}",
         "[1, [2, 3]]",
-        "{1, 2, 3}"
+        "[1, 2, 3]"
       ],
       "answer": "[1, 2, 3]"
     },
@@ -1189,10 +1189,10 @@
       "level": 7,
       "question": "Which method of the iterator protocol should return the iterator object itself?",
       "options": [
-        "__iter__",
         "__next__",
         "__repr__",
-        "__len__"
+        "__len__",
+        "__iter__"
       ],
       "answer": "__iter__"
     },
@@ -1203,9 +1203,9 @@
       "question": "What does `next(iter('abc'))` return?",
       "options": [
         "'a'",
-        "'ab'",
         "('a',)",
-        "0"
+        "0",
+        "'ab'"
       ],
       "answer": "'a'"
     },
@@ -1215,10 +1215,10 @@
       "level": 7,
       "question": "Which comprehension builds a set of even squares below 10?",
       "options": [
-        "{n ** 2 for n in range(5) if n % 2 == 0}",
-        "[n ** 2 for n in range(5) if n % 2 == 0]",
         "(n ** 2 for n in range(5) if n % 2 == 0)",
-        "{n for n in range(5)}"
+        "{n for n in range(5)}",
+        "[n ** 2 for n in range(5) if n % 2 == 0]",
+        "{n ** 2 for n in range(5) if n % 2 == 0}"
       ],
       "answer": "{n ** 2 for n in range(5) if n % 2 == 0}"
     },
@@ -1229,9 +1229,9 @@
       "question": "What is the effect of the slice `values[::-1]`?",
       "options": [
         "Returns a reversed copy",
-        "Removes the last element",
+        "Sorts ascending",
         "Returns only even elements",
-        "Sorts ascending"
+        "Removes the last element"
       ],
       "answer": "Returns a reversed copy"
     },
@@ -1241,9 +1241,9 @@
       "level": 7,
       "question": "What does `any([])` return?",
       "options": [
-        "False",
-        "True",
         "None",
+        "True",
+        "False",
         "Raises ValueError"
       ],
       "answer": "False"
@@ -1254,10 +1254,10 @@
       "level": 7,
       "question": "Which function from `itertools` creates combinations of length 2?",
       "options": [
-        "itertools.combinations",
         "itertools.permutations",
         "itertools.product",
-        "itertools.accumulate"
+        "itertools.accumulate",
+        "itertools.combinations"
       ],
       "answer": "itertools.combinations"
     },
@@ -1267,9 +1267,9 @@
       "level": 7,
       "question": "What does `sum(1 for _ in open('file.txt'))` compute?",
       "options": [
+        "The file size in bytes",
         "The number of lines in the file",
         "The sum of file contents",
-        "The file size in bytes",
         "Whether the file exists"
       ],
       "answer": "The number of lines in the file"
@@ -1280,10 +1280,10 @@
       "level": 7,
       "question": "Which statement about generator expressions is true?",
       "options": [
-        "They produce items lazily on demand",
-        "They must be converted to lists before use",
         "They consume more memory than lists",
-        "They cannot contain conditions"
+        "They produce items lazily on demand",
+        "They cannot contain conditions",
+        "They must be converted to lists before use"
       ],
       "answer": "They produce items lazily on demand"
     },
@@ -1294,8 +1294,8 @@
       "question": "What does `list(map(lambda x: x ** 2, filter(lambda x: x % 2 == 0, range(5))))` return?",
       "options": [
         "[0, 4, 16]",
-        "[1, 4, 9]",
         "[0, 2, 4]",
+        "[1, 4, 9]",
         "[4, 16, 25]"
       ],
       "answer": "[0, 4, 16]"
@@ -1306,10 +1306,10 @@
       "level": 7,
       "question": "Which function pairs elements from iterables, filling missing values with `None`?",
       "options": [
-        "itertools.zip_longest",
-        "zip",
         "zip_all",
-        "itertools.chain"
+        "itertools.chain",
+        "itertools.zip_longest",
+        "zip"
       ],
       "answer": "itertools.zip_longest"
     },
@@ -1320,8 +1320,8 @@
       "question": "What does the first iteration of `enumerate('ab', start=3)` yield?",
       "options": [
         "(3, 'a')",
-        "(0, 'a')",
         "(1, 'a')",
+        "(0, 'a')",
         "('a', 3)"
       ],
       "answer": "(3, 'a')"
@@ -1332,9 +1332,9 @@
       "level": 7,
       "question": "Which expression flattens `[[1, 2], [3]]` into a single list?",
       "options": [
-        "[item for sub in [[1, 2], [3]] for item in sub]",
         "sum([[1, 2], [3]])",
         "flatten([[1, 2], [3]])",
+        "[item for sub in [[1, 2], [3]] for item in sub]",
         "list(chain([[1, 2], [3]]))"
       ],
       "answer": "[item for sub in [[1, 2], [3]] for item in sub]"
@@ -1345,10 +1345,10 @@
       "level": 7,
       "question": "What is the result of `sorted({1, 4, 2}, key=lambda x: -x)`?",
       "options": [
-        "[4, 2, 1]",
-        "[1, 2, 4]",
+        "(4, 2, 1)",
         "{4, 2, 1}",
-        "(4, 2, 1)"
+        "[4, 2, 1]",
+        "[1, 2, 4]"
       ],
       "answer": "[4, 2, 1]"
     },
@@ -1358,10 +1358,10 @@
       "level": 7,
       "question": "What does `list(itertools.product('ab', repeat=2))` return?",
       "options": [
-        "[('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')]",
-        "['aa', 'ab', 'ba', 'bb']",
         "[('a', 'b'), ('b', 'a')]",
-        "[('ab',), ('ba',)]"
+        "[('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')]",
+        "[('ab',), ('ba',)]",
+        "['aa', 'ab', 'ba', 'bb']"
       ],
       "answer": "[('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')]"
     },
@@ -1371,10 +1371,10 @@
       "level": 8,
       "question": "What does the `@contextlib.contextmanager` decorator help you build?",
       "options": [
+        "A compiled extension",
         "A context manager from a generator function",
-        "An asynchronous coroutine",
         "A dataclass",
-        "A compiled extension"
+        "An asynchronous coroutine"
       ],
       "answer": "A context manager from a generator function"
     },
@@ -1384,9 +1384,9 @@
       "level": 8,
       "question": "What effect does `@functools.lru_cache(maxsize=128)` have on a function?",
       "options": [
-        "Caches recent call results",
-        "Runs the function in a new thread",
         "Validates argument types",
+        "Runs the function in a new thread",
+        "Caches recent call results",
         "Encrypts return values"
       ],
       "answer": "Caches recent call results"
@@ -1397,10 +1397,10 @@
       "level": 8,
       "question": "Which module provides the `@singledispatch` decorator?",
       "options": [
-        "functools",
-        "itertools",
+        "abc",
         "collections",
-        "abc"
+        "itertools",
+        "functools"
       ],
       "answer": "functools"
     },
@@ -1410,10 +1410,10 @@
       "level": 8,
       "question": "What does `asyncio.run(coro())` do?",
       "options": [
-        "Creates and runs a new event loop to complete the coroutine",
-        "Starts a new thread",
         "Compiles the coroutine to C",
-        "Schedules the coroutine without running it"
+        "Schedules the coroutine without running it",
+        "Starts a new thread",
+        "Creates and runs a new event loop to complete the coroutine"
       ],
       "answer": "Creates and runs a new event loop to complete the coroutine"
     },
@@ -1423,10 +1423,10 @@
       "level": 8,
       "question": "Which keyword must be used inside an async function to wait for another coroutine?",
       "options": [
-        "await",
         "yield",
         "defer",
-        "async"
+        "async",
+        "await"
       ],
       "answer": "await"
     },
@@ -1436,10 +1436,10 @@
       "level": 8,
       "question": "What does `inspect.signature(func)` return?",
       "options": [
-        "A Signature object describing the function parameters",
-        "The source code",
         "The function's docstring",
-        "The return value of the function"
+        "The return value of the function",
+        "A Signature object describing the function parameters",
+        "The source code"
       ],
       "answer": "A Signature object describing the function parameters"
     },
@@ -1449,8 +1449,8 @@
       "level": 8,
       "question": "Which statement automatically closes a file after use?",
       "options": [
-        "with open('data.txt') as f:",
         "f = open('data.txt');",
+        "with open('data.txt') as f:",
         "close(open('data.txt'))",
         "open('data.txt', 'r').close()"
       ],
@@ -1464,8 +1464,8 @@
       "options": [
         "Exact decimal representation",
         "Faster arithmetic",
-        "Lower memory usage",
-        "Automatic caching"
+        "Automatic caching",
+        "Lower memory usage"
       ],
       "answer": "Exact decimal representation"
     },
@@ -1475,10 +1475,10 @@
       "level": 8,
       "question": "Which module supplies the `Fraction` type for rational numbers?",
       "options": [
-        "fractions",
         "decimal",
         "numbers",
-        "math"
+        "math",
+        "fractions"
       ],
       "answer": "fractions"
     },
@@ -1488,10 +1488,10 @@
       "level": 8,
       "question": "What does `contextlib.suppress(FileNotFoundError)` do?",
       "options": [
-        "Ignores the specified exception within the block",
         "Retries the block automatically",
-        "Logs the exception and stops",
-        "Converts the exception to a warning"
+        "Ignores the specified exception within the block",
+        "Converts the exception to a warning",
+        "Logs the exception and stops"
       ],
       "answer": "Ignores the specified exception within the block"
     },
@@ -1501,10 +1501,10 @@
       "level": 8,
       "question": "What does `functools.partial` return?",
       "options": [
-        "A new function with some arguments fixed",
-        "A cached result",
+        "An abstract base class",
         "An iterator",
-        "An abstract base class"
+        "A cached result",
+        "A new function with some arguments fixed"
       ],
       "answer": "A new function with some arguments fixed"
     },
@@ -1514,10 +1514,10 @@
       "level": 8,
       "question": "Which module provides `TypedDict` for describing dictionary shapes?",
       "options": [
-        "typing",
         "types",
+        "dataclasses",
         "collections",
-        "dataclasses"
+        "typing"
       ],
       "answer": "typing"
     },
@@ -1527,10 +1527,10 @@
       "level": 8,
       "question": "What is `async with` used for?",
       "options": [
-        "Managing asynchronous context managers",
-        "Entering a thread lock",
         "Defining a coroutine",
-        "Declaring a module"
+        "Managing asynchronous context managers",
+        "Declaring a module",
+        "Entering a thread lock"
       ],
       "answer": "Managing asynchronous context managers"
     },
@@ -1540,10 +1540,10 @@
       "level": 8,
       "question": "What does `timeit.timeit(stmt, number=1000)` measure?",
       "options": [
-        "Execution time of running the statement repeatedly",
-        "CPU usage",
         "Memory allocations",
-        "Number of bytecode instructions"
+        "Execution time of running the statement repeatedly",
+        "Number of bytecode instructions",
+        "CPU usage"
       ],
       "answer": "Execution time of running the statement repeatedly"
     },
@@ -1553,8 +1553,8 @@
       "level": 8,
       "question": "What does `@dataclass(frozen=True)` enforce?",
       "options": [
-        "Immutability of dataclass instances",
         "Automatic hashing is disabled",
+        "Immutability of dataclass instances",
         "All fields must be optional",
         "Nested dataclasses are rejected"
       ],
@@ -1566,10 +1566,10 @@
       "level": 9,
       "question": "What happens when a class is defined with `metaclass=CustomMeta`?",
       "options": [
-        "`CustomMeta` controls how the class is created",
+        "The class cannot be subclassed",
         "Instances inherit from `CustomMeta`",
-        "The class becomes abstract",
-        "The class cannot be subclassed"
+        "`CustomMeta` controls how the class is created",
+        "The class becomes abstract"
       ],
       "answer": "`CustomMeta` controls how the class is created"
     },
@@ -1579,10 +1579,10 @@
       "level": 9,
       "question": "Which special method is called when an attribute is accessed but not found on an object?",
       "options": [
-        "__getattr__",
         "__getattribute__",
-        "__setattr__",
-        "__dir__"
+        "__dir__",
+        "__getattr__",
+        "__setattr__"
       ],
       "answer": "__getattr__"
     },
@@ -1605,9 +1605,9 @@
       "level": 9,
       "question": "Which method must a context manager implement to enter the runtime context?",
       "options": [
-        "__enter__",
         "__call__",
         "__context__",
+        "__enter__",
         "__with__"
       ],
       "answer": "__enter__"
@@ -1618,10 +1618,10 @@
       "level": 9,
       "question": "What does inheriting from `abc.ABC` provide?",
       "options": [
-        "Support for abstract base classes",
-        "Automatic serialization",
         "Thread safety",
-        "Garbage collection hooks"
+        "Garbage collection hooks",
+        "Automatic serialization",
+        "Support for abstract base classes"
       ],
       "answer": "Support for abstract base classes"
     },
@@ -1633,8 +1633,8 @@
       "options": [
         "@abstractmethod",
         "@staticmethod",
-        "@classmethod",
-        "@abc"
+        "@abc",
+        "@classmethod"
       ],
       "answer": "@abstractmethod"
     },
@@ -1644,9 +1644,9 @@
       "level": 9,
       "question": "What does `isinstance(obj, collections.abc.Iterable)` check?",
       "options": [
-        "Whether the object can be iterated",
         "Whether the object is a list",
         "Whether the object is hashable",
+        "Whether the object can be iterated",
         "Whether the object is numeric"
       ],
       "answer": "Whether the object can be iterated"
@@ -1657,10 +1657,10 @@
       "level": 9,
       "question": "Which special method customizes object creation before initialization?",
       "options": [
+        "__prepare__",
         "__new__",
-        "__init__",
         "__call__",
-        "__prepare__"
+        "__init__"
       ],
       "answer": "__new__"
     },
@@ -1670,9 +1670,9 @@
       "level": 9,
       "question": "What capability does implementing `__call__` give an object?",
       "options": [
-        "Allows the object to be called like a function",
-        "Allows the object to be copied",
         "Allows the object to be iterated",
+        "Allows the object to be copied",
+        "Allows the object to be called like a function",
         "Allows the object to be serialized"
       ],
       "answer": "Allows the object to be called like a function"
@@ -1684,9 +1684,9 @@
       "question": "Which module defines `Protocol` for structural subtyping?",
       "options": [
         "typing",
+        "types",
         "abc",
-        "inspect",
-        "types"
+        "inspect"
       ],
       "answer": "typing"
     },
@@ -1696,8 +1696,8 @@
       "level": 9,
       "question": "What does `inspect.getmro(MyClass)` return?",
       "options": [
-        "A tuple of classes in the method resolution order",
         "A dictionary of methods",
+        "A tuple of classes in the method resolution order",
         "The module where the class is defined",
         "A list of abstract methods"
       ],
@@ -1709,10 +1709,10 @@
       "level": 9,
       "question": "Which descriptor method is invoked when accessing an attribute via an instance?",
       "options": [
-        "__get__",
-        "__set__",
         "__delete__",
-        "__iter__"
+        "__iter__",
+        "__set__",
+        "__get__"
       ],
       "answer": "__get__"
     },
@@ -1723,9 +1723,9 @@
       "question": "What does `weakref.ref(obj)` create?",
       "options": [
         "A weak reference that does not prevent garbage collection",
-        "A deep copy",
+        "A serialized version of the object",
         "A thread-safe wrapper",
-        "A serialized version of the object"
+        "A deep copy"
       ],
       "answer": "A weak reference that does not prevent garbage collection"
     },
@@ -1735,10 +1735,10 @@
       "level": 9,
       "question": "Which descriptor method handles attribute deletion?",
       "options": [
+        "__unset__",
         "__delete__",
         "__set__",
-        "__del__",
-        "__unset__"
+        "__del__"
       ],
       "answer": "__delete__"
     },
@@ -1748,10 +1748,10 @@
       "level": 9,
       "question": "What is the effect of defining `__all__` in a module?",
       "options": [
-        "Controls which names are exported with `from module import *`",
-        "Disables wildcard imports",
+        "Enables type checking",
         "Deletes unused names",
-        "Enables type checking"
+        "Disables wildcard imports",
+        "Controls which names are exported with `from module import *`"
       ],
       "answer": "Controls which names are exported with `from module import *`"
     },
@@ -1774,10 +1774,10 @@
       "level": 10,
       "question": "Which module provides `ThreadPoolExecutor`?",
       "options": [
+        "asyncio",
         "concurrent.futures",
-        "threading",
         "multiprocessing",
-        "asyncio"
+        "threading"
       ],
       "answer": "concurrent.futures"
     },
@@ -1800,10 +1800,10 @@
       "level": 10,
       "question": "What is the purpose of `multiprocessing.Process`?",
       "options": [
-        "Runs a function in a separate process",
-        "Creates a new thread",
+        "Optimizes bytecode",
         "Caches results",
-        "Optimizes bytecode"
+        "Creates a new thread",
+        "Runs a function in a separate process"
       ],
       "answer": "Runs a function in a separate process"
     },
@@ -1813,9 +1813,9 @@
       "level": 10,
       "question": "Which statement about `queue.Queue` is correct?",
       "options": [
+        "It is read-only",
         "It is safe for multiple threads to use",
         "It can only store strings",
-        "It is read-only",
         "It blocks the GIL"
       ],
       "answer": "It is safe for multiple threads to use"
@@ -1828,8 +1828,8 @@
       "options": [
         "A high-resolution wall-clock timer",
         "CPU usage statistics",
-        "Memory allocations",
-        "Thread identifiers"
+        "Thread identifiers",
+        "Memory allocations"
       ],
       "answer": "A high-resolution wall-clock timer"
     },
@@ -1839,10 +1839,10 @@
       "level": 10,
       "question": "Which module can track memory allocations to help profiling?",
       "options": [
-        "tracemalloc",
+        "profile",
         "gc",
         "resource",
-        "profile"
+        "tracemalloc"
       ],
       "answer": "tracemalloc"
     },
@@ -1852,9 +1852,9 @@
       "level": 10,
       "question": "What does `asyncio.create_task` do?",
       "options": [
-        "Schedules a coroutine to run concurrently",
-        "Creates a new process",
         "Blocks until coroutine finishes",
+        "Creates a new process",
+        "Schedules a coroutine to run concurrently",
         "Turns a coroutine into a thread"
       ],
       "answer": "Schedules a coroutine to run concurrently"
@@ -1865,10 +1865,10 @@
       "level": 10,
       "question": "Which library is widely used for vectorized numerical operations in Python?",
       "options": [
-        "NumPy",
-        "Pandas",
         "Numba",
-        "Cython"
+        "Cython",
+        "Pandas",
+        "NumPy"
       ],
       "answer": "NumPy"
     },
@@ -1878,10 +1878,10 @@
       "level": 10,
       "question": "What happens if `threading.Lock().acquire()` is called when the lock is already held?",
       "options": [
-        "The call blocks until the lock is released",
-        "It raises an exception",
+        "It creates a new lock",
         "It returns False immediately",
-        "It creates a new lock"
+        "The call blocks until the lock is released",
+        "It raises an exception"
       ],
       "answer": "The call blocks until the lock is released"
     },
@@ -1891,10 +1891,10 @@
       "level": 10,
       "question": "Which module provides `ProcessPoolExecutor`?",
       "options": [
-        "concurrent.futures",
+        "asyncio",
         "multiprocessing.pool",
         "subprocess",
-        "asyncio"
+        "concurrent.futures"
       ],
       "answer": "concurrent.futures"
     },
@@ -1904,10 +1904,10 @@
       "level": 10,
       "question": "What does `asyncio.Semaphore(3)` help control?",
       "options": [
-        "The number of concurrent coroutines accessing a resource",
-        "The number of CPU cores",
         "The maximum recursion depth",
-        "The size of the event loop"
+        "The number of CPU cores",
+        "The size of the event loop",
+        "The number of concurrent coroutines accessing a resource"
       ],
       "answer": "The number of concurrent coroutines accessing a resource"
     },
@@ -1930,10 +1930,10 @@
       "level": 10,
       "question": "Which tool collects deterministic profiling data for Python programs?",
       "options": [
-        "cProfile",
+        "timeit",
         "tracemalloc",
-        "line_profiler",
-        "timeit"
+        "cProfile",
+        "line_profiler"
       ],
       "answer": "cProfile"
     },
@@ -1943,12 +1943,1962 @@
       "level": 10,
       "question": "What benefit does using `multiprocessing.shared_memory` offer?",
       "options": [
-        "Allows processes to share data without pickling",
-        "Creates threads instead of processes",
         "Removes the need for synchronization",
+        "Creates threads instead of processes",
+        "Allows processes to share data without pickling",
         "Automatically distributes tasks"
       ],
       "answer": "Allows processes to share data without pickling"
+    },
+    {
+      "id": 151,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What is PySpark?",
+      "options": [
+        "A Python IDE",
+        "Python API for Apache Spark",
+        "A Python web framework",
+        "A database system"
+      ],
+      "answer": "Python API for Apache Spark"
+    },
+    {
+      "id": 152,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to create a SparkSession in PySpark?",
+      "options": [
+        "SparkSession.builder",
+        "SparkSession.init",
+        "Spark.createSession",
+        "new SparkSession"
+      ],
+      "answer": "SparkSession.builder"
+    },
+    {
+      "id": 153,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does RDD stand for in Spark?",
+      "options": [
+        "Recursive Data Definition",
+        "Resilient Distributed Dataset",
+        "Relational Data Dictionary",
+        "Random Data Distribution"
+      ],
+      "answer": "Resilient Distributed Dataset"
+    },
+    {
+      "id": 154,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method reads a CSV file into a DataFrame?",
+      "options": [
+        "spark.readFile.csv",
+        "spark.load.csv",
+        "spark.read.csv",
+        "spark.import.csv"
+      ],
+      "answer": "spark.read.csv"
+    },
+    {
+      "id": 155,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What is the default value of partitions in a DataFrame?",
+      "options": [
+        "100",
+        "10",
+        "200",
+        "50"
+      ],
+      "answer": "200"
+    },
+    {
+      "id": 156,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method shows the first few rows of a DataFrame?",
+      "options": [
+        "df.head()",
+        "df.show()",
+        "df.display()",
+        "df.print()"
+      ],
+      "answer": "df.show()"
+    },
+    {
+      "id": 157,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does `df.select()` do?",
+      "options": [
+        "Selects specific columns",
+        "Filters rows",
+        "Joins DataFrames",
+        "Groups data"
+      ],
+      "answer": "Selects specific columns"
+    },
+    {
+      "id": 158,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method filters rows based on a condition?",
+      "options": [
+        "df.find()",
+        "df.where()",
+        "df.select()",
+        "df.filter()"
+      ],
+      "answer": "df.filter()"
+    },
+    {
+      "id": 159,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What is the output of `df.count()`?",
+      "options": [
+        "Number of rows",
+        "DataFrame size in bytes",
+        "Number of partitions",
+        "Number of columns"
+      ],
+      "answer": "Number of rows"
+    },
+    {
+      "id": 160,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method is used to add a new column?",
+      "options": [
+        "df.insertColumn()",
+        "df.newColumn()",
+        "df.withColumn()",
+        "df.addColumn()"
+      ],
+      "answer": "df.withColumn()"
+    },
+    {
+      "id": 161,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does `df.printSchema()` display?",
+      "options": [
+        "Partition information",
+        "First 20 rows",
+        "Column statistics",
+        "DataFrame schema"
+      ],
+      "answer": "DataFrame schema"
+    },
+    {
+      "id": 162,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method removes duplicate rows?",
+      "options": [
+        "df.unique()",
+        "df.removeDuplicates()",
+        "df.dropDuplicates()",
+        "df.distinct()"
+      ],
+      "answer": "df.distinct()"
+    },
+    {
+      "id": 163,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What is the purpose of `df.cache()`?",
+      "options": [
+        "Save to disk",
+        "Compress data",
+        "Store DataFrame in memory",
+        "Encrypt data"
+      ],
+      "answer": "Store DataFrame in memory"
+    },
+    {
+      "id": 164,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "Which method writes DataFrame to CSV?",
+      "options": [
+        "df.write.csv",
+        "df.save.csv",
+        "df.export.csv",
+        "df.writeFile.csv"
+      ],
+      "answer": "df.write.csv"
+    },
+    {
+      "id": 165,
+      "subject": "pyspark",
+      "level": 1,
+      "question": "What does `df.collect()` do?",
+      "options": [
+        "Counts rows",
+        "Returns all rows as a list",
+        "Filters rows",
+        "Groups rows"
+      ],
+      "answer": "Returns all rows as a list"
+    },
+    {
+      "id": 166,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is a DataFrame in PySpark?",
+      "options": [
+        "Distributed collection of data organized in columns",
+        "A database table",
+        "A list of tuples",
+        "A Python dictionary"
+      ],
+      "answer": "Distributed collection of data organized in columns"
+    },
+    {
+      "id": 167,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method performs a SQL query on a DataFrame?",
+      "options": [
+        "spark.sql()",
+        "df.sql()",
+        "df.query()",
+        "df.executeSQL()"
+      ],
+      "answer": "spark.sql()"
+    },
+    {
+      "id": 168,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does `df.groupBy()` return?",
+      "options": [
+        "List",
+        "RDD",
+        "DataFrame",
+        "GroupedData object"
+      ],
+      "answer": "GroupedData object"
+    },
+    {
+      "id": 169,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which aggregation function counts non-null values?",
+      "options": [
+        "sum()",
+        "avg()",
+        "count()",
+        "max()"
+      ],
+      "answer": "count()"
+    },
+    {
+      "id": 170,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the purpose of `df.coalesce()`?",
+      "options": [
+        "Join DataFrames",
+        "Increase partitions",
+        "Merge DataFrames",
+        "Reduce number of partitions"
+      ],
+      "answer": "Reduce number of partitions"
+    },
+    {
+      "id": 171,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method renames a column?",
+      "options": [
+        "df.setColumnName()",
+        "df.withColumnRenamed()",
+        "df.changeColumn()",
+        "df.renameColumn()"
+      ],
+      "answer": "df.withColumnRenamed()"
+    },
+    {
+      "id": 172,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does `df.orderBy()` do?",
+      "options": [
+        "Groups DataFrame",
+        "Joins DataFrame",
+        "Sorts DataFrame",
+        "Filters DataFrame"
+      ],
+      "answer": "Sorts DataFrame"
+    },
+    {
+      "id": 173,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method drops a column?",
+      "options": [
+        "df.delete()",
+        "df.drop()",
+        "df.remove()",
+        "df.exclude()"
+      ],
+      "answer": "df.drop()"
+    },
+    {
+      "id": 174,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the result of `df.union()`?",
+      "options": [
+        "Joins two DataFrames",
+        "Subtracts DataFrames",
+        "Combines two DataFrames vertically",
+        "Intersects two DataFrames"
+      ],
+      "answer": "Combines two DataFrames vertically"
+    },
+    {
+      "id": 175,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method creates a temporary view?",
+      "options": [
+        "df.registerView()",
+        "df.createOrReplaceTempView()",
+        "df.createView()",
+        "df.tempView()"
+      ],
+      "answer": "df.createOrReplaceTempView()"
+    },
+    {
+      "id": 176,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does `df.na.drop()` do?",
+      "options": [
+        "Replaces null values",
+        "Counts null values",
+        "Fills null values",
+        "Removes rows with null values"
+      ],
+      "answer": "Removes rows with null values"
+    },
+    {
+      "id": 177,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method fills null values with a specified value?",
+      "options": [
+        "df.fillna()",
+        "df.replaceNull()",
+        "df.na.fill()",
+        "df.setNull()"
+      ],
+      "answer": "df.na.fill()"
+    },
+    {
+      "id": 178,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What is the purpose of `df.persist()`?",
+      "options": [
+        "Cache DataFrame with specified storage level",
+        "Save to disk",
+        "Compress data",
+        "Encrypt data"
+      ],
+      "answer": "Cache DataFrame with specified storage level"
+    },
+    {
+      "id": 179,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "Which method limits the number of rows returned?",
+      "options": [
+        "df.limit()",
+        "df.head()",
+        "df.take()",
+        "df.first()"
+      ],
+      "answer": "df.limit()"
+    },
+    {
+      "id": 180,
+      "subject": "pyspark",
+      "level": 2,
+      "question": "What does `df.describe()` show?",
+      "options": [
+        "Partition details",
+        "Statistical summary of columns",
+        "Execution plan",
+        "Schema information"
+      ],
+      "answer": "Statistical summary of columns"
+    },
+    {
+      "id": 181,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is a broadcast variable in Spark?",
+      "options": [
+        "A local variable",
+        "A global variable",
+        "A mutable variable",
+        "Read-only variable cached on each machine"
+      ],
+      "answer": "Read-only variable cached on each machine"
+    },
+    {
+      "id": 182,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which method creates a broadcast variable?",
+      "options": [
+        "Broadcast.create()",
+        "spark.createBroadcast()",
+        "spark.broadcast()",
+        "spark.sparkContext.broadcast()"
+      ],
+      "answer": "spark.sparkContext.broadcast()"
+    },
+    {
+      "id": 183,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is the purpose of `df.repartition()`?",
+      "options": [
+        "Select columns",
+        "Join DataFrames",
+        "Increase or decrease partitions",
+        "Filter rows"
+      ],
+      "answer": "Increase or decrease partitions"
+    },
+    {
+      "id": 184,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which join type keeps all rows from both DataFrames?",
+      "options": [
+        "right join",
+        "full outer join",
+        "inner join",
+        "left join"
+      ],
+      "answer": "full outer join"
+    },
+    {
+      "id": 185,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does `df.join()` require?",
+      "options": [
+        "Same number of rows",
+        "Same schema",
+        "Same partitions",
+        "Join condition or column names"
+      ],
+      "answer": "Join condition or column names"
+    },
+    {
+      "id": 186,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which method creates a window specification?",
+      "options": [
+        "Window.partitionBy()",
+        "Window.groupBy()",
+        "Window.orderBy()",
+        "Window.sortBy()"
+      ],
+      "answer": "Window.partitionBy()"
+    },
+    {
+      "id": 187,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is the purpose of `df.withColumn()` with window functions?",
+      "options": [
+        "Add calculated columns using window functions",
+        "Group data",
+        "Filter rows",
+        "Join DataFrames"
+      ],
+      "answer": "Add calculated columns using window functions"
+    },
+    {
+      "id": 188,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which function calculates row number in a window?",
+      "options": [
+        "row_number()",
+        "count()",
+        "dense_rank()",
+        "rank()"
+      ],
+      "answer": "row_number()"
+    },
+    {
+      "id": 189,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does `df.explain()` show?",
+      "options": [
+        "Partitions",
+        "Physical and logical execution plans",
+        "Schema",
+        "Statistics"
+      ],
+      "answer": "Physical and logical execution plans"
+    },
+    {
+      "id": 190,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which method converts DataFrame to RDD?",
+      "options": [
+        "df.getRDD()",
+        "df.toRDD()",
+        "df.rdd",
+        "df.asRDD()"
+      ],
+      "answer": "df.rdd"
+    },
+    {
+      "id": 191,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is the purpose of `df.checkpoint()`?",
+      "options": [
+        "Check schema",
+        "Save DataFrame to reliable storage",
+        "Validate data",
+        "Verify partitions"
+      ],
+      "answer": "Save DataFrame to reliable storage"
+    },
+    {
+      "id": 192,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which method creates a DataFrame from a list of dictionaries?",
+      "options": [
+        "spark.loadData()",
+        "spark.importData()",
+        "spark.createDataFrame()",
+        "spark.read.json()"
+      ],
+      "answer": "spark.createDataFrame()"
+    },
+    {
+      "id": 193,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What does `df.sample()` do?",
+      "options": [
+        "Returns random sample of rows",
+        "Groups data",
+        "Filters data",
+        "Sorts data"
+      ],
+      "answer": "Returns random sample of rows"
+    },
+    {
+      "id": 194,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "Which method writes DataFrame in Parquet format?",
+      "options": [
+        "df.save.parquet()",
+        "df.write.parquet()",
+        "df.writeFile.parquet()",
+        "df.export.parquet()"
+      ],
+      "answer": "df.write.parquet()"
+    },
+    {
+      "id": 195,
+      "subject": "pyspark",
+      "level": 3,
+      "question": "What is the purpose of `df.crossJoin()`?",
+      "options": [
+        "Union",
+        "Left join",
+        "Cartesian product of two DataFrames",
+        "Inner join"
+      ],
+      "answer": "Cartesian product of two DataFrames"
+    },
+    {
+      "id": 196,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is an accumulator in Spark?",
+      "options": [
+        "Mutable variable that workers can add to",
+        "Immutable variable",
+        "Broadcast variable",
+        "Local variable"
+      ],
+      "answer": "Mutable variable that workers can add to"
+    },
+    {
+      "id": 197,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method creates an accumulator?",
+      "options": [
+        "Accumulator.create()",
+        "spark.accumulator()",
+        "spark.sparkContext.accumulator()",
+        "spark.createAccumulator()"
+      ],
+      "answer": "spark.sparkContext.accumulator()"
+    },
+    {
+      "id": 198,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does `df.foreachPartition()` do?",
+      "options": [
+        "Applies to each column",
+        "Applies to schema",
+        "Applies to each row",
+        "Applies function to each partition"
+      ],
+      "answer": "Applies function to each partition"
+    },
+    {
+      "id": 199,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method reads data in JSON format?",
+      "options": [
+        "spark.import.json()",
+        "spark.read.jsonFile()",
+        "spark.read.json()",
+        "spark.load.json()"
+      ],
+      "answer": "spark.read.json()"
+    },
+    {
+      "id": 200,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is the purpose of `df.pivot()`?",
+      "options": [
+        "Groups data",
+        "Transposes rows to columns",
+        "Joins data",
+        "Filters data"
+      ],
+      "answer": "Transposes rows to columns"
+    },
+    {
+      "id": 201,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method performs a left semi join?",
+      "options": [
+        "df.join(..., how='left_semi')",
+        "df.leftSemiJoin()",
+        "df.joinLeftSemi()",
+        "df.semiJoin()"
+      ],
+      "answer": "df.join(..., how='left_semi')"
+    },
+    {
+      "id": 202,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does `df.bucketBy()` do?",
+      "options": [
+        "Filters data",
+        "Groups data",
+        "Buckets data for efficient joins",
+        "Partitions data"
+      ],
+      "answer": "Buckets data for efficient joins"
+    },
+    {
+      "id": 203,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method writes DataFrame in JSON format?",
+      "options": [
+        "df.writeFile.json()",
+        "df.write.json()",
+        "df.export.json()",
+        "df.save.json()"
+      ],
+      "answer": "df.write.json()"
+    },
+    {
+      "id": 204,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is the purpose of `df.randomSplit()`?",
+      "options": [
+        "Randomly shuffles rows",
+        "Splits DataFrame into multiple DataFrames",
+        "Groups data",
+        "Samples data"
+      ],
+      "answer": "Splits DataFrame into multiple DataFrames"
+    },
+    {
+      "id": 205,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method creates a DataFrame from an RDD?",
+      "options": [
+        "rdd.getDataFrame()",
+        "rdd.asDataFrame()",
+        "rdd.toDataFrame()",
+        "spark.createDataFrame(rdd, schema)"
+      ],
+      "answer": "spark.createDataFrame(rdd, schema)"
+    },
+    {
+      "id": 206,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does `df.stat.corr()` calculate?",
+      "options": [
+        "Variance",
+        "Mean of column",
+        "Standard deviation",
+        "Correlation between two columns"
+      ],
+      "answer": "Correlation between two columns"
+    },
+    {
+      "id": 207,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method creates a UDF (User Defined Function)?",
+      "options": [
+        "udf() from pyspark.sql.functions",
+        "createUDF()",
+        "defineUDF()",
+        "spark.udf()"
+      ],
+      "answer": "udf() from pyspark.sql.functions"
+    },
+    {
+      "id": 208,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What is the purpose of `df.rollup()`?",
+      "options": [
+        "Rolls back transactions",
+        "Creates hierarchical grouping",
+        "Filters data",
+        "Groups by single column"
+      ],
+      "answer": "Creates hierarchical grouping"
+    },
+    {
+      "id": 209,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "Which method performs a right outer join?",
+      "options": [
+        "df.joinRight()",
+        "df.rightOuterJoin()",
+        "df.join(..., how='right')",
+        "df.rightJoin()"
+      ],
+      "answer": "df.join(..., how='right')"
+    },
+    {
+      "id": 210,
+      "subject": "pyspark",
+      "level": 4,
+      "question": "What does `df.cube()` do?",
+      "options": [
+        "Creates all combinations of grouping columns",
+        "Groups by single column",
+        "Filters data",
+        "Joins data"
+      ],
+      "answer": "Creates all combinations of grouping columns"
+    },
+    {
+      "id": 211,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What is a Spark SQL UDF?",
+      "options": [
+        "RDD operation",
+        "User Defined Function for SQL operations",
+        "Built-in function",
+        "DataFrame method"
+      ],
+      "answer": "User Defined Function for SQL operations"
+    },
+    {
+      "id": 212,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method registers a UDF for SQL use?",
+      "options": [
+        "registerUDF()",
+        "udf.register()",
+        "spark.registerUDF()",
+        "spark.udf.register()"
+      ],
+      "answer": "spark.udf.register()"
+    },
+    {
+      "id": 213,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does `df.stat.crosstab()` create?",
+      "options": [
+        "Contingency table between two columns",
+        "Correlation matrix",
+        "Cross join",
+        "Covariance matrix"
+      ],
+      "answer": "Contingency table between two columns"
+    },
+    {
+      "id": 214,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method reads data from a JDBC source?",
+      "options": [
+        "spark.load.jdbc()",
+        "spark.read.jdbc()",
+        "spark.import.jdbc()",
+        "spark.read.jdbcTable()"
+      ],
+      "answer": "spark.read.jdbc()"
+    },
+    {
+      "id": 215,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What is the purpose of `df.write.mode('overwrite')`?",
+      "options": [
+        "Ignores existing data",
+        "Errors if data exists",
+        "Appends data",
+        "Overwrites existing data"
+      ],
+      "answer": "Overwrites existing data"
+    },
+    {
+      "id": 216,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method creates a streaming DataFrame?",
+      "options": [
+        "spark.readStream",
+        "spark.createStream",
+        "spark.read.stream",
+        "spark.stream"
+      ],
+      "answer": "spark.readStream"
+    },
+    {
+      "id": 217,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does `df.stat.freqItems()` return?",
+      "options": [
+        "Unique items",
+        "Frequent items in columns",
+        "Duplicate items",
+        "Null items"
+      ],
+      "answer": "Frequent items in columns"
+    },
+    {
+      "id": 218,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method writes streaming data?",
+      "options": [
+        "df.writeStream",
+        "df.stream.write",
+        "df.write.stream",
+        "df.streamWrite"
+      ],
+      "answer": "df.writeStream"
+    },
+    {
+      "id": 219,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What is the purpose of `df.stat.sampleBy()`?",
+      "options": [
+        "Stratified sampling by column",
+        "Cluster sampling",
+        "Random sampling",
+        "Systematic sampling"
+      ],
+      "answer": "Stratified sampling by column"
+    },
+    {
+      "id": 220,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method creates a Delta table?",
+      "options": [
+        "df.export.delta()",
+        "df.write.delta()",
+        "df.save.delta()",
+        "df.write.format('delta')"
+      ],
+      "answer": "df.write.format('delta')"
+    },
+    {
+      "id": 221,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does `df.stat.approxQuantile()` calculate?",
+      "options": [
+        "Median values",
+        "Exact quantiles",
+        "Approximate quantiles",
+        "Mean values"
+      ],
+      "answer": "Approximate quantiles"
+    },
+    {
+      "id": 222,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method performs a left anti join?",
+      "options": [
+        "df.joinLeftAnti()",
+        "df.join(..., how='left_anti')",
+        "df.antiJoin()",
+        "df.leftAntiJoin()"
+      ],
+      "answer": "df.join(..., how='left_anti')"
+    },
+    {
+      "id": 223,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What is the purpose of `df.hint()`?",
+      "options": [
+        "Joins data",
+        "Filters data",
+        "Provides optimization hints to Spark",
+        "Groups data"
+      ],
+      "answer": "Provides optimization hints to Spark"
+    },
+    {
+      "id": 224,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "Which method creates a temporary global view?",
+      "options": [
+        "df.createGlobalView()",
+        "df.registerGlobalView()",
+        "df.createOrReplaceGlobalTempView()",
+        "df.globalTempView()"
+      ],
+      "answer": "df.createOrReplaceGlobalTempView()"
+    },
+    {
+      "id": 225,
+      "subject": "pyspark",
+      "level": 5,
+      "question": "What does `df.stat.cov()` calculate?",
+      "options": [
+        "Mean",
+        "Correlation",
+        "Covariance between two columns",
+        "Variance"
+      ],
+      "answer": "Covariance between two columns"
+    },
+    {
+      "id": 226,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What is Spark Structured Streaming?",
+      "options": [
+        "Web framework",
+        "Scalable stream processing engine",
+        "Batch processing engine",
+        "Database system"
+      ],
+      "answer": "Scalable stream processing engine"
+    },
+    {
+      "id": 227,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which output mode writes only new rows?",
+      "options": [
+        "append",
+        "update",
+        "overwrite",
+        "complete"
+      ],
+      "answer": "append"
+    },
+    {
+      "id": 228,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does `df.writeStream.trigger()` control?",
+      "options": [
+        "How to write",
+        "Where to write",
+        "What to write",
+        "When to process streaming data"
+      ],
+      "answer": "When to process streaming data"
+    },
+    {
+      "id": 229,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method reads from Kafka in streaming?",
+      "options": [
+        "spark.readStream.kafka()",
+        "spark.stream.kafka()",
+        "spark.readStream.format('kafka')",
+        "spark.read.kafka()"
+      ],
+      "answer": "spark.readStream.format('kafka')"
+    },
+    {
+      "id": 230,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What is the purpose of `df.writeStream.foreachBatch()`?",
+      "options": [
+        "Apply to each row",
+        "Apply to each partition",
+        "Apply to schema",
+        "Apply function to each micro-batch"
+      ],
+      "answer": "Apply function to each micro-batch"
+    },
+    {
+      "id": 231,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method creates a checkpoint location for streaming?",
+      "options": [
+        "df.createCheckpoint()",
+        "df.setCheckpoint()",
+        "df.checkpoint()",
+        "df.writeStream.option('checkpointLocation', ...)"
+      ],
+      "answer": "df.writeStream.option('checkpointLocation', ...)"
+    },
+    {
+      "id": 232,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does `df.isStreaming` return?",
+      "options": [
+        "Stream schema",
+        "Streaming data",
+        "True if DataFrame is streaming",
+        "Stream partitions"
+      ],
+      "answer": "True if DataFrame is streaming"
+    },
+    {
+      "id": 233,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which output mode writes all rows on each trigger?",
+      "options": [
+        "complete",
+        "overwrite",
+        "update",
+        "append"
+      ],
+      "answer": "complete"
+    },
+    {
+      "id": 234,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What is the purpose of `df.writeStream.queryName()`?",
+      "options": [
+        "Names the streaming query",
+        "Filters data",
+        "Groups data",
+        "Joins data"
+      ],
+      "answer": "Names the streaming query"
+    },
+    {
+      "id": 235,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method stops a streaming query?",
+      "options": [
+        "query.stop()",
+        "query.terminate()",
+        "query.cancel()",
+        "query.end()"
+      ],
+      "answer": "query.stop()"
+    },
+    {
+      "id": 236,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does `df.writeStream.outputMode()` specify?",
+      "options": [
+        "When to write",
+        "What to write",
+        "How to write streaming results",
+        "Where to write"
+      ],
+      "answer": "How to write streaming results"
+    },
+    {
+      "id": 237,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method reads from a Delta table in streaming?",
+      "options": [
+        "spark.readStream.delta()",
+        "spark.stream.delta()",
+        "spark.readStream.format('delta')",
+        "spark.read.delta()"
+      ],
+      "answer": "spark.readStream.format('delta')"
+    },
+    {
+      "id": 238,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What is the purpose of `df.writeStream.foreach()`?",
+      "options": [
+        "Apply to schema",
+        "Apply function to each row in streaming",
+        "Apply to each partition",
+        "Apply to batches"
+      ],
+      "answer": "Apply function to each row in streaming"
+    },
+    {
+      "id": 239,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "Which method gets active streaming queries?",
+      "options": [
+        "spark.getActiveStreams()",
+        "spark.streams.active",
+        "spark.activeStreams",
+        "spark.streams.getActive()"
+      ],
+      "answer": "spark.streams.active"
+    },
+    {
+      "id": 240,
+      "subject": "pyspark",
+      "level": 6,
+      "question": "What does `df.writeStream.start()` return?",
+      "options": [
+        "Streaming data",
+        "StreamingQuery object",
+        "RDD",
+        "DataFrame"
+      ],
+      "answer": "StreamingQuery object"
+    },
+    {
+      "id": 241,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is Delta Lake?",
+      "options": [
+        "Open-source storage layer for data lakes",
+        "Streaming engine",
+        "Web framework",
+        "Database system"
+      ],
+      "answer": "Open-source storage layer for data lakes"
+    },
+    {
+      "id": 242,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method performs ACID transactions in Delta?",
+      "options": [
+        "Regular DataFrame writes",
+        "Streaming operations",
+        "Delta table operations",
+        "RDD operations"
+      ],
+      "answer": "Delta table operations"
+    },
+    {
+      "id": 243,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does `DeltaTable.forPath()` do?",
+      "options": [
+        "Deletes Delta table",
+        "Creates DeltaTable object for a path",
+        "Writes Delta table",
+        "Reads Delta table"
+      ],
+      "answer": "Creates DeltaTable object for a path"
+    },
+    {
+      "id": 244,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method performs time travel queries in Delta?",
+      "options": [
+        "df.history()",
+        "df.getVersion()",
+        "df.timeTravel()",
+        "df.version() or df.timestamp()"
+      ],
+      "answer": "df.version() or df.timestamp()"
+    },
+    {
+      "id": 245,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the purpose of `DeltaTable.merge()`?",
+      "options": [
+        "Delete operation",
+        "Upsert operation (update/insert)",
+        "Join operation",
+        "Select operation"
+      ],
+      "answer": "Upsert operation (update/insert)"
+    },
+    {
+      "id": 246,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method deletes data in Delta table?",
+      "options": [
+        "df.drop()",
+        "df.remove()",
+        "DeltaTable.delete()",
+        "df.delete()"
+      ],
+      "answer": "DeltaTable.delete()"
+    },
+    {
+      "id": 247,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does `DeltaTable.history()` show?",
+      "options": [
+        "Statistics",
+        "Transaction history",
+        "Partitions",
+        "Schema"
+      ],
+      "answer": "Transaction history"
+    },
+    {
+      "id": 248,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method updates data in Delta table?",
+      "options": [
+        "df.change()",
+        "df.modify()",
+        "DeltaTable.update()",
+        "df.update()"
+      ],
+      "answer": "DeltaTable.update()"
+    },
+    {
+      "id": 249,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the purpose of `DeltaTable.vacuum()`?",
+      "options": [
+        "Removes old files",
+        "Optimizes table",
+        "Indexes data",
+        "Compresses data"
+      ],
+      "answer": "Removes old files"
+    },
+    {
+      "id": 250,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method optimizes a Delta table?",
+      "options": [
+        "df.compact()",
+        "df.optimize()",
+        "df.reorganize()",
+        "DeltaTable.optimize()"
+      ],
+      "answer": "DeltaTable.optimize()"
+    },
+    {
+      "id": 251,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does `DeltaTable.toDF()` return?",
+      "options": [
+        "List",
+        "DataFrame representation",
+        "Dictionary",
+        "RDD"
+      ],
+      "answer": "DataFrame representation"
+    },
+    {
+      "id": 252,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method converts Parquet to Delta format?",
+      "options": [
+        "DeltaTable.convertToDelta()",
+        "df.convertToDelta()",
+        "convertToDelta()",
+        "spark.convertToDelta()"
+      ],
+      "answer": "DeltaTable.convertToDelta()"
+    },
+    {
+      "id": 253,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What is the purpose of `DeltaTable.generate()`?",
+      "options": [
+        "Creates indexes",
+        "Generates partitions",
+        "Generates manifest files",
+        "Creates schema"
+      ],
+      "answer": "Generates manifest files"
+    },
+    {
+      "id": 254,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "Which method gets Delta table details?",
+      "options": [
+        "df.info()",
+        "df.describe()",
+        "df.detail()",
+        "DeltaTable.detail()"
+      ],
+      "answer": "DeltaTable.detail()"
+    },
+    {
+      "id": 255,
+      "subject": "pyspark",
+      "level": 7,
+      "question": "What does `DeltaTable.restoreToVersion()` do?",
+      "options": [
+        "Restores table to specific version",
+        "Creates new version",
+        "Backs up table",
+        "Deletes version"
+      ],
+      "answer": "Restores table to specific version"
+    },
+    {
+      "id": 256,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is Catalyst Optimizer?",
+      "options": [
+        "Web framework",
+        "Database system",
+        "Spark's query optimization engine",
+        "Streaming engine"
+      ],
+      "answer": "Spark's query optimization engine"
+    },
+    {
+      "id": 257,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method shows optimized execution plan?",
+      "options": [
+        "df.showPlan()",
+        "df.plan()",
+        "df.explain(True)",
+        "df.optimize()"
+      ],
+      "answer": "df.explain(True)"
+    },
+    {
+      "id": 258,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does `df.hint('broadcast')` do?",
+      "options": [
+        "Suggests broadcast join",
+        "Enables broadcasting",
+        "Creates broadcast variable",
+        "Broadcasts DataFrame"
+      ],
+      "answer": "Suggests broadcast join"
+    },
+    {
+      "id": 259,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method controls adaptive query execution?",
+      "options": [
+        "spark.conf.set('spark.sql.adaptive.enabled', True)",
+        "df.enableAdaptive()",
+        "df.adaptive()",
+        "spark.adaptive()"
+      ],
+      "answer": "spark.conf.set('spark.sql.adaptive.enabled', True)"
+    },
+    {
+      "id": 260,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is the purpose of `df.localCheckpoint()`?",
+      "options": [
+        "Local storage",
+        "Local caching",
+        "Local processing",
+        "Checkpoint without replication"
+      ],
+      "answer": "Checkpoint without replication"
+    },
+    {
+      "id": 261,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method enables dynamic partition pruning?",
+      "options": [
+        "spark.conf.set('spark.sql.optimizer.dynamicPartitionPruning.enabled', True)",
+        "spark.dynamicPruning()",
+        "df.dynamicPruning()",
+        "df.enableDynamicPruning()"
+      ],
+      "answer": "spark.conf.set('spark.sql.optimizer.dynamicPartitionPruning.enabled', True)"
+    },
+    {
+      "id": 262,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does `df.barrier()` create?",
+      "options": [
+        "Barrier RDD for synchronization",
+        "Barrier DataFrame",
+        "Barrier partition",
+        "Barrier task"
+      ],
+      "answer": "Barrier RDD for synchronization"
+    },
+    {
+      "id": 263,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method controls cost-based optimizer?",
+      "options": [
+        "spark.cbo()",
+        "df.cbo()",
+        "spark.conf.set('spark.sql.cbo.enabled', True)",
+        "df.enableCBO()"
+      ],
+      "answer": "spark.conf.set('spark.sql.cbo.enabled', True)"
+    },
+    {
+      "id": 264,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is the purpose of `df.mapPartitions()`?",
+      "options": [
+        "Apply to each row",
+        "Apply to columns",
+        "Apply to schema",
+        "Apply function to each partition"
+      ],
+      "answer": "Apply function to each partition"
+    },
+    {
+      "id": 265,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method enables AQE (Adaptive Query Execution)?",
+      "options": [
+        "df.enableAQE()",
+        "df.adaptive()",
+        "spark.conf.set('spark.sql.adaptive.enabled', True)",
+        "spark.adaptive()"
+      ],
+      "answer": "spark.conf.set('spark.sql.adaptive.enabled', True)"
+    },
+    {
+      "id": 266,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does `df.coalesce(1)` do?",
+      "options": [
+        "Joins DataFrames",
+        "Reduces to single partition",
+        "Increases partitions",
+        "Filters data"
+      ],
+      "answer": "Reduces to single partition"
+    },
+    {
+      "id": 267,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method controls skew join optimization?",
+      "options": [
+        "df.skewJoin()",
+        "spark.conf.set('spark.sql.adaptive.skewJoin.enabled', True)",
+        "spark.skewJoin()",
+        "df.enableSkewJoin()"
+      ],
+      "answer": "spark.conf.set('spark.sql.adaptive.skewJoin.enabled', True)"
+    },
+    {
+      "id": 268,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What is the purpose of `df.mapInPandas()`?",
+      "options": [
+        "Convert to pandas",
+        "Apply pandas function to each partition",
+        "Apply to schema",
+        "Apply to rows"
+      ],
+      "answer": "Apply pandas function to each partition"
+    },
+    {
+      "id": 269,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "Which method enables column pruning?",
+      "options": [
+        "spark.pruneColumns()",
+        "df.pruneColumns()",
+        "df.enableColumnPruning()",
+        "Automatic in Catalyst"
+      ],
+      "answer": "Automatic in Catalyst"
+    },
+    {
+      "id": 270,
+      "subject": "pyspark",
+      "level": 8,
+      "question": "What does `df.predicatePushdown()` enable?",
+      "options": [
+        "Pushes to disk",
+        "Pushes filters to data source",
+        "Pushes to network",
+        "Pushes to memory"
+      ],
+      "answer": "Pushes filters to data source"
+    },
+    {
+      "id": 271,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is MLlib in Spark?",
+      "options": [
+        "Machine learning library",
+        "Database library",
+        "Streaming library",
+        "Web library"
+      ],
+      "answer": "Machine learning library"
+    },
+    {
+      "id": 272,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which module provides ML pipelines?",
+      "options": [
+        "pyspark.mllib",
+        "pyspark.pipeline",
+        "pyspark.ml.pipeline",
+        "pyspark.ml"
+      ],
+      "answer": "pyspark.ml"
+    },
+    {
+      "id": 273,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does `VectorAssembler` do?",
+      "options": [
+        "Splits vectors",
+        "Combines features into single vector",
+        "Creates vectors",
+        "Deletes vectors"
+      ],
+      "answer": "Combines features into single vector"
+    },
+    {
+      "id": 274,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method trains a model?",
+      "options": [
+        "model.fit()",
+        "model.learn()",
+        "model.train()",
+        "model.build()"
+      ],
+      "answer": "model.fit()"
+    },
+    {
+      "id": 275,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is the purpose of `StringIndexer`?",
+      "options": [
+        "Searches strings",
+        "Indexes strings",
+        "Replaces strings",
+        "Converts strings to numeric indices"
+      ],
+      "answer": "Converts strings to numeric indices"
+    },
+    {
+      "id": 276,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method makes predictions?",
+      "options": [
+        "model.result()",
+        "model.predict()",
+        "model.transform()",
+        "model.forecast()"
+      ],
+      "answer": "model.transform()"
+    },
+    {
+      "id": 277,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does `Pipeline` combine?",
+      "options": [
+        "Multiple transformers and estimators",
+        "Streams",
+        "RDDs",
+        "DataFrames"
+      ],
+      "answer": "Multiple transformers and estimators"
+    },
+    {
+      "id": 278,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method evaluates a model?",
+      "options": [
+        "model.evaluate()",
+        "Evaluator.evaluate()",
+        "model.score()",
+        "model.accuracy()"
+      ],
+      "answer": "Evaluator.evaluate()"
+    },
+    {
+      "id": 279,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is the purpose of `StandardScaler`?",
+      "options": [
+        "Scales to range",
+        "Transforms data",
+        "Normalizes features to unit variance",
+        "Centers data"
+      ],
+      "answer": "Normalizes features to unit variance"
+    },
+    {
+      "id": 280,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method performs cross-validation?",
+      "options": [
+        "crossValidate()",
+        "model.crossValidate()",
+        "CrossValidator",
+        "validate()"
+      ],
+      "answer": "CrossValidator"
+    },
+    {
+      "id": 281,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does `OneHotEncoder` do?",
+      "options": [
+        "Encodes categorical features as binary vectors",
+        "Encodes as strings",
+        "Encodes as integers",
+        "Encodes as floats"
+      ],
+      "answer": "Encodes categorical features as binary vectors"
+    },
+    {
+      "id": 282,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method saves a model?",
+      "options": [
+        "model.write()",
+        "model.export()",
+        "model.save()",
+        "model.write().save()"
+      ],
+      "answer": "model.write().save()"
+    },
+    {
+      "id": 283,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What is the purpose of `Tokenizer`?",
+      "options": [
+        "Combines words",
+        "Splits text into words",
+        "Filters words",
+        "Sorts words"
+      ],
+      "answer": "Splits text into words"
+    },
+    {
+      "id": 284,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "Which method loads a saved model?",
+      "options": [
+        "loadModel()",
+        "Model.load()",
+        "model.read()",
+        "readModel()"
+      ],
+      "answer": "Model.load()"
+    },
+    {
+      "id": 285,
+      "subject": "pyspark",
+      "level": 9,
+      "question": "What does `ChiSqSelector` do?",
+      "options": [
+        "Selects random features",
+        "Selects all features",
+        "Selects features using chi-square test",
+        "Selects first N features"
+      ],
+      "answer": "Selects features using chi-square test"
+    },
+    {
+      "id": 286,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What is Spark's Tungsten execution engine?",
+      "options": [
+        "Network layer",
+        "Query optimizer",
+        "Storage engine",
+        "Optimized execution engine using binary format"
+      ],
+      "answer": "Optimized execution engine using binary format"
+    },
+    {
+      "id": 287,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method enables whole-stage code generation?",
+      "options": [
+        "Automatic in Tungsten",
+        "df.codegen()",
+        "spark.codegen()",
+        "df.enableCodegen()"
+      ],
+      "answer": "Automatic in Tungsten"
+    },
+    {
+      "id": 288,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does `df.rdd.toLocalIterator()` do?",
+      "options": [
+        "Returns statistics",
+        "Returns iterator over all partitions",
+        "Returns schema",
+        "Returns single partition"
+      ],
+      "answer": "Returns iterator over all partitions"
+    },
+    {
+      "id": 289,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method controls off-heap memory?",
+      "options": [
+        "df.enableOffHeap()",
+        "df.offHeap()",
+        "spark.memory.offHeap.enabled",
+        "spark.offHeap()"
+      ],
+      "answer": "spark.memory.offHeap.enabled"
+    },
+    {
+      "id": 290,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What is the purpose of `df.mapInArrow()`?",
+      "options": [
+        "Apply Arrow function to each partition",
+        "Convert to Arrow",
+        "Apply to schema",
+        "Apply to rows"
+      ],
+      "answer": "Apply Arrow function to each partition"
+    },
+    {
+      "id": 291,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method enables vectorized Parquet reading?",
+      "options": [
+        "df.vectorized()",
+        "spark.sql.parquet.enableVectorizedReader",
+        "spark.vectorized()",
+        "df.enableVectorized()"
+      ],
+      "answer": "spark.sql.parquet.enableVectorizedReader"
+    },
+    {
+      "id": 292,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does `df.foreach()` do?",
+      "options": [
+        "Applies to schema",
+        "Applies function to each row",
+        "Applies to partitions",
+        "Applies to columns"
+      ],
+      "answer": "Applies function to each row"
+    },
+    {
+      "id": 293,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method controls memory fraction?",
+      "options": [
+        "df.setMemoryFraction()",
+        "df.memoryFraction()",
+        "spark.memory.fraction",
+        "spark.memoryFraction()"
+      ],
+      "answer": "spark.memory.fraction"
+    },
+    {
+      "id": 294,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What is the purpose of `df.mapPartitionsWithIndex()`?",
+      "options": [
+        "Apply to schema",
+        "Apply to rows",
+        "Apply function with partition index",
+        "Apply to partitions"
+      ],
+      "answer": "Apply function with partition index"
+    },
+    {
+      "id": 295,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method enables columnar caching?",
+      "options": [
+        "df.columnarCache()",
+        "df.enableColumnarCache()",
+        "df.persist(StorageLevel.MEMORY_ONLY_SER)",
+        "spark.columnarCache()"
+      ],
+      "answer": "df.persist(StorageLevel.MEMORY_ONLY_SER)"
+    },
+    {
+      "id": 296,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does `df.rdd.getNumPartitions()` return?",
+      "options": [
+        "Number of partitions",
+        "Partition schema",
+        "Partition data",
+        "Partition size"
+      ],
+      "answer": "Number of partitions"
+    },
+    {
+      "id": 297,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method controls serialization?",
+      "options": [
+        "spark.serializer",
+        "df.serializer()",
+        "df.setSerializer()",
+        "spark.setSerializer()"
+      ],
+      "answer": "spark.serializer"
+    },
+    {
+      "id": 298,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What is the purpose of `df.rdd.glom()`?",
+      "options": [
+        "Returns schema",
+        "Returns statistics",
+        "Returns single partition",
+        "Returns array of partitions"
+      ],
+      "answer": "Returns array of partitions"
+    },
+    {
+      "id": 299,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "Which method enables unsafe row optimization?",
+      "options": [
+        "df.enableUnsafeRow()",
+        "Automatic in Tungsten",
+        "df.unsafeRow()",
+        "spark.unsafeRow()"
+      ],
+      "answer": "Automatic in Tungsten"
+    },
+    {
+      "id": 300,
+      "subject": "pyspark",
+      "level": 10,
+      "question": "What does `df.rdd.mapPartitionsWithIndex()` do?",
+      "options": [
+        "Apply to DataFrame",
+        "Apply to schema",
+        "Apply to columns",
+        "Apply function with partition index to RDD"
+      ],
+      "answer": "Apply function with partition index to RDD"
     }
   ]
 }

@@ -21,12 +21,33 @@
   let completedLevel = 0;
   let askedQuestions = [];
   let correctAnswerHighlighted = false;
+  let testAbandoned = false;
+  let levelLocked = false; // Lock level selection once a level is selected
 
   // Subject names array
   const subjectNames = ["", "python", "pyspark", "tba3", "tba4", "tba5", "tba6", "tba7", "tba8", "tba9", "tba10"];
 
+  // Track current subject/level to detect changes
+  let lastSubject = 0;
+  let lastLevel = 0;
+
+  // Reset question state when subject/level changes
+  function resetQuestionState() {
+    if (isubjectno !== lastSubject || ilevel !== lastLevel) {
+      askedQuestions = [];
+      currentQuestionIndex = 0;
+      lastSubject = isubjectno;
+      lastLevel = ilevel;
+      correctAnswerHighlighted = false;
+      answerFeedback = "";
+      selectedAnswer = "";
+      isCorrect = false;
+    }
+  }
+
   // Get question function
   function getQuestion() {
+    resetQuestionState();
     const selectedSubject = subjectNames[isubjectno];
     console.log('Getting question for subject:', selectedSubject, 'level:', ilevel);
     
@@ -34,7 +55,14 @@
       currentQuestion = "Please select a subject and level first.";
       currentOptions = [];
       currentAnswer = "";
+      levelLocked = false; // Unlock if no level selected
       return;
+    }
+    
+    // Lock level selection once a question is requested
+    if (!levelLocked && ilevel > 0) {
+      levelLocked = true;
+      console.log('Level locked - cannot change level until completed or abandoned');
     }
 
     // Filter questions by subject and level
@@ -44,37 +72,23 @@
 
     console.log('Filtered questions:', filteredQuestions.length);
 
-    if (filteredQuestions.length > 0 && currentQuestionIndex < filteredQuestions.length) {
-      const question = filteredQuestions[currentQuestionIndex];
-      
-      // Check if this question has already been asked
-      if (askedQuestions.includes(question.id)) {
-        currentQuestionIndex++;
-        if (currentQuestionIndex < filteredQuestions.length) {
-          getQuestion(); // Recursive call to get next question
-          return;
-        }
-      }
-      
-      currentQuestion = question.question;
-      currentOptions = question.options;
-      currentAnswer = question.answer;
-      askedQuestions.push(question.id);
-      currentQuestionIndex++;
-      correctAnswerHighlighted = false;
-      answerFeedback = "";
-      selectedAnswer = "";
-      isCorrect = false;
-    } else if (filteredQuestions.length === 0) {
+    if (filteredQuestions.length === 0) {
       currentQuestion = `No questions found for ${selectedSubject} level ${ilevel}`;
       currentOptions = [];
       currentAnswer = "";
-    } else if (currentQuestionIndex >= filteredQuestions.length) {
-      // All questions in this level have been asked
+      return;
+    }
+
+    // Filter out already asked questions
+    const availableQuestions = filteredQuestions.filter(q => !askedQuestions.includes(q.id));
+    
+    if (availableQuestions.length === 0) {
+      // All questions have been asked
       levelExhausted = true;
       if (correctAnswersCount >= 10) {
         showLevelUpDialog = true;
         completedLevel = ilevel;
+        levelLocked = false; // Unlock level selection when level is completed
         currentQuestion = `🎉 Congratulations! You've completed level ${completedLevel} with ${correctAnswersCount} correct answers!`;
         currentOptions = [];
         currentAnswer = "";
@@ -85,11 +99,27 @@
         currentOptions = [];
         currentAnswer = "";
       }
+      return;
     }
+
+    // Select a random question from available ones
+    const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+    const question = availableQuestions[randomIndex];
+    
+    currentQuestion = question.question;
+    currentOptions = question.options;
+    currentAnswer = question.answer;
+    askedQuestions.push(question.id);
+    correctAnswerHighlighted = false;
+    answerFeedback = "";
+    selectedAnswer = "";
+    isCorrect = false;
   }
 
   // Check answer function
   function checkAnswer(selectedOption) {
+    if (selectedAnswer !== "") return; // Prevent multiple submissions
+    
     selectedAnswer = selectedOption;
     isCorrect = (selectedOption === currentAnswer);
     questionsAsked++; // Increment for every answer
@@ -103,14 +133,28 @@
         levelExhausted = true;
         showLevelUpDialog = true;
         completedLevel = ilevel;
+        levelLocked = false; // Unlock level selection when level is completed
         currentQuestion = `🎉 Congratulations! You've completed level ${completedLevel} with ${correctAnswersCount} correct answers!`;
         currentOptions = [];
         currentAnswer = "";
         console.log('Level completed with', correctAnswersCount, 'correct answers');
+      } else {
+        // Auto-advance to next question after a short delay
+        setTimeout(() => {
+          if (!levelExhausted && !showLevelUpDialog) {
+            getQuestion();
+          }
+        }, 2000);
       }
     } else {
       answerFeedback = `Incorrect. The correct answer is: ${currentAnswer}`;
       correctAnswerHighlighted = true; // Highlight correct answer
+      // Auto-advance to next question after showing feedback
+      setTimeout(() => {
+        if (!levelExhausted && !showLevelUpDialog) {
+          getQuestion();
+        }
+      }, 3000);
     }
   }
 
@@ -167,58 +211,171 @@
 
   function confirmAbandon() {
     showAbandonDialog = false;
-    currentQuestion = "👋 Test abandoned. Thank you for trying!";
+    testAbandoned = true;
+    
+    // Clear all state
+    isubjectno = 0;
+    ilevel = 0;
+    iqa = 0;
+    currentQuestion = "";
     currentOptions = [];
     currentAnswer = "";
-    console.log('Test abandoned by user');
+    selectedAnswer = "";
+    isCorrect = false;
+    answerFeedback = "";
+    correctAnswersCount = 0;
+    questionsAsked = 0;
+    currentQuestionIndex = 0;
+    levelExhausted = false;
+    showLevelUpDialog = false;
+    showLevelResetDialog = false;
+    completedLevel = 0;
+    askedQuestions = [];
+    correctAnswerHighlighted = false;
+    lastSubject = 0;
+    lastLevel = 0;
+    levelLocked = false; // Unlock level selection when test is abandoned
+    
+    console.log('Test abandoned - screen cleared');
   }
 </script>
 
+<svelte:head>
+  <title>Skills Assessor V0.0.1</title>
+</svelte:head>
+
+{#if testAbandoned}
+  <div class="thank-you-container">
+    <div class="thank-you-message">
+      Thank you for using Skills Assessor
+    </div>
+  </div>
+{:else}
 <div class="quiz-container">
-  <h1>Programming Quiz</h1>
+  <h1>Skills Assessor V0.0.1</h1>
   
   <!-- Subject Selection -->
   <div class="section">
     <h3>Subject:</h3>
     <div class="button-group">
-      <button on:click={() => { isubjectno = 1; console.log('Python clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 1}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 1; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 1;
+        console.log('Python clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 1}
+              disabled={levelLocked}>
         python
       </button>
-      <button on:click={() => { isubjectno = 2; console.log('PySpark clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 2}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 2; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 2;
+        console.log('PySpark clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 2}
+              disabled={levelLocked}>
         pyspark
       </button>
-      <button on:click={() => { isubjectno = 3; console.log('TBA3 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 3}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 3; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 3;
+        console.log('TBA3 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 3}
+              disabled={levelLocked}>
         3
       </button>
-      <button on:click={() => { isubjectno = 4; console.log('TBA4 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 4}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 4; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 4;
+        console.log('TBA4 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 4}
+              disabled={levelLocked}>
         4
       </button>
-      <button on:click={() => { isubjectno = 5; console.log('TBA5 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 5}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 5; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 5;
+        console.log('TBA5 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 5}
+              disabled={levelLocked}>
         5
       </button>
-      <button on:click={() => { isubjectno = 6; console.log('TBA6 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 6}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 6; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 6;
+        console.log('TBA6 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 6}
+              disabled={levelLocked}>
         6
       </button>
-      <button on:click={() => { isubjectno = 7; console.log('TBA7 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 7}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 7; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 7;
+        console.log('TBA7 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 7}
+              disabled={levelLocked}>
         7
       </button>
-      <button on:click={() => { isubjectno = 8; console.log('TBA8 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 8}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 8; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 8;
+        console.log('TBA8 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 8}
+              disabled={levelLocked}>
         8
       </button>
-      <button on:click={() => { isubjectno = 9; console.log('TBA9 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 9}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 9; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 9;
+        console.log('TBA9 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 9}
+              disabled={levelLocked}>
         9
       </button>
-      <button on:click={() => { isubjectno = 10; console.log('TBA10 clicked, isubjectno:', isubjectno); }} 
-              class:selected={isubjectno === 10}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        isubjectno = 10; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastSubject = 10;
+        console.log('TBA10 clicked, isubjectno:', isubjectno); 
+      }} 
+              class:selected={isubjectno === 10}
+              disabled={levelLocked}>
         10
       </button>
     </div>
@@ -228,44 +385,124 @@
   <div class="section">
     <h3>Level:</h3>
     <div class="button-group">
-      <button on:click={() => { ilevel = 1; console.log('level 1 clicked'); }} 
-              class:selected={ilevel === 1}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 1; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 1;
+        console.log('level 1 clicked'); 
+      }} 
+              class:selected={ilevel === 1}
+              disabled={levelLocked}>
         1
       </button>
-      <button on:click={() => { ilevel = 2; console.log('level 2 clicked'); }} 
-              class:selected={ilevel === 2}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 2; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 2;
+        console.log('level 2 clicked'); 
+      }} 
+              class:selected={ilevel === 2}
+              disabled={levelLocked}>
         2
       </button>
-      <button on:click={() => { ilevel = 3; console.log('level 3 clicked'); }} 
-              class:selected={ilevel === 3}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 3; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 3;
+        console.log('level 3 clicked'); 
+      }} 
+              class:selected={ilevel === 3}
+              disabled={levelLocked}>
         3
       </button>
-      <button on:click={() => { ilevel = 4; console.log('level 4 clicked'); }} 
-              class:selected={ilevel === 4}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 4; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 4;
+        console.log('level 4 clicked'); 
+      }} 
+              class:selected={ilevel === 4}
+              disabled={levelLocked}>
         4
       </button>
-      <button on:click={() => { ilevel = 5; console.log('level 5 clicked'); }} 
-              class:selected={ilevel === 5}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 5; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 5;
+        console.log('level 5 clicked'); 
+      }} 
+              class:selected={ilevel === 5}
+              disabled={levelLocked}>
         5
       </button>
-      <button on:click={() => { ilevel = 6; console.log('level 6 clicked'); }} 
-              class:selected={ilevel === 6}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 6; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 6;
+        console.log('level 6 clicked'); 
+      }} 
+              class:selected={ilevel === 6}
+              disabled={levelLocked}>
         6
       </button>
-      <button on:click={() => { ilevel = 7; console.log('level 7 clicked'); }} 
-              class:selected={ilevel === 7}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 7; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 7;
+        console.log('level 7 clicked'); 
+      }} 
+              class:selected={ilevel === 7}
+              disabled={levelLocked}>
         7
       </button>
-      <button on:click={() => { ilevel = 8; console.log('level 8 clicked'); }} 
-              class:selected={ilevel === 8}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 8; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 8;
+        console.log('level 8 clicked'); 
+      }} 
+              class:selected={ilevel === 8}
+              disabled={levelLocked}>
         8
       </button>
-      <button on:click={() => { ilevel = 9; console.log('level 9 clicked'); }} 
-              class:selected={ilevel === 9}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 9; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 9;
+        console.log('level 9 clicked'); 
+      }} 
+              class:selected={ilevel === 9}
+              disabled={levelLocked}>
         9
       </button>
-      <button on:click={() => { ilevel = 10; console.log('level 10 clicked'); }} 
-              class:selected={ilevel === 10}>
+      <button on:click={() => { 
+        if (levelLocked) return;
+        ilevel = 10; 
+        askedQuestions = [];
+        currentQuestionIndex = 0;
+        lastLevel = 10;
+        console.log('level 10 clicked'); 
+      }} 
+              class:selected={ilevel === 10}
+              disabled={levelLocked}>
         10
       </button>
     </div>
@@ -273,7 +510,7 @@
 
   <!-- Questions Answered -->
   <div class="section">
-    <h3>Questions Answered:</h3>
+    <h3>Correct Answers: {correctAnswersCount} / Questions Asked: {questionsAsked}</h3>
     <div class="button-group">
       <button class:selected={correctAnswersCount === 0} disabled>0</button>
       <button on:click={() => { iqa = 1; console.log('question 1 clicked'); }} 
@@ -414,8 +651,30 @@
     </div>
   {/if}
 </div>
+{/if}
 
 <style>
+  .thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .thank-you-message {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 60px 80px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
   .quiz-container {
     max-width: 800px;
     margin: 0 auto;
